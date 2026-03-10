@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MLS Compliance Bot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="logo">MLS Feeds Compliance</div>
+    <div class="subtitle">Real Estate — 2026</div>
+  </header>
+
+  <section class="pages-section hidden" id="pages-section">
+    <aside class="pages-sidebar">
+      <div class="pages-sidebar-title">Sections</div>
+      <div class="pages-list" id="pages-list"></div>
+    </aside>
+    <div class="pages-editor-wrap">
+      <h1 class="doc-section-title" id="doc-section-title"></h1>
+      <div id="doc-content" class="doc-content"></div>
+    </div>
+  </section>
+
+  <main class="chat-container">
+    <div class="messages" id="messages">
+      <div class="message bot" data-role="bot">
+        <div class="avatar">?</div>
+        <div class="bubble">
+          <p>Ask me anything about Canadian MLS feeds compliance: provinces (Ontario, BC, Quebec, Alberta…), DDF, VOW, RECO, PIPEDA, RESO, or official links. I’ll answer and point you to accurate resources.</p>
+        </div>
+      </div>
+    </div>
+
+    <form class="input-row" id="chat-form">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Ask about compliance..."
+        autocomplete="off"
+        maxlength="500"
+      />
+      <button type="submit" id="send-btn" aria-label="Send">
+        <span class="btn-icon">SEND</span>
+      </button>
+    </form>
+  </main>
+
+  <nav class="toolbar-island" aria-label="Quick actions">
+    <button type="button" class="settings-btn" id="pages-btn" title="View compliance documentation">DOCS</button>
+    <button type="button" class="theme-btn" id="theme-btn" title="Toggle dark/light mode" aria-label="Toggle theme">☀️</button>
+  </nav>
+
+  <div class="auth-overlay" id="auth-overlay">
+    <div class="auth-box">
+      <div class="auth-logo">MLS Feeds Compliance</div>
+      <p class="auth-prompt">Sign in with your work account to continue</p>
+      <button type="button" class="auth-btn" id="google-signin-btn">Sign in with Google</button>
+      <p class="auth-error hidden" id="auth-error"></p>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

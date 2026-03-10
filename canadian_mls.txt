@@ -1,0 +1,1583 @@
+﻿CANADIAN MLS
+
+
+CANADIAN MLS
+FEEDS COMPLIANCE POLICY
+Complete Edition — For Real Estate Marketplace Platforms
+
+
+Comprehensive guide covering all Canadian provinces and territories
+CREA  |  TRREB/PropTx  |  ITSO  |  GVR/FVREB/CADREB  |  CREB/Pillar 9  |  QPAREB/Centris
+NSAR  |  EREB  |  WinnipegREALTORS  |  SRA  |  NBREA  |  NLREA  |  PEIARA
+RECO | BCFSA | RECA | OACIQ | SREC | MSC | FCNB | NSREC | PEI | NL 
+________________
+
+
+Quick Reference — Province/Territory Summary
+
+
+Province
+	Primary Board(s)
+	Platform
+	DDF?
+	Key Note
+	Ontario
+	TRREB, ITSO, WECAR
+	PropTx, Matrix
+	Yes (partial)
+feeds; VOW for sold data
+	British Columbia
+	GVR, FVREB, CADREB, VREB
+	BridgeAPI (RESO)
+	Yes (shared pool)
+	Reciprocal 3-board agreement
+	Alberta
+	CREB, EREB, GPAAR
+	Pillar 9 / Matrix
+	Yes (shared pool)
+-day min listing; 3-day entry
+	Quebec
+	QPAREB / Centris
+	Centris
+	NO
+	Per-brokerage auth required
+	Saskatchewan
+	SRA
+	SRA MLS
+	NO
+	Must access SRA directly
+	Manitoba
+	WinnipegREALTORS
+	Paragon / WinnipegREALTORS
+	Yes
+	New Real Estate Services Act (2022)
+	Nova Scotia
+	NSAR
+	Paragon
+	Yes
+	AI compliance automation; accessibility fields
+	New Brunswick
+	NBREA
+	Board MLS
+	Yes
+	Written consent required for dual agency
+	Newfoundland
+	NLREA
+	Board MLS / DDF
+	Yes
+	Limited local online presence
+	PEI
+	PEIARA
+	Board MLS / DDF
+	Yes
+	Smallest provincial market
+	Yukon
+	Territorial Gov't
+	DDF
+	Yes
+	Licensing via territorial government
+	NWT / Nunavut
+	Territorial Gov't
+	DDF
+	Yes
+	Very small markets
+	
+
+________________
+
+
+Official References & Links
+
+
+All sources below are official organization websites, government portals, or official board publications. Third-party or secondary sources are not listed in this section.
+
+
+National Bodies
+Organization
+	Official URL
+	CREA — Canadian Real Estate Association
+	https://www.crea.ca/
+	CREA DDF — Member Info & Policies
+	https://www.crea.ca/realtor-members/data-distribution-facility-ddf/
+	CREA DDF Policy & Rules PDF (Jan 2024)
+	https://www.crea.ca/files/technology/english/DDFR-Policy-and-Rules-February-2024-ENG.pdf
+	CREA DDF API Documentation
+	https://ddfapi-docs.realtor.ca/
+	CREA DDF Member Login
+	https://member.realtor.ca
+	CREA DDF Support
+	https://support.crea.ca/DDF
+	REALTOR.ca (public listing portal)
+	https://www.realtor.ca/
+	
+
+Ontario Boards
+Organization
+	Official URL
+	TRREB — Toronto Regional Real Estate Board
+	https://trreb.ca/
+	PropTx — MLS Technology Subsidiary of TRREB
+	https://proptx.ca/
+	TRREB Member Hub (login)
+	https://member.trreb.ca/
+	TRREB Member Profile Portal (PropTx login)
+	https://myprofile.torontomls.net/login
+	ITSO — Information Technology Systems Ontario
+	https://www.itsosystems.ca/
+	ITSO System Access & Feed Info
+	https://www.itsosystems.ca/access
+	ITSO Professional Standards Committee
+	https://www.itsosystems.ca/psc
+	BDAR — Barrie and District Association of REALTORS
+	https://www.bdar.ca/
+	Cornerstone Association of REALTORS (ITSO partner)
+	https://www.cornerstone.inc/
+	
+
+British Columbia Boards
+Organization
+	Official URL
+	Greater Vancouver REALTORS (GVR)
+	https://www.gvrealtors.ca/
+	GVR Member Portal & WebAPI/BridgeAPI FAQ
+	https://member.gvrealtors.ca/en/newsletter/member-update-emails/transitioning-to-webapi-faq-for-vendors-and-developers.html
+	GVR Legal Information / Terms
+	https://www.gvrealtors.ca/legal-information.html
+	Fraser Valley Real Estate Board (FVREB)
+	https://www.fvreb.bc.ca/
+	Chilliwack & District Real Estate Board (CADREB)
+	https://www.cadreb.ca/
+	Victoria Real Estate Board (VREB)
+	https://www.vreb.org/
+	BC Real Estate Association (BCREA)
+	https://www.bcrea.bc.ca/
+	BridgeAPI (GVR/FVREB/CADREB WebAPI feed platform)
+	https://www.bridgeinteractive.com/
+	
+
+Alberta Boards
+Organization
+	Official URL
+	Calgary Real Estate Board (CREB)
+	https://www.creb.com/
+	Pillar 9 — Alberta Provincial MLS Platform
+	https://pillarnine.com/
+	REALTORS Association of Edmonton (EREB)
+	https://realtorsofedmonton.com/
+	Grande Prairie & Area Association of REALTORS (GPAAR)
+	https://www.gpaar.ca/
+	Alberta Real Estate Association (AREA)
+	https://www.albertarealtors.ca/
+	
+
+Quebec, Prairie Provinces & Atlantic Boards
+Organization
+	Official URL
+	QPAREB — Quebec Professional Assoc. of Real Estate Brokers
+	https://qpareb.ca/
+	Centris — Quebec public listing portal
+	https://www.centris.ca/
+	Saskatchewan REALTORS Association (SRA)
+	https://saskatchewanrealtorsassociation.ca/
+	SRA MLS System
+	https://saskatchewanrealtorsassociation.ca/mls-system
+	WinnipegREALTORS
+	https://www.winnipegrealtors.ca/
+	Winnipeg Regional Real Estate Board
+	https://www.winnipegregionalrealestateboard.ca/
+	Nova Scotia Association of REALTORS (NSAR)
+	https://www.nsrealtors.ca/
+	Nova Scotia Real Estate Commission (NSREC — regulator)
+	https://nsrec.ns.ca/
+	New Brunswick Real Estate Association (NBREA)
+	https://www.nbrea.ca/
+	Newfoundland & Labrador Real Estate Association (NLREA)
+	https://www.nlrea.ca/
+	PEI Association of REALTORS (PEIARA)
+	https://www.peiara.ca/
+	Canadian Competition Bureau (regulatory oversight)
+	https://www.canada.ca/en/competition-bureau.html
+	
+
+
+
+Additional Official References — New Sections
+
+
+Privacy Law
+Office of the Privacy Commissioner (OPC) — PIPEDA
+	https://www.priv.gc.ca/en/
+	OPC — PIPEDA Fair Information Principles
+	https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/
+	OPC — Breach Reporting for Businesses
+	https://www.priv.gc.ca/en/report-a-concern/report-a-privacy-breach-as-a-business/
+	Commission d'accès à l'information (CAI) — Quebec Law 25
+	https://www.cai.gouv.qc.ca/
+	BC Office of the Information & Privacy Commissioner (OIPC)
+	https://www.oipc.bc.ca/
+	Alberta Office of the Information & Privacy Commissioner (OIPC)
+	https://www.oipc.ab.ca/
+	
+
+CASL, Accessibility & Competition
+CRTC — CASL Official Resource Centre
+	https://crtc.gc.ca/eng/internet/anti.htm
+	CRTC — CASL FAQ
+	https://crtc.gc.ca/eng/com500/faq500.htm
+	fightspam.gc.ca — CASL Government Resource
+	https://fightspam.gc.ca/
+	Accessible Canada Act (ACA) — Canada.ca
+	https://www.canada.ca/en/employment-social-development/programs/accessible-canada.html
+	ACA Regulations Summary
+	https://www.canada.ca/en/employment-social-development/programs/accessible-canada/regulations-summary-act.html
+	AODA — Ontario accessibility
+	https://www.ontario.ca/page/accessibility-in-ontario
+	WCAG 2.1 Official Guidelines (W3C)
+	https://www.w3.org/TR/WCAG21/
+	Competition Bureau — Canada.ca
+	https://competition-bureau.canada.ca/en
+	Competition Bureau — CREA Investigation (Oct 2024)
+	https://www.canada.ca/en/competition-bureau/news/2024/10/competition-bureau-advances-investigation-into-the-canadian-real-estate-associations-policies.html
+	Competition Bureau — QPAREB 2nd Court Order (May 2025)
+	https://www.canada.ca/en/competition-bureau/news/2025/05/the-competition-bureau-obtains-a-second-court-order-to-advance-an-investigation-of-competition-in-the-quebec-real-estate-services-market.html
+	Competition Bureau — GVR Investigation (Jan 2026)
+	https://www.canada.ca/en/competition-bureau/news/2026/01/competition-bureau-expands-its-investigation-of-real-estate-commission-rules-to-include-greater-vancouver-realtors.html
+	Competition Bureau — Algorithmic Pricing Statement (2025)
+	https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/competition-bureau-position-statement-regarding-its-civil-investigation-realpages-and-yardis
+	
+
+RESO & Technical Standards
+RESO — Real Estate Standards Organization
+	https://www.reso.org/
+	RESO Web API Documentation
+	https://www.reso.org/reso-web-api/
+	RESO Data Dictionary 2.0
+	https://www.reso.org/data-dictionary/
+	RESO Web API Transition Leaderboard
+	https://www.reso.org/web-api-transition-leaderboard/
+	CREA DDF API Documentation
+	https://ddfapi-docs.realtor.ca/
+	BridgeInteractive (GVR/FVREB/CADREB WebAPI)
+	https://www.bridgeinteractive.com/
+	
+
+Final Disclaimer & Document Governance
+
+
+This document is a comprehensive reference guide for real estate marketplace compliance in Canada. It does not constitute legal advice. Laws, board rules, and regulatory requirements change frequently. Always verify current requirements with: your specific boards and associations, a privacy lawyer for PIPEDA/Law 25/PIPA obligations, a competition lawyer for Competition Act questions, and accessibility specialists for AODA/ACA compliance. This document should be reviewed and updated at minimum annually, and immediately upon any material change to Canadian MLS rules, privacy law, or Competition Bureau enforcement activity.
+	
+
+Document version: 2026 Edition (Complete) | Sections 1-22 | Last updated: March 2026 | Next scheduled review: March 2027
+
+
+CREA & DDF
+National Framework — CREA & DDF
+
+
+How Canadian MLS is Structured
+Canada operates a federated MLS system. The Canadian Real Estate Association (CREA) oversees national coordination through REALTOR.ca, while local and provincial real estate boards maintain control over listing rules, membership, and data access for their regions. There are over 80 real estate boards across Canada feeding into this ecosystem.
+
+
+The two primary national instruments for data access are:
+* REALTOR.ca DDF (Data Distribution Facility): CREA's national feed of active listings, accessible to all CREA members in good standing.
+* Regional MLS Feeds (IDX/VOW): Board-level data feeds providing richer data including sold prices, expired listings, and days on market — accessible only to licensed members of that specific board.
+
+
+IMPORTANT: Saskatchewan and Quebec do NOT participate in the REALTOR.ca DDF. Agents seeking listings in those provinces must access their respective regional systems directly (SRA for Saskatchewan; Centris for Quebec).
+	
+
+CREA DDF — National Feed Rules
+Official DDF policy and rules (January 2024 PDF): crea.ca — DDF Policy & Rules
+CREA DDF member portal: crea.ca/realtor-members/data-distribution-facility-ddf
+CREA DDF API documentation: ddfapi-docs.realtor.ca
+CREA DDF member login portal: member.realtor.ca
+
+
+Rule
+	Requirement
+	Access Eligibility
+	Must be a CREA member in good standing AND listed as a DDF Participant in the DDF dashboard.
+	Feed Types
+	Must opt-in to specific feeds: Own Listings, Brokerage, or National Shared Pool in the DDF dashboard.
+	Data Scope
+	Active listings only. No historical/sold data. Approximately 60–65% of all active Canadian listings.
+	Non-Members
+	Strictly prohibited from accessing DDF or scraping REALTOR.ca. Copying from public portals is banned.
+	Attribution
+	Every public DDF listing page must show CREA's required marks and full brokerage attribution.
+	Photo Watermarks
+	Watermarks must remain on all photos. Cropping or blurring watermarks is prohibited.
+	National Shared Pool
+	No co-branding or third-party ads on pages displaying National Shared Pool listings.
+	Signed Agreement
+	Many local boards require a signed tech/data agreement naming your specific plugin or vendor.
+	Refresh Rate
+	Listing content must be refreshed at least once every 24 hours. Listings no longer current after a refresh must be removed from public display.
+	Max Websites
+	Participants may not operate more than 10 websites using DDF Listing Content.
+	
+
+CREA Mandatory Footer Disclaimer
+The trademarks REALTOR®, REALTORS®, and the REALTOR® logo are controlled by The Canadian Real Estate Association (CREA). The trademarks MLS®, Multiple Listing Service® and the associated logos are owned by CREA. Listing data is deemed reliable but not guaranteed.
+	
+
+This footer (or a board-approved variant) must appear on every page displaying Canadian MLS data.
+
+
+
+
+ONTARIO
+Ontario
+
+
+Ontario has the most complex MLS data landscape in Canada, served by four primary data feeds: TRREB (via PropTx), ITSO, WECAR, and CREA DDF.
+
+
+TRREB / PropTx (Toronto Regional Real Estate Board)
+Official TRREB website: trreb.ca
+PropTx platform: proptx.ca
+TRREB Member Hub (login required): member.trreb.ca
+TRREB PropTx member profile portal: myprofile.torontomls.net
+
+
+TRREB is the largest board in Canada. Its data is managed and distributed through PropTx Innovations Inc., a wholly-owned TRREB subsidiary. PropTx covers the Greater Toronto Area and surrounding regions. OREB (Ottawa), KAREA, CDREA, RCREB, and LSTAR are also joining the PropTx MLS platform through 2024.
+
+
+VOW Gate — Mandatory for Premium Data
+* Registration Wall: Sold/expired data cannot be shown to anonymous visitors. Users must register with full name and valid email.
+* Email Verification: Email must be verified (e.g., via magic link or code) before VOW access is granted.
+* VOW Agreement: Before searching, user must click 'I Agree' to a Terms of Use establishing a lawful consumer-broker relationship.
+* Bona Fide Consumer Verification (2026 update): Must explicitly ask or verify the user is a genuine consumer, not a competitor mining the feed.
+
+
+Display & Branding Rules
+* Brokerage Prominence: Listing brokerage name must be visible on the FIRST VIEW of the property detail page.
+* Attribution Tag: Use the phrase: 'Listing provided by [Full Registered Brokerage Name]'.
+* Watermarks: PropTx/TRREB watermarks must appear on ALL images. Strictly prohibited: cropping, removing, or overlaying your own logo over the board watermark.
+* No Co-mingling (2026): TRREB does not allow combining TRREB and non-TRREB listings in a single search result list unless the source of each listing is clearly labeled.
+
+
+Image Integrity & AI Rules (TRESA 2026)
+* AI Disclosure: If AI is used to enhance photos or virtually stage a room, an unstaged original photo must immediately follow the staged version.
+* No Amenity Stock Photos: Stock photos of nearby parks or cafes cannot be used unless those amenities are actually visible from the property.
+
+
+Technical Compliance
+Requirement
+	Detail
+-Hour Purge
+	Once a listing is marked Expired, Withdrawn, or Terminated in PropTx feed, remove from public site within 24 hours.
+	Audit Logs
+	Maintain a log of every registered VOW user and every listing they viewed for at least one year. TRREB/PropTx may request this log.
+	No Indexing
+	noindex and nofollow meta tags required on ALL VOW-gated pages. Sold prices in Google is a major violation.
+	Feed Cost
+	TRREB does not charge its members for data feeds.
+	
+
+TRREB Mandatory Footer
+The trademarks REALTOR®, REALTORS®, and the REALTOR® logo are controlled by CREA. The trademarks MLS®, Multiple Listing Service® and the associated logos are owned by CREA. Search results for the Greater Toronto Area are provided by the Toronto Regional Real Estate Board. The information is deemed reliable but not guaranteed.
+	
+
+ITSO (Information Technology Systems Ontario)
+Official ITSO website: itsosystems.ca
+ITSO System Access & Feed Instructions: itsosystems.ca/access
+ITSO Professional Standards: itsosystems.ca/psc
+
+
+NOTE ON BDAR: Barrie and District Association of Realtors (BDAR) had its ITSO MLS Services Agreement terminated August 2025, with transition extended to December 31, 2025. Verify directly with BDAR: info@bdar.ca | 705-739-4650 | bdar.ca View official page
+	
+
+ITSO Core Feed Rules
+* Membership Required: You must be a member of an ITSO-affiliated association to access ITSO data feeds.
+* VOW Feed Cost: ITSO charges $1,500 annually for VOW feed access. IDX listing access is free for members. (Source: itsosystems.ca/access)
+* IDX Download Limit: An IDX or VOW operator must limit the number of listings a user may view, retrieve, or download to not more than 100 current listings and not more than 200 listings per search.
+* No Private Trade Advertising: ITSO rules do not permit advertising private trades on the MLS System.
+
+
+ITSO Compliance & Penalties
+* Administrative Penalties: Non-compliance is subject to administrative penalties (e.g., failure to provide audit documentation within 24 hours).
+* Escalation Path: A third offence results in an Incident Report to the Professional Standards Committee. A fourth offence triggers the same escalation process.
+* Brokerage Accountability: Penalties are invoiced to the brokerage. If an Incident Report is filed, the individual User is the named Respondent.
+* Suspension: Continued irregularities can result in MLS access suspension and referral to the Professional Standards Committee.
+
+
+WECAR (Windsor-Essex County Association of REALTORS)
+WECAR is an IDX-only feed covering Windsor and Sarnia areas. It provides active listings only — no VOW/sold data — with several hundred unique listings not found in CREA DDF or TRREB. Agents targeting the Windsor-Sarnia area should add WECAR in addition to their primary Ontario feeds.
+
+
+Ontario Data Feed Coverage Summary
+Feed
+	Type / Coverage
+	TRREB / PropTx
+	IDX + VOW. ~82,000+ listings. GTA and surrounding regions including OREB, LSTAR, KAREA.
+	ITSO
+	IDX + VOW. ~17,000+ unique listings. Central and Northern Ontario, Cornerstone region.
+	WECAR
+	IDX only. Windsor and Sarnia areas.
+	CREA DDF
+	IDX only (active listings). National feed for smaller Ontario boards.
+	
+
+RECO COMPLIANCE
+RECO COMPLIANCE 
+The "Identification" Rule (Bulletin 5.1)
+RECO requires that any advertisement of a property clearly identifies the brokerage responsible for the listing. A "marketplace" cannot present a listing in a way that makes it look like the marketplace is the one selling it.
+* Prominence: The name of the listing brokerage must be "clear and prominent." RECO often interprets this as being visible without the user having to scroll or click a "read more" button.
+* Exact Legal Name: You must use the brokerage's full legal name as registered with RECO (e.g., "ABC Realty Inc., Brokerage" not just "ABC Realty").
+* Team Names: If an agent/team is mentioned, the brokerage name must be more or equally prominent than the team name.
+Consent to Advertise (Section 12.1)
+You cannot simply "scrape" or display a listing because it exists on the internet.
+* Written Consent: A registrant (brokerage) cannot advertise a property unless they have the written consent of the seller.
+* Third-Party Platforms: When a marketplace displays a feed, the "consent" is usually baked into the IDX/DDF agreement. However, if you allow users to manually post listings, you must have a mechanism to verify they have the seller's written authority to post on a third-party site.
+Accuracy of Status (The "Sold" Trap)
+RECO is extremely strict about the "General Impression" of a listing's status.
+* "Sold" vs. "Firm": You cannot advertise a property as "Sold" until the deal is firm and all conditions are waived.
+* Sold Price Disclosure: Under TRESA, displaying sold prices is permitted, but RECO rules specify that you must not include anything that identifies a party (buyer/seller) or the specific contents of an agreement (like the price) unless all parties to that agreement have consented in writing.
+   * Note: This is why most marketplaces hide sold prices behind a VOW login; the VOW agreement acts as the legal framework for this disclosure.
+Prohibited Terms & False Claims
+RECO monitors marketplaces for "deceptive" language that creates a false sense of scale or authority.
+* "Number 1" Claims: You cannot claim to be the "#1 Marketplace" or have the "Most Listings" unless that claim is verifiable with a date-stamped source (e.g., "Based on TRREB data from Jan 2026").
+* Terms of Registration: You cannot use terms like "Salesperson" or "Broker" for employees who are not actually registered with RECO.
+The RECO Information Guide (TRESA Requirement)
+As of 2024–2026, if your marketplace provides "services" to consumers (like connecting them with an agent), you have a role in ensuring the RECO Information Guide is acknowledged.
+* The Rule: Agents must provide and explain the RECO Information Guide to a consumer before providing services.
+* Marketplace Role: Many marketplaces now include a digital copy of the RECO Information Guide in their lead-capture forms or user dashboards to help their partner agents remain compliant.
+________________
+
+
+RECO Compliance Checklist for Marketplaces
+Rule
+	Implementation Requirement
+	Brokerage Visibility
+	Is the listing brokerage name in a high-contrast, legible font?
+	Registrant Names
+	Are all partner agents using their "Registered Name" (no nicknames)?
+	Photo Consent
+	Do you have a "Terms of Use" stating that the uploader owns the rights to the photos?
+	Status Accuracy
+	Does your feed sync fast enough to remove "Sold" signs within 24 hours?
+	Address/Price
+	Are you displaying the "Sold Price" only to registered VOW users?
+	Official RECO Resource Links:
+* RECO Bulletin 5.1 (General Advertising): Advertising Requirements
+* RECO Bulletin 5.3 (Online/Social Media): Online Advertising Rules
+* TRESA Phase 2 Updates: Transparency and New Rules
+
+
+BRITISH COLUMBIA
+British Columbia
+
+
+Greater Vancouver REALTORS (GVR / formerly REBGV)
+Official GVR website: gvrealtors.ca
+GVR Member portal & WebAPI/BridgeAPI transition FAQ: member.gvrealtors.ca
+GVR IDX compliance inquiries: idx@gvrealtors.ca (email)
+BridgeAPI platform (WebAPI feed): bridgeinteractive.com
+
+
+Access Requirements
+* Membership: You must be a licensed REALTOR with GVR, CADREB (Chilliwack), or FVREB (Fraser Valley) to access these feeds.
+* Reciprocal Agreement: GVR, FVREB, and CADREB share data reciprocally — one connection provides data from all three boards.
+* RESO Web API (BridgeAPI): RETS has been fully deprecated (deadline: February 28, 2025). ALL integrations must now use the RESO Web API via the BridgeAPI platform.
+* Compliance Review: After development, your website must be submitted for compliance review by GVR's IDX department. Production credentials are not issued until compliance is confirmed.
+
+
+IDX Display Rules
+* Members may only advertise authorized prices and terms.
+* Sold prices cannot be advertised before public registry availability or without buyer and seller consent.
+* SOLD signs require seller permission and compliance with local board rules.
+* Public representations must be factual and include disclaimers for board-sourced information.
+
+
+VOW Rules
+* Registrants must acknowledge privacy notices, non-commercial use restrictions, and data redistribution prohibitions upon VOW access.
+* Registrants must agree not to copy, redistribute, or engage in data mining.
+* VOW participants must maintain user records for at least 180 days after password expiration.
+* BC Assessment Data: Members are prohibited from using BC Assessment data for solicitation or any form of harassment.
+
+
+Other BC Boards
+Board
+	Official Contact / Notes
+	Victoria Real Estate Board (VREB)
+	vreb.org — Operates own IDX and VOW feeds.
+	Kamloops & District Real Estate Assoc.
+	kadrea.com — Also available via CREA DDF shared pool.
+	BC Northern Real Estate Board
+	bcnreb.bc.ca — Included in GVR/FVREB/CADREB reciprocal agreement (residential).
+	________________
+
+
+BCFSA
+Prominent Brokerage Identification (Section 40)
+BCFSA is stricter than almost any other province regarding how a brokerage is identified on a website.
+* The "Full Name" Rule: You must use the full, legal name of the brokerage as registered with BCFSA. Short forms (e.g., using "ABC Realty" instead of "ABC Hillside Realty Ltd.") are strictly prohibited.
+* +1
+* The "Readability" Test: The brokerage name must be "displayed prominently and in an easily readable form." BCFSA has penalized platforms where the brokerage name was tucked away in a footer or shown in a font size significantly smaller than the agent's name.
+* Reference: BCFSA Advertising Checklist & Brokerage Name Requirements
+Real-Time Accuracy (The "Next Business Day" Rule)
+BCFSA considers an outdated listing to be "False or Misleading Advertising" (Section 41).
+* Sold/Rented Purge: Once a property is sold or a rental agreement is signed, the advertisement must be removed by the following business day.
+* Platform Liability: If your feed syncs every 48–72 hours, you are technically in violation of BC rules. For BC-specific feeds, your sync logic should aim for a 24-hour maximum turnaround.
+* Reference: BCFSA: When Your Ad Becomes False Advertising
+Team Name Compliance
+BC has very specific rules for "Teams" (e.g., The Vancouver Luxury Group).
+* Impression of a Brokerage: A team name on your marketplace must not give the impression that the team is its own incorporated brokerage. Terms like "Realty" or "Real Estate" are generally forbidden in team names unless they end in "Real Estate Team" or "Real Estate Group."
+* Unlicensed Assistants: If your marketplace displays team members, any unlicensed assistants must be clearly identified as "Unlicensed."
+Digital Image Integrity
+BCFSA has issued specific warnings regarding "Digitally Enhanced" photos.
+* The Rule: You cannot use photo-enhancing applications to alter a property in a way that misrepresents its physical condition (e.g., removing a power line or changing the view).
+* Disclosure: If an image is virtually staged, BCFSA requires a clear and visible disclaimer on the image itself or immediately adjacent to it.
+Home Buyer Rescission Period (HBRP) Data
+As of 2025/2026, BC has unique reporting requirements regarding the "Cooling-Off Period" (HBRP).
+* The Rule: For residential sales, buyers have a 3-business-day rescission period.
+* Marketplace Impact: If your marketplace displays "Pending" or "Conditional" statuses, you should avoid marking a property as "Sold" until the 3-day rescission period has officially lapsed, as the contract is not considered "firm" until then.
+* Reference: BCFSA: Home Buyer Rescission Period (HBRP) Requirements
+________________
+
+
+BCFSA Marketplace Compliance Checklist
+Rule
+	BCFSA Standard for Marketplaces
+	Brokerage Name
+	Full legal name, prominent, and easily readable on every page.
+	Status Purge
+	Remove Sold/Rented listings by the next business day.
+	Team Names
+	Must include the parent brokerage name in equal prominence.
+	Image Disclaimer
+	Clearly label all "Virtually Staged" or "Rendered" images.
+	Accuracy
+	Information must be "Current, Accurate, and Verifiable."
+	Official BCFSA Reference Links
+Advertising Checklist: Dos and Don'ts of BC Advertising
+Real Estate Services Rules (Part 4): Business Practices & Advertising
+Misleading Advertising Guide: How BCFSA Penalizes False Claims
+
+
+
+
+ALBERTA
+Alberta
+
+
+Calgary Real Estate Board (CREB / Pillar 9)
+Official CREB website: creb.com
+Official Pillar 9 platform: pillarnine.com
+CREB About/Member Info: creb.com/About_Us
+
+
+IDX Rules
+* IDX Access: Available to all CREB members and associated member associations in good standing.
+* IDX License Agreement: Members must complete an IDX license agreement (including broker signature) and be approved by their board.
+* Private Data (Full Address): For display of private information such as full street addresses, a VOW must be in place.
+
+
+Pillar 9 Platform
+Pillar 9 powers a single provincial MLS System for Alberta, aggregating listing data from across the province. The system is built on Matrix (CoreLogic) and follows RESO Gold data standards. It includes data integrity tools, automated compliance checks, and integrated CMA tools.
+
+
+REALTORS Association of Edmonton (EREB / Pillar 9)
+Official EREB website: realtorsofedmonton.com
+EREB serves the Edmonton metropolitan area and uses the same Pillar 9 platform as CREB. An IDX license agreement with broker signature is required, followed by board approval.
+
+
+Grande Prairie & Area Association of REALTORS (GPAAR)
+Official GPAAR website: gpaar.ca
+GPAAR serves northwestern Alberta. Members access CREA DDF for national exposure. Local IDX access is available to members; direct board contact is required for feed agreements.
+________________
+
+
+
+
+RECA
+The "Immediate Adjacency" Rule
+RECA’s most famous rule for digital platforms is how the brokerage name must be displayed.
+* Proximity: The brokerage name must be "immediately adjacent" to the most prominent identifier (like the agent's name or the property price).
+* Size: The brokerage name must be in a font size similar to or larger than the agent’s name or team name.
+* Prohibited Terms: You cannot use terms that make a team or a marketplace look like a brokerage. Prohibited words unless followed by "Team" or "Group" include: Agency, Associates, Brokerage, Company, Corp, Inc, Ltd, Properties, or Realty.
+* Reference: RECA New Clarifications on Advertising
+Authorization to Advertise (Written Consent)
+In Alberta, a listing cannot be advertised on a third-party marketplace without the written authorization of the seller.
+* Rule: While the DDF/IDX agreement usually provides this, if your marketplace allows "Exclusive" listings, you must ensure the uploader has a signed Exclusive Seller Representation Agreement that specifically permits "Third-Party Website Advertising."
+* Reference: RECA Advertising Guidelines (Section 2.5)
+Internet & Social Media Guidelines
+If your marketplace generates "Social Media Cards" or "Share" buttons for listings, RECA has specific rules for the metadata:
+* Banner Ads: If a thumbnail or "Banner Ad" is too small to fit the full brokerage name, it must link directly to a page that prominently displays the full brokerage name.
+* Accuracy: Online information must be "current and accurate." RECA requires that listing displays indicate the last date for revision of the information (the timestamp).
+* Reference: RECA Internet & Social Media Advertising Guidelines
+"Sold" Data and Identification
+Alberta is very strict about privacy regarding sold properties.
+* Written Consent for Solds: You cannot display identifying photos or the Sold Price of a property without the written consent of the sellers.
+* The VOW Solution: Similar to Ontario, the only legal way to show Alberta sold prices on a marketplace without individual seller consent for every house is through a Virtual Office Website (VOW) login.
+* Reference: RECO/RECA Online Advertising Bulletin 5.3 (Note: RECA and RECO maintain similar standards for VOW data).
+RECA "ProCheck" Integration
+For a marketplace to be considered "high-compliance" in Alberta, it is recommended to verify that the agents posting or receiving leads are active.
+* The Rule: Industry members must trade only in the name that appears on their license.
+* Implementation: Use the RECA ProCheck tool or API (if available) to ensure that the brokerage names displayed on your feed match the current RECA registration database.
+________________
+
+
+RECA Marketplace Compliance Summary
+Feature
+	Alberta (RECA) Requirement
+	Brokerage Font
+	Must be same size or larger than agent/team name.
+	Brokerage Placement
+	Must be "Immediately Adjacent" to the price/agent info.
+	Sold Prices
+	Gated behind a VOW (Login/Verified Email).
+	Expired Listings
+	Purge within 24 hours of status change.
+	Team Names
+	Must end in "Team" or "Group" (e.g., "The Smith Group").
+	Core Document Directory for Alberta
+RECA Advertising Guidelines (PDF): Official Guide
+RECA Social Media Guide: Visual Compliance Examples
+Real Estate Act Rules: Legislation
+
+
+QUEBEC
+Quebec
+
+
+REGULATORY ALERT: The Canadian Competition Bureau has obtained two Federal Court orders (2023 and May 2025) investigating QPAREB and Societe Centris for potential anti-competitive data sharing restrictions. The landscape for Quebec MLS data access may be subject to future regulatory changes. View official page
+	
+
+QPAREB & Societe Centris
+Official QPAREB website: qpareb.ca
+Centris public listing portal: centris.ca
+
+
+Access Model (Unique to Quebec)
+* Per-Brokerage Authorization: Unlike other provinces with a single provincial feed, Centris requires individual authorization from each brokerage whose listings you wish to display.
+* No Standard IDX/VOW: There is no single provincial IDX or VOW feed as found elsewhere in Canada. Access must be negotiated brokerage-by-brokerage through Centris.
+* Active Listings Only: Centris does not provide historical listing data. Only active listing data is available — no sold prices or expired listings.
+* MLS Not Publicly Accessible: Quebec's MLS system is not accessible to the general public. Access is exclusively for licensed broker and agency members.
+* NOT in CREA DDF: Quebec does not participate in the national CREA DDF feed.
+
+
+Process for Data Access
+* Step 1: Contact individual brokerages in Quebec to obtain authorization for their listings.
+* Step 2: Once brokerages agree, Centris grants access to their listing data through its API.
+* Step 3: Display must comply with Centris data use terms, including attribution and non-redistribution rules.
+
+
+OACIQ
+Mandatory French Language (Bill 96)
+Since June 2023, the Charter of the French Language requires that all commercial "public-facing" information in Quebec be available in French.
+* The Rule: If your marketplace operates in Quebec, all listing data, interface elements, and search tools must be provided in French. An English version is allowed, but the French version must be "markedly predominant" or at least equivalent.
+* Feed Impact: If your feed source (like Centris) provides bilingual data, your platform must prioritize the French fields for users in Quebec.
+Prohibition on Displaying "Sold" Prices
+Unlike other provinces that allow sold prices behind a VOW login, Quebec has historically been much more restrictive about the public dissemination of sold price data.
+* The Rule: Under OACIQ guidelines, a licensee (broker) cannot advertise the specific selling price of a property, even after it is sold, unless they have specific written authorization from the parties.
+* Marketplace Impact: You cannot display "Sold" prices on an open marketplace. Even for registered users, displaying sold prices in Quebec is legally sensitive and often leads to disciplinary action by the OACIQ if the data is used for "commercial prospection" or public display.
+* Reference: OACIQ Guideline: Advertising of Completed Transactions
+Privacy Law 25 (Data Sovereignty)
+Quebec’s Law 25 (formerly Bill 64) is the strictest privacy law in North America, surpassing PIPEDA.
+* The "Privacy Officer" Rule: Your marketplace must appoint a Person in Charge of Personal Information and publish their contact info on the site.
+* Privacy Impact Assessment (PIA): Before launching or overhauling a data feed system that handles Quebecers' info, you must conduct a formal PIA.
+* Lead Consent: Opt-in consent must be "clear, free, and informed." You cannot use "pre-checked" boxes for newsletters or marketing when a user submits a lead form.
+* Reference: OACIQ: Actions to comply with Law 25
+Brokerage & Licensee Identification
+The OACIQ requires absolute clarity on who is representing a property to prevent "illegal brokerage."
+* Mandatory Identification: Every listing must clearly display the name of the agency (brokerage) or the broker acting on their own account.
+* Practice Rights (2026 Update): As of May 2026, Quebec brokers must specify if they hold a Residential or Commercial right to practice. Your marketplace must display the correct practice designation next to the agent's name.
+* Illegal Brokerage: If your marketplace allows "For Sale by Owner" (FSBO) alongside broker listings, the distinction must be unmistakable. You cannot allow a "Private Seller" to look like a "Broker."
+Centris® Feed Specifics
+In Quebec, most professional data flows through Centris (owned by the Quebec Professional Association of Real Estate Brokers).
+* Integrity of the Data: You are prohibited from altering Centris data. If the "General Impression" of a listing is changed (e.g., through AI-enhanced photos or edited text), the OACIQ can hold the marketplace and the listing agent jointly liable.
+* Copyright: The OACIQ maintains strict copyright over the "Mandatory Forms" and the way data is structured. You cannot reproduce Centris-only fields (like "Private Remarks") on a public marketplace.
+________________
+
+
+OACIQ Marketplace Compliance Checklist
+Requirement
+	Quebec (OACIQ) Standard
+	Language
+	Full French interface and data display is mandatory.
+	Sold Prices
+	Strictly Prohibited from public advertising.
+	Brokerage Name
+	Full legal name must be visible on the "first screen" of the listing.
+	Privacy (Law 25)
+	Privacy Policy must be Quebec-specific; must name a Privacy Officer.
+	Photos
+	Written consent from the photographer is required to display images on third-party sites.
+	Official OACIQ Reference Links
+Advertising of Completed Transactions: Guideline 7.2
+Marketing and Social Networks: Official OACIQ Guide
+Law 25 for Real Estate: Privacy Protection Guidelines
+
+
+
+
+PRAIRIE
+Prairie Provinces (Manitoba & Saskatchewan)
+
+
+WinnipegREALTORS / Manitoba
+Official WinnipegREALTORS website: winnipegrealtors.ca
+Winnipeg Regional Real Estate Board: winnipegregionalrealestateboard.ca
+
+
+* DDF Participation: Manitoba boards participate in CREA DDF, feeding data into the national pool.
+* Local IDX: WinnipegREALTORS provides IDX feeds to members; a signed IDX agreement is required.
+* Regulatory Reform: Manitoba replaced the Real Estate Brokers Act (REBA, from 1947) with the new Real Estate Services Act and Regulation in 2022.
+
+
+Saskatchewan REALTORS Association (SRA)
+Official SRA website: saskatchewanrealtorsassociation.ca
+SRA MLS System page: saskatchewanrealtorsassociation.ca/mls-system
+
+
+Saskatchewan does NOT participate in the CREA DDF national feed. This is a critical distinction — agents needing Saskatchewan listings must access the SRA regional MLS directly.
+	
+
+* Direct SRA Access Required: No national feed alternative exists for Saskatchewan.
+* Sold Listings: Saskatchewan IDX/reciprocity does NOT permit display of sold listings or co-mingling of listings from other boards.
+* Minimum Listing Duration: SRA rules require a minimum listing duration of 60 days on the MLS System.
+* PST: A 6% Saskatchewan Provincial Sales Tax (PST) applies to IDX set-up and monthly/annual fees.
+________________
+
+
+SREC
+The "Authorization to Advertise" Rule (Bylaw 727)
+Saskatchewan has one of the strictest "written consent" rules in Canada. You cannot display a listing—even if it is in a public feed—without verifying the legal authority to do so.
+* The Rule: A registrant shall only advertise properties for sale, lease, or sold when written authorization has been obtained from the owner.
+* Marketplace Impact: If your platform allows manual uploads, you must include a mandatory checkbox or field where the uploader confirms they hold a valid "Authorization to Advertise" form from the seller.
+* Reference: SREC Bylaw 727: Authorization to Advertise
+"Sold" Advertising & New Owners
+SREC has a unique interpretation of "Sold" data that differs from other provinces.
+* The New Owner Rule: Once a property is sold and possession has passed, the original seller’s authorization to advertise that property expires.
+* The Requirement: To continue displaying that property as "Sold" on your marketplace, the agent technically needs written permission from the new owner (the buyer), as they now hold the privacy rights to the home's image and data.
+* Reference: SREC Consent Order: Foord (Re), 2025 SKREC 9
+Brokerage Prominence & Legal Names
+SREC’s Advertising Checklist (updated for 2024–2026) mandates that the brokerage must be the "anchor" of the advertisement.
+* The Full Name: You must use the full name of the brokerage as it appears on their Certificate of Registration. Nicknames or shortened "marketing names" for the brokerage are not permitted.
+* Readability: The brokerage name must be "clearly and prominently displayed and easily readable." It cannot be hidden in a "details" tab; it should be visible on the main listing card.
+* Reference: SREC Advertising Checklist
+Immediate Removal of Expired Listings (Bylaw 726)
+SREC classifies leaving an expired listing online as "Inaccurate or Misleading Advertising."
+* The 24-Hour Rule: While the bylaws state "within a reasonable period," SREC bulletins clarify that since many platforms update automatically, manual listings or social media posts must be removed immediately upon expiry.
+* Marketplace Liability: If your marketplace shows a property as "Available" when the contract has expired, it is a breach of Bylaw 726. Your system must have a "hard-kill" switch for listings that are no longer active in the SRA (Saskatchewan Realtors® Association) feed.
+Comparative Claims & Awards
+If your marketplace ranks agents or shows "Top Producer" badges:
+* The Disclosure Rule: Any claim of being "Number 1" or "Top Rated" must include the basis of the claim (source and date) directly in the advertisement. You cannot just use a badge; you must link to the data that supports it.
+________________
+
+
+SREC Marketplace Compliance Checklist
+Rule
+	Saskatchewan (SREC) Requirement
+	Brokerage Name
+	Full legal name, prominent, same visibility as the agent.
+	Sold Status
+	Must remove once possession passes unless new owner consents.
+	Written Consent
+	Must confirm uploader has written authority from the seller.
+	Accuracy
+	Timestamps required; must indicate the "last date for revision."
+	Expired Listings
+	Purge immediately upon expiry of the brokerage contract.
+	Official SREC Reference Links
+SREC Bylaws (June 2024/2026 version): Full Bylaws PDF
+Advertising Checklist: Mandatory Review Points
+Information Bulletin: Expiry of Authorization: The 727 Rule
+
+
+MSC
+Registration & "Trading" Definition (Section 41)
+In Manitoba, "advertising the real estate of others" is legally considered trading in real estate.
+* The Rule: Any platform that provides "private sale services" or "trading services" (finding real estate for others or making representations about it) must be registered with the MSC unless it is strictly a newspaper-style classified with no lead-routing or data-syncing features.
+* Marketplace Impact: If your marketplace acts as a bridge between buyers and sellers, the MSC may view the platform itself as a "registrant" or a "brokerage." You must clarify in your docs whether you are a registered brokerage or a "third-party service provider" under contract with a registered brokerage.
+Mandatory Service Agreements (RESA Section 25)
+A major shift in 2024–2026 is the requirement for written service agreements.
+* The Rule: Brokerages must enter into a written service agreement with a consumer before providing real estate services.
+* Marketplace Impact: If your platform captures leads and "assigns" them to agents, your compliance doc must ensure that the partner agent presents a digital service agreement to the consumer. Your platform should have a workflow to store or acknowledge that these agreements have been initiated.
+* Reference: MSC: Real Estate Services Act Overview
+Brokerage Name Prominence (The "Obvious" Test)
+The MSC is particularly strict about the visibility of the "Employer" (the Brokerage).
+* Visible Identification: The name of the brokerage must be "visibly displayed" to identify who the salesperson is employed with.
+* The "Team" Restriction: Team names (e.g., The Winnipeg Property Group) are permitted, but they must not give the impression of being an incorporated company or an independent brokerage.
+* Font Rule: The brokerage name cannot be hidden at the bottom of the page in small type. It must be prominent enough that a consumer is not "misled or confused" as to who is providing the service.
+* Reference: MSC Advertising Guidelines (PDF)
+Internet & Social Media "Full Disclosure"
+The MSC and the Manitoba Real Estate Association (MREA) have specific "Internet Best Practices."
+* Every Viewable Page: Every page that a consumer can view as a "separate unit" (including framed pages and individual listing details) must include the Full Disclosure:
+The licensee’s name as registered.
+The name of the brokerage.
+The address of the brokerage office.
+* Banner Ads: If a banner ad is too small for full disclosure, it must link directly to a page that contains it.
+* Reference: Manitoba Internet Best Practices Guidelines
+Sold Data & The Competition Bureau
+Manitoba has historically been one of the more restrictive provinces regarding online "Sold" data.
+* Current Status (2026): While the Competition Bureau has pushed for more transparency, the MSC still requires prescribed consents for the disclosure of property sales information.
+* The VOW Requirement: To display sold prices in Manitoba, your platform must function as a VOW (Virtual Office Website). You cannot show sold prices on an open "advertising" (IDX) page without violating the privacy terms of the standard Manitoba listing agreement.
+________________
+
+
+MSC Marketplace Compliance Checklist
+Rule
+	Manitoba (MSC) Requirement
+	Brokerage Name
+	Full licensed name; must be visible on every "viewable unit/page."
+	Service Agreements
+	Platform must facilitate/track the delivery of written agreements.
+	Team Names
+	Must not use "Realty," "Inc," or "Company" in the team name.
+	Lead Routing
+	Must clearly disclose if the agent receiving the lead is the Listing Agent.
+	Sold Prices
+	Strictly behind a VOW registration wall.
+	Official MSC Reference Links
+The Real Estate Services Act (CCSM c. R21): Current Legislation
+MSC Advertising & Team Name Guidelines: Registrar’s Guide
+Internet Best Practices: Digital Marketing Standards
+
+
+ATLANTIC
+Atlantic Provinces
+
+
+Nova Scotia — NSAR
+Official NSAR website: nsrealtors.ca
+Nova Scotia Real Estate Commission (NSREC — regulator): nsrec.ns.ca
+
+
+* Membership: NSAR represents 2,000+ brokers and salespeople across the province. MLS access is exclusive to NSAR members.
+* Paragon Platform: The provincial MLS platform is Paragon (since 2003). Members list and search province-wide.
+* Accessibility Fields (2024): NSAR became the first MLS System in Canada to make accessibility measurement fields (door widths, hallway widths, turning radii) mandatory as of June 2024.
+* AI Compliance Automation (2025): NSAR partnered with a tech firm to automate MLS compliance checking using AI, handling 8,000+ listings efficiently.
+* DDF Participation: Nova Scotia participates in CREA DDF.
+
+
+New Brunswick — NBREA
+Official NBREA website: nbrea.ca
+
+
+* DDF Participation: NB boards participate in CREA DDF.
+* IDX/VOW: Standard IDX and VOW feeds available to licensed NBREA members.
+
+
+Newfoundland & Labrador — NLREA
+Official NLREA website: nlrea.ca
+
+
+* DDF Participation: NLREA participates in CREA DDF.
+* Local IDX: Available to licensed members; direct contact with NLREA required for feed agreements.
+
+
+Prince Edward Island — PEIARA
+Official PEIARA website: peiara.ca
+
+
+* DDF Participation: PEIARA participates in CREA DDF.
+* IDX Access: Available to licensed members; agreements must be signed with PEIARA.
+
+
+FCNB
+The "Licensee Disclosure" Rule
+FCNB requires "Full Disclosure" on any internet-related advertising that a consumer can view as a separate unit (e.g., a specific listing page).
+* The Rule: Every viewable page of a marketplace must include (or link directly to) the following details:
+The licensee’s name as registered with FCNB.
+The full name of the brokerage.
+The address of the brokerage office.
+* Banner Ads: If a thumbnail or banner is too small, it must link to a page containing this full disclosure.
+* Reference: FCNB Real Estate Agents Licensing Information
+Lead Generation vs. Licensed Activity
+New Brunswick is very specific about where "tech" ends and "licensed activity" begins.
+* Simple Referrals: Your marketplace can collect a name and contact detail (lead) and pass it to an agent without a license.
+* The "Pre-Screening" Trap: If your marketplace uses AI or staff to "pre-screen" leads, take applications, or provide advice on property suitability, the FCNB may deem this licensed activity. In New Brunswick, anyone "taking mortgage or real estate information beyond basic contact details" must be licensed.
+* Reference: FCNB Bulletin: Mortgage Brokering & Lead Generation
+Data Integrity & Consent (Written Permission)
+FCNB mandates that information provided online must be "current, consistent, and accurate."
+* Written Permission: Licensed entities should not advertise other entities' listings on a third-party marketplace without written permission. For your marketplace, this means ensuring your Data Access Agreement (DAA) with the local board is up to date.
+* Timely Updates: Material changes to a listing (Price drops, "Sold" status) must be updated in a "timely manner." FCNB generally mirrors the 24-48 hour industry standard for digital syncs.
+The "Promotional Activity" Amendment (2026)
+As of January 1, 2026, New Brunswick's Securities Act and related consumer protection rules were amended to increase penalties for "misleading promotional activities."
+* The Rule: If your marketplace uses "suggestive" or "promotional" language that is found to be misleading (e.g., claiming a property is a "guaranteed investment" or using fake scarcity tactics), the FCNB now has expanded authority to issue administrative penalties without a full hearing.
+* Reference: FCNB Securities Notice 2026-01: Promotional Activities
+Sold Prices & Transparency
+* Public Assessment vs. Private Sale: While New Brunswick's Property Assessment Online (PAOL) tool shows recent sales prices to the public (usually with a 30-day delay), the FCNB and the New Brunswick Real Estate Association (NBREA) generally restrict brokerages from advertising those same sold prices on public IDX feeds.
+* The VOW Solution: To display real-time sold data in NB, your marketplace must use a VOW (Virtual Office Website) registration to comply with privacy expectations and the Real Estate Agents Act.
+________________
+
+
+FCNB Marketplace Compliance Checklist
+Requirement
+	New Brunswick (FCNB) Standard
+	Brokerage Address
+	Must be included in the disclosure (unlike some other provinces).
+	Lead Capture
+	Strictly limited to name/contact info unless platform is licensed.
+	Timestamps
+	Every listing must indicate the "last date for revision."
+	Sync Speed
+	Listings must be "consistent with actual status" (24h sync recommended).
+	Legal Name
+	Must use the name on the license; no nicknames for the brokerage.
+	Official FCNB Reference Links
+FCNB Real Estate Portal: Licensing & Enforcement
+Real Estate Agents Act (R-1): Current Legislation
+Property Assessment (PAOL): Public Sales Data Source
+
+
+NSREC
+"Coming Soon" Advertising Policy
+NSREC has a formal policy for properties that are not yet on the market. If your marketplace allows users to "tease" a listing:
+* The Mandatory Disclaimer: Every "Coming Soon" advertisement must include the exact phrase: "This is not an offering for sale."
+* The 3-Day Cooperation Sync: Like the national CREA rule, if a property is marketed as "Coming Soon," it must be placed on the MLS® System within three business days.
+* Written Authority: The marketplace must ensure the agent has a specific "Coming Soon" authorization in writing from the seller before the tag is applied.
+Brokerage & Team Branding (The "Equal Size" Rule)
+NSREC is strict about ensuring a team doesn't look like an independent brokerage.
+* Size Requirements: A team name or logo cannot appear larger than the brokerage name. They must be the same size or smaller.
+* Prominence: The full legal name of the brokerage must be "prominent" on every page where a listing or agent is displayed.
+* Designated Agency: If your marketplace identifies agents, you must list all members of a team as the "Designated Agent" for a property, as they are legally deemed to share confidential client information.
+* Reference: NSREC Designated Agency & Team FAQs
+Sold Price Transparency (Dual Consent)
+Nova Scotia has a high bar for displaying what a home actually sold for.
+* The Rule: To advertise the purchase price of a property, a licensee needs written permission from both parties (the buyer and the seller).
+* The VOW Solution: Similar to other provinces, the only way to show historical sold data at scale on a marketplace is through a Virtual Office Website (VOW).
+   * The user must register, verify their email, and agree to a "Lawful Consumer-Broker Relationship."
+   * Even with a VOW, you must display the original listing brokerage's name clearly alongside the sold data.
+* Reference: NSREC Conduct & Trade Practices FAQ
+Unlicensed Assistant Restrictions
+If your marketplace has a "Chat" or "Support" feature handled by staff:
+* Prohibited Activity: Unlicensed individuals cannot review, interpret, or explain listings, offers, or contracts to consumers.
+* Lead Handling: They can relay factual, already-advertised listing information, but any "comparative market analysis" or advice must be directed to a licensed REALTOR®.
+Incentives & Inducements (July 2025 Update)
+As of July 1, 2025, NSREC updated the rules regarding incentives (e.g., "Buy this home and get a free iPad" or "Commission Rebates").
+* Disclosure: Any incentive offered on your marketplace must include all details, terms, and conditions in writing within the advertisement.
+* Broker Approval: Individual licensees can now offer their own incentives (previously it had to be brokerage-wide), but they must still have written approval from their Broker of Record.
+________________
+
+
+NSREC Marketplace Compliance Checklist
+Rule
+	Nova Scotia (NSREC) Requirement
+	Coming Soon
+	Must display "This is not an offering for sale."
+	Team Branding
+	Brokerage name must be equal to or larger than team name.
+	Sold Prices
+	Requires written consent from buyer AND seller (use VOW).
+	Brokerage Name
+	Full legal name (as on license) must be on every page.
+	Incentives
+	All terms/conditions must be visible or linked in the ad.
+	Official NSREC Reference Links
+Commission Policies (2026): Official Policy List
+Coming Soon Policy: Minimum Standards for Teaser Ads
+Mandatory Forms (Form 100): Working with the Real Estate Industry (Eff. Feb 2026)
+
+
+PEI + NL
+Prince Edward Island (PEI)
+Regulator: Superintendent of Insurance (under the Department of Justice and Public Safety)
+Association: Prince Edward Island Real Estate Association (PEIREA)
+In PEI, real estate is governed by the Real Estate Trading Act. The Superintendent of Insurance acts as the Registrar.
+* Brokerage Prominence: All advertisements (including digital marketplace listings) must clearly and prominently display the brokerage name as it appears on the license.
+* The "Trading" Definition: PEI law defines "trading" broadly. If your marketplace facilitates the "disposition or acquisition" of real estate, you must ensure you aren't crossing into unlicensed brokerage activity.
+* Sold Data: Like other Atlantic provinces, PEI does not allow the public display of sold prices on open websites. To display this data, you must follow the VOW (Virtual Office Website) model, requiring user registration and a verified "Consumer-Broker" relationship.
+* Freshness: Online information must be "current and accurate." SREC and PEI standards generally require a timestamp indicating the last date of revision.
+* Reference: PEI Real Estate Trading Act
+________________
+
+
+Newfoundland and Labrador (NL)
+Regulator: Digital Government and Service NL (Financial Services Division)
+Act: Real Estate Trading Act, 2019
+NL updated its legislation recently (2019/2020) to modernize digital standards. Service NL is very focused on the "Employer/Employee" relationship.
+* The "Employer" Rule: Section 25 of the NL Act requires that every advertisement by a salesperson must indicate the name of the broker (the brokerage) by whom the salesperson is employed.
+* Immediate Removal of Expired Listings: NL regulation is explicit: when a listing expires or is withdrawn, it must be removed from the marketplace immediately. Allowing "stale" listings to remain for lead-generation purposes is considered a violation of the Code of Conduct.
+* Team Names: Team names are permitted but must be registered with the Superintendent. On your marketplace, the Brokerage Name must be displayed with equal or greater prominence than the team name.
+* Trust Account Disputes: If your marketplace handles deposits (rare for a listing site, but common for full-service platforms), you must comply with the new Real Estate Trust Account Dispute Resolution rules established in 2024.
+* Reference: NL Real Estate Trading Act & Regulations
+________________
+
+
+Atlantic Canada "Quick-Check" for Marketplaces
+Since the Atlantic provinces (NS, NB, PEI, NL) often share similar feed structures via the Atlantic Real Estate Boards, your compliance code should hit these three "Universal" marks:
+Rule
+	Requirement
+	Brokerage Name
+	Full legal name must be visible on the "First View" (no scrolling).
+	Sold Prices
+	Always Gated. Never show a price to an anonymous user.
+	Outdated Data
+	Purge logic must run at least every 24 hours.
+	
+
+
+
+TERRITORIES
+Territories
+
+
+The three Canadian territories have limited dedicated real estate regulatory bodies and relatively small MLS ecosystems.
+
+
+Yukon
+Yukon Government — Real Estate Licensing: yukon.ca (Service Yukon)
+Unlike provinces with dedicated real estate bodies, Yukon's real estate licensing is handled directly by the Yukon territorial government online. Listings that are made available nationally flow through CREA DDF.
+
+
+Northwest Territories & Nunavut
+NWT Government: gov.nt.ca
+Real estate in NWT and Nunavut operates through very small local markets. Listings flow through CREA DDF for national exposure. Contact your territorial government and CREA directly for current feed access requirements.
+________________
+
+
+
+
+UNIVERSAL COMPLIANCE
+Universal Compliance Checklist
+
+
+Access & Membership
+* Only licensed CREA members in good standing may access DDF or regional MLS data feeds.
+* Non-members are strictly prohibited from accessing any Canadian MLS feed or scraping REALTOR.ca.
+* A signed IDX/VOW data agreement must be in place with your board.
+
+
+Attribution & Display
+* The listing brokerage must always be identified on property detail pages (on first view).
+* CREA trademarks (MLS, REALTOR) must be displayed correctly and may not be modified.
+* The applicable board/CREA mandatory footer disclaimer must appear on every page displaying MLS data.
+
+
+Photos & Media
+* All watermarks on listing photos must be preserved. No cropping, blurring, or overlaying of watermarks.
+* AI-enhanced or virtually staged photos require disclosure and must be accompanied by the original unstaged version.
+* Stock photos of nearby amenities are not permitted unless the amenity is directly visible from the property.
+
+
+Purge & Data Freshness
+* Expired, Withdrawn, or Terminated listings must be removed from your public site within 24 hours of status change.
+* Active listing data must be refreshed at least every 24 hours via scheduled API/RESO updates.
+
+
+VOW Requirements
+* Registration wall: Full name and valid email required before access to sold/expired data.
+* Email verification: Required before granting VOW access.
+* Audit logs: User identity and listing view records must be maintained for at least 1 year (TRREB) or 180 days post-password expiry (GVR/BC).
+* No search engine indexing: noindex/nofollow required on all VOW-gated pages.
+
+
+Prohibited Activities
+* No data mining, scraping, or bulk copying of MLS data.
+* No redistribution of MLS data to unauthorized third parties.
+* No co-mingling of listings from different boards without clear per-listing source labeling.
+* No use of BC Assessment data or equivalent provincial assessment data for solicitation or harassment.
+
+
+PRIVACY LAWS
+Privacy Law — PIPEDA, Provincial PIPA, and Quebec Law 25
+
+
+A real estate marketplace collects and processes significant quantities of personal information: VOW user registrations, search behaviour, saved listings, contact requests, audit logs, and email communications. This makes compliance with Canadian privacy law non-negotiable. Three distinct privacy regimes apply depending on where users are located.
+
+
+PIPEDA — Federal Private-Sector Privacy Law
+Official PIPEDA resource centre (OPC): priv.gc.ca/en/privacy-topics/pipeda
+PIPEDA 10 Fair Information Principles: priv.gc.ca — Principles
+OPC Privacy Guide for Businesses: priv.gc.ca — Business Guide
+
+
+PIPEDA applies to all private-sector organizations across Canada that collect, use, or disclose personal information in the course of commercial activities — including a real estate marketplace. Importantly, PIPEDA also applies to international companies that have a genuine and significant connection to Canada (i.e., handling data of Canadian users).
+
+
+STATUS UPDATE: Bill C-27 (the Consumer Privacy Protection Act / CPPA), which would have significantly modernized and strengthened PIPEDA, died on the order paper with the prorogation of Parliament in January 2025. PIPEDA remains in force. Law reform is expected to become a priority in the 45th Parliament. Monitor the Office of the Privacy Commissioner (OPC) for updates. View official page
+	
+
+The 10 PIPEDA Fair Information Principles
+Every marketplace must implement practices that satisfy all 10 principles:
+* 1. Accountability: Appoint a Chief Privacy Officer (CPO) or designated privacy lead. Develop and maintain a written Privacy Management Program. The CPO must be reachable by users.
+* 2. Identifying Purposes: Document the reason for collecting each piece of personal information before or at the time of collection. Avoid overly broad purposes.
+* 3. Consent: Obtain express consent for sensitive data (VOW registration, contact forms). Implied consent may apply for lower-risk interactions, but must be contextually appropriate. Pre-checked boxes do not constitute valid consent.
+* 4. Limiting Collection: Collect only what is necessary for the identified purpose. Do not collect data simply because it might be useful later.
+* 5. Limiting Use, Disclosure & Retention: Do not use or disclose personal information for secondary purposes without re-consent. Establish and follow a data retention schedule. Destroy or anonymize data that is no longer needed.
+* 6. Accuracy: Keep personal information as accurate and up-to-date as necessary. Provide mechanisms for users to correct their information.
+* 7. Safeguards: Protect personal information with physical, organizational, and technical measures appropriate to its sensitivity. VOW audit logs and user registration data are sensitive and require strong encryption and access controls.
+* 8. Openness: Publish a clear, accessible Privacy Policy on your website. Describe what data is collected, how it is used, who it may be shared with, and how users can exercise their rights.
+* 9. Individual Access: Respond to access and correction requests within 30 days. Verify user identity securely before fulfilling requests. Include details of these rights in your Privacy Policy.
+* 10. Challenging Compliance: Maintain a documented process for receiving and responding to privacy complaints. Direct users to your CPO as the first point of contact.
+
+
+Mandatory Breach Reporting (PIPEDA)
+* Reporting Trigger: Organizations must report a breach to the OPC and notify affected individuals when the breach poses a 'real risk of significant harm' (RROSH standard).
+* Timing: Report to the OPC and notify individuals 'as soon as feasible' after determining the breach meets the RROSH threshold. Delays create both legal and reputational risk.
+* What to Include: Nature of the breach, type of information involved, number of affected individuals, steps taken after discovery, and contact information for your CPO.
+* Breach Records: Maintain an internal log of ALL security breaches — including those that do not meet the RROSH threshold — for a minimum of 24 months. The OPC may request this log.
+OPC breach reporting form: Report a breach (OPC)
+
+
+Third-Party Data Transfers (PIPEDA)
+* If personal information is transferred to a third-party processor (e.g., a US-based cloud provider, CRM, analytics platform), you remain accountable under PIPEDA for how that third party handles the data.
+* Contracts with processors must outline: security measures, purpose limitations, and compliance obligations. Include the right to audit.
+* Transparency: Disclose in your Privacy Policy that data may be transferred outside Canada and that it could be accessed by foreign authorities.
+
+
+Alberta & BC — Personal Information Protection Act (PIPA)
+BC PIPA — Office of the Information and Privacy Commissioner (BC): oipc.bc.ca
+Alberta PIPA — Office of the Information and Privacy Commissioner (AB): oipc.ab.ca
+
+
+Alberta and British Columbia have enacted their own private-sector privacy laws (PIPA) that have been deemed 'substantially similar' to PIPEDA. For organizations operating within these provinces, PIPA applies instead of PIPEDA for intra-provincial activities. For cross-border activities (e.g., sending an email to a BC user from an Ontario server), PIPEDA still applies.
+
+
+* Both PIPA laws mirror the 10 PIPEDA principles but have distinct procedural and enforcement rules.
+* Breach Reporting: Both Alberta and BC PIPA require breach notification to affected individuals and the respective Privacy Commissioner when a breach creates a real risk of significant harm.
+* Retention: BC PIPA requires that personal information used to make a decision about an individual be retained long enough for that individual to have a reasonable opportunity to request access.
+* Practical impact: A marketplace operating nationally must satisfy the highest standard across all three regimes (PIPEDA, BC PIPA, AB PIPA) simultaneously.
+
+
+Quebec — Law 25 (Loi 25)
+Commission d'accès à l'information (CAI — Quebec regulator): cai.gouv.qc.ca
+
+
+Law 25 is the strictest private-sector privacy law ever passed in Canada and is often compared to the EU's GDPR. It applies to ANY organization handling personal information of Quebec residents — regardless of where the organization is located. A Toronto-based marketplace with Quebec users is fully subject to Law 25.
+	
+
+Law 25 was enacted in September 2021 and phased in over three years, with the final provision (right to data portability) taking effect September 22, 2024.
+
+
+Key Law 25 Obligations
+* Privacy Officer (Mandatory): Appoint a Privacy Officer and publish their name and contact information prominently on your website (must be findable in two clicks). If no one is appointed, the CEO is the default Privacy Officer.
+* Privacy Policy: Publish a confidentiality policy (Privacy Policy) in clear, plain language on your website and mobile app. Required since September 22, 2023.
+* Privacy Impact Assessments (PIAs): Required before acquiring, developing, or overhauling any information system, electronic service delivery system, or before communicating personal information outside Quebec. The CAI has published a PIA template (in French).
+* Sensitive Personal Information: Law 25 introduces a 'sensitive' category — medical, biometric, or otherwise intimate information — requiring express consent before collection or use.
+* Minor Consent: Express consent from the parent or tutor is required before collecting, using, or disclosing personal information about a person under age 14.
+* Cross-Border Transfers: Before transmitting personal data outside Quebec (including to other Canadian provinces), organizations must: (a) conduct a PIA; (b) ensure the destination provides protection equivalent to Law 25; (c) document contractual safeguards.
+* Data Portability (Since September 22, 2024): Users can request their personal data in a structured, commonly used, machine-readable format (e.g., CSV/JSON/XML). Organizations must fulfill portability requests within 30 days.
+* Breach Notification: Promptly notify the CAI and affected individuals of any confidentiality incident posing a risk of serious injury. Maintain a breach register, a copy of which must be sent to the CAI upon request.
+* Biometric Database Notification: Disclose to the CAI any use of biometric processes at least 60 days before creating a biometric database.
+
+
+Law 25 Penalties
+Violation Type
+	Penalty
+	Administrative monetary penalties (CAI)
+	Up to CAD $10 million or 2% of worldwide turnover — whichever is greater
+	Penal fines (Court of Quebec)
+	Up to CAD $25 million or 4% of worldwide revenue — for serious violations causing significant harm
+	Failure to report a breach
+	Subject to both administrative and penal penalties
+	Using de-identified information to re-identify individuals
+	Subject to penal fines up to CAD $25 million
+	________________
+
+
+
+
+CASL
+CASL — Canada's Anti-Spam Legislation
+
+
+Official CASL resource (CRTC): crtc.gc.ca/eng/internet/anti.htm
+CASL Act, regulations & guidelines: crtc.gc.ca/eng/internet/anti/reg.htm
+CASL FAQ (CRTC): crtc.gc.ca/eng/com500/faq500.htm
+OPC role under CASL: priv.gc.ca/en — CASL
+
+
+CASL governs the sending of commercial electronic messages (CEMs) in Canada. It applies to every organization — including real estate marketplaces — that sends emails, SMS messages, instant messages, or social media messages promoting a commercial activity. Three agencies share enforcement responsibility: the CRTC, the Competition Bureau, and the OPC.
+
+
+PENALTIES: The maximum CASL penalty is $1,000,000 CAD per violation for individuals and $10,000,000 CAD per violation for organizations. In 2025, the CRTC continued active enforcement with fines ranging from $5,000 to $250,000 CAD. Directors and officers have been found personally liable. Hudson's Bay Company paid $120,000 in 2024 for failing to include an unsubscribe mechanism in promotional CEMs.
+	
+
+The Three Mandatory CEM Requirements
+Every commercial electronic message sent by a marketplace must include ALL THREE of the following:
+* 1. Prior Consent: Either express or implied consent must be obtained before sending any CEM. Express consent is an opt-in (e.g., a checkbox on a registration form — must be unchecked by default). The onus of proving consent rests entirely on the sender.
+* 2. Identification Information: Each CEM must clearly identify the sender, including the organization's name and a physical mailing address, phone number, or email address.
+* 3. Unsubscribe Mechanism: A clear, functional unsubscribe mechanism must be present in every CEM. Unsubscribe requests must be processed within 10 business days. Once unsubscribed, no further CEMs may be sent.
+
+
+Consent Types and Expiry Rules
+Consent Type
+	Duration / Rules
+	Express Consent
+	Does NOT expire. Valid until the recipient withdraws consent. Must be an affirmative opt-in action.
+	Implied Consent — Existing Business Relationship (purchase/contract)
+	Expires 2 years after the transaction, contract, or membership ends.
+	Implied Consent — Inquiry / Application
+	Expires 6 months from the date of inquiry or application.
+	Implied Consent — Conspicuous Publication (public email)
+	Valid if CEM is relevant to the recipient's role/business. No fixed expiry, but can be withdrawn.
+	Legacy Lists (pre-CASL, before July 1, 2014)
+	Implied consent expired. Must re-confirm consent before continuing to send. Sending to unconfirmed legacy lists is a violation.
+	
+
+Real Estate Marketplace-Specific CASL Rules
+* VOW User Registration Emails: The confirmation/verification email sent immediately after a user registers for VOW access is NOT a CEM (it is a transactional message). However, any subsequent marketing email (e.g., 'New listings matching your search') IS a CEM and requires consent.
+* Automated Listing Alerts: Listing alert emails based on a user's saved search criteria are CEMs. Consent must be obtained at signup. The subscription mechanism must be an explicit opt-in, not a default opt-in.
+* Agent Follow-Up Emails: Emails from agents to users who inquired via the platform trigger the 6-month implied consent window. After 6 months without further interaction, no further CEMs may be sent without fresh consent.
+* Push Notifications: Mobile push notifications that promote commercial activity are treated as CEMs under CASL.
+* Consent Records: Maintain encrypted, tamper-proof logs for every opt-in and opt-out, including: IP address at time of consent, exact timestamp, and the specific consent text presented.
+* Suppression Workflows: Automate removal of recipients immediately after an unsubscribe request and after implied consent expiry. Failure to automate this is a common audit finding.
+* Software Installation: CASL also governs installation of computer programs (e.g., mobile apps, browser extensions). Express consent is required before any installation that performs functions beyond what a reasonable person would expect.
+
+
+CASL Exemptions Relevant to Real Estate
+* Transactional Messages: Messages sent to fulfill a legal obligation or provide notice of an existing right (e.g., a receipt, a VOW agreement confirmation, a password reset) are exempt from CASL.
+* Internal Business Communications: Messages between employees/consultants of the same organization are exempt.
+* B2B — Business Capacity: CEMs sent to persons engaged in a commercial activity where the message is relevant to their business role may use implied consent via conspicuous publication (e.g., a public-facing agent email listed on a board roster).
+* Existing Non-Business Relationship (Friends/Family): Personal relationship exemptions apply — not typically relevant to a marketplace.
+________________
+
+
+
+
+RESO WEB API
+RESO Web API — Technical Standards
+
+
+Official RESO Web API documentation: reso.org/reso-web-api
+RESO Data Dictionary 2.0 specification: reso.org — Data Dictionary
+RESO certification status map: reso.org — Analytics
+RESO Web API transition leaderboard: reso.org — Transition Leaderboard
+
+
+RESO (Real Estate Standards Organization) is an independent not-for-profit that creates, certifies, and maintains data standards for the real estate industry. As of 2025-2026, RESO Web API is the mandatory transport standard for MLS data exchange, replacing the legacy RETS (Real Estate Transaction Standard) protocol which has been fully deprecated.
+
+
+RETS IS FULLY DEPRECATED. RETS support officially ended in 2024-2025 across most major MLS platforms. GVR in BC deprecated RETS on February 28, 2025. Any marketplace still running RETS integrations is operating on expired, unsupported infrastructure and must migrate immediately.
+	
+
+What is the RESO Web API?
+The RESO Web API is a REST-style API that uses HTTP, JSON, OData v4 query syntax (filters, paging, ordering), and OAuth 2.0 authentication. It replaces the older XML-based RETS protocol and provides:
+* Live Queries: Direct calls to MLS databases in response to user searches — eliminating the need for large local replicated databases.
+* Standardized Data: RESO Data Dictionary defines standard names and types for MLS fields (e.g., ListingId, Status, ListPrice, LivingArea, StandardStatus) so data from different boards maps consistently.
+* OAuth 2.0: Modern authentication and authorization, replacing RETS username/password credentials.
+* OData v4: A protocol for building and querying APIs using well-known HTTP conventions — supported by major development frameworks.
+
+
+RESO Data Dictionary 2.0
+RESO Data Dictionary 2.0 became the required standard in April 2024, with all MLS systems required to certify within one year (April 2025 deadline). This is a significant upgrade from Data Dictionary 1.7. Key impacts for marketplace developers:
+* StandardStatus Values: 'Active', 'Pending', and 'Closed' now mean the same thing across all RESO-certified MLS boards — enabling multi-market aggregation.
+* New Required Fields: DD 2.0 adds required fields for accessibility measurements, energy ratings, and green features. NSAR in Nova Scotia was first in Canada to mandate accessibility fields in MLS submissions (June 2024).
+* Consistent Schema: Any marketplace connecting to multiple Canadian boards can use a single data model rather than maintaining custom field-mapping for each board.
+
+
+Technical Architecture Requirements
+Component
+	Requirement
+	Transport Protocol
+	RESO Web API (REST/OData v4/JSON). RETS is deprecated and unsupported.
+	Authentication
+	OAuth 2.0. Client credentials flow for server-to-server integrations; authorization code flow for user-delegated access.
+	TLS Encryption
+	All API connections must use TLS 1.2 or higher. No unencrypted HTTP connections are acceptable.
+	Data Refresh Rate
+	Active listing data must be refreshed at least once every 24 hours (CREA DDF rule). Most integrations implement more frequent polling (every 15–60 minutes).
+	Metadata Endpoint
+	Consume the OData $metadata endpoint to dynamically understand available fields and data types. Do not hardcode field names.
+	Replication vs. Live Query
+	Many Canadian boards (TRREB/PropTx, ITSO) provide both replication (bulk data export) and live query. Marketplaces displaying sold/expired data must ensure their replication sync honours the 24-hour purge rule.
+	Rate Limits
+	Each board imposes its own rate limits. Implement exponential back-off and honour 429 Too Many Requests responses. Exceeding rate limits can trigger temporary suspension of feed credentials.
+	Listing Search Limits
+	For IDX/VOW contexts: do not return more than 100 current listings per query or 200 per session (ITSO rule). Implement server-side pagination controls.
+	
+
+Connecting to Canadian MLS Boards via RESO Web API
+* GVR / FVREB / CADREB (BC): Use BridgeAPI (BridgeInteractive). Complete GVR's compliance review before production credentials are issued. Contact idx@gvrealtors.ca to begin.
+* TRREB / PropTx (Ontario): Connect via the PropTx API. Access is managed through the PropTx member portal at myprofile.torontomls.net. Only licensed TRREB members can apply.
+* ITSO (Ontario): Access via ITSO's Matrix Web API. Review access terms at itsosystems.ca/access.
+* CREB / EREB (Alberta): Connect via Pillar 9's RESO Web API. Apply through your CREB or EREB membership.
+* CREA DDF (National): Connect via the DDF API documented at ddfapi-docs.realtor.ca. Requires CREA membership and DDF dashboard opt-in.
+________________
+
+
+AI & AVM
+
+
+AI & Automated Valuation Model (AVM) Compliance
+
+
+Real estate marketplaces increasingly use artificial intelligence for property valuations (AVMs), market trend analysis, search ranking, and photo enhancement. Each of these uses carries distinct compliance obligations in Canada.
+
+
+What is an AVM?
+An Automated Valuation Model (AVM) is an AI/algorithm-driven tool that estimates a property's market value using large datasets — including sold prices, listing history, tax assessments, and neighbourhood data. Consumer-facing AVMs (like Zillow's Zestimate in the US, or HouseSigma's estimates in Canada) display estimated values directly to users. AVMs are also used by lenders for mortgage decisions.
+
+
+AVM Data Sourcing Rules
+* Sold Price Data Requirement: To build or operate an accurate AVM in Canada, you need access to historical sold price data. This data is only accessible through a VOW feed (not standard IDX). You must have a valid VOW agreement and comply with all VOW display and audit rules before sourcing sold data for AVM calculations.
+* TRREB/PropTx VOW for AVM: TRREB's 2026 'Bona Fide Consumer' rule (Section 2.1.1 of this document) was directly inspired by platforms like HouseSigma that were registering dummy accounts to harvest sold price data for AVM purposes. Systematic data harvesting via mass dummy VOW accounts is a material violation.
+* Assessment Data Restrictions: In BC, the REBGV/GVR rules explicitly prohibit using BC Assessment data for solicitation or harassment. Using assessment data as an AVM input for re-selling leads or targeted advertising likely violates board rules.
+* No Scraping: Harvesting sold price data by scraping public government registries or third-party sites without authorization violates both board rules and PIPEDA (collecting personal information — property addresses associated with individuals — without a stated lawful purpose).
+
+
+AVM Display Compliance
+* Disclosure Required: Any AVM estimate displayed to users must be clearly labeled as an 'estimate' or 'automated valuation' — not as an appraised value or official market value. Presenting an AVM as authoritative could violate consumer protection laws and TRESA in Ontario.
+* Confidence Score: Best practice (and increasingly a regulatory expectation) is to display a confidence score or error range alongside AVM estimates, so users understand the uncertainty in the model.
+* Not a Replacement for Appraisal: AVMs must not be presented as replacing a professional appraisal for mortgage or legal purposes. This distinction must be clear in your terms of use and on any page displaying AVM output.
+* TRESA (Ontario — 2026): AI-generated valuations and market analysis tools used by licensed agents in Ontario must comply with TRESA's transparency requirements. If your platform provides AI-generated market analysis to agents for use with clients, the agent's obligations under TRESA apply downstream.
+
+
+AI Photo Enhancement Rules
+* TRREB/TRESA Mandate: If AI is used to enhance photos or virtually stage rooms, an unstaged, original version of each photo must immediately follow the staged version in the listing display. This rule applies to any platform displaying TRREB data.
+* Stock Photo Prohibition: Stock photos of nearby parks, cafes, or amenities cannot be used in listing displays unless those amenities are directly visible from the listed property. This applies to AI-generated or AI-selected imagery.
+* National Best Practice: Although currently mandated only under TRESA/TRREB, the AI photo disclosure rule is recommended as a national standard — other provinces are expected to adopt similar rules. Implementing it nationally now reduces future compliance burden.
+
+
+Algorithmic Pricing & Competition Act Risk
+The Competition Bureau investigated RealPage and Yardi's algorithmic rental pricing software in Canada (investigation concluded late 2025, no wrongdoing found, but guidance was issued). The Bureau has confirmed it will continue monitoring algorithmic pricing in all real estate sectors. Any marketplace using AI-driven pricing recommendations or market analysis tools that incorporate competitor data — even anonymized — may trigger scrutiny under sections 90.1 and 79 of the Competition Act. View official page
+	
+
+* Do not build pricing algorithms that ingest competitor transaction data without independent legal review.
+* Avoid default settings that make it easier to accept algorithmic pricing recommendations than to reject them — this is a specific factor the Bureau considers in assessing anti-competitive conduct.
+* Document your AI model governance: who has oversight, how it is tested for bias, and how inputs are sourced.
+________________
+
+
+
+
+ACCESSIBILITY
+Digital Accessibility Requirements
+
+
+Accessible Canada Act (ACA) — Canada.ca: canada.ca/en/employment-social-development/programs/accessible-canada.html
+ACA Regulations Summary (Canada.ca): canada.ca — ACA Regulations
+Accessibility for Ontarians with Disabilities Act (AODA): ontario.ca/AODA
+
+
+Over 6 million Canadians — 22% of the population — have one or more disabilities. Accessibility is not only a legal obligation but a commercial opportunity. Canadian law has developed a layered framework of federal and provincial accessibility requirements that apply to real estate marketplace platforms.
+
+
+Federal — Accessible Canada Act (ACA, 2019)
+The ACA requires federally regulated organizations and organizations under federal jurisdiction to identify, remove, and prevent barriers to accessibility, including in information and communication technology (ICT). In December 2025, the Canadian government issued significant amendments expanding digital accessibility requirements.
+
+
+* Standard: The ACA aligns with WCAG 2.1 Level AA and the Canadian standard CAN/ASC-EN 301 549 for ICT.
+* Accessibility Plans: Organizations must publish accessibility plans and progress reports. Large organizations (100+ employees) were required to publish their first plan by June 1, 2023. Small organizations (10-99 employees) by June 1, 2024.
+* Accessibility Plans on Website: Plans must be available on the organization's homepage (directly or via hyperlink), follow the latest WCAG AA standards, and be available in both official languages.
+* Feedback Process: Organizations must establish and publish a mechanism for users to provide feedback about accessibility barriers.
+* Penalty: Up to $250,000 CAD for non-compliance.
+
+
+Provincial Accessibility Laws by Province
+Province
+	Law / Standard / Notes
+	Ontario
+	AODA (2005). WCAG 2.0 AA required. All organizations with 50+ employees must comply. Report every 3 years (next deadline: Dec 31, 2026). Fines up to $100,000/day for corporations.
+	Manitoba
+	Accessibility for Manitobans Act (AMA). WCAG 2.1 AA. All sectors required to comply by May 1, 2025.
+	Nova Scotia
+	Nova Scotia Accessibility Act (2017). Developing standards including web accessibility. Target: accessible province by 2030.
+	BC
+	Accessible British Columbia Act (2021). WCAG 2.1 AA for organizations under the Act. Standards still being developed. Penalties up to $250,000.
+	Saskatchewan
+	Act Respecting Accessibility in Saskatchewan. Public sector bodies required to develop accessibility plans.
+	NL
+	Act Respecting Accessibility (2021). Includes digital and web services. Standards in development.
+	NB/PEI/AB/QC
+	No province-level private-sector accessibility laws yet, but federal ACA applies to federally regulated entities and the Human Rights framework applies to discriminatory barriers.
+	
+
+WCAG 2.1 Level AA — Practical Requirements
+The following WCAG 2.1 Level AA principles apply to all public-facing marketplace pages, including listing search, property detail pages, VOW registration, and contact forms:
+* Perceivable: All images must have descriptive alt text. Videos require captions. Text contrast ratio must be at least 4.5:1.
+* Operable: All functionality must be accessible via keyboard. No content should flash more than 3 times per second. Skip navigation links must be provided.
+* Understandable: Language of page must be identified in HTML. Error messages must be descriptive and suggest corrections. Labels must be associated with form inputs.
+* Robust: HTML must be valid. Name, role, and value of all UI components must be programmatically determinable (ARIA where needed).
+* NSAR Accessibility Fields (2024): NSAR mandates accessibility measurement fields (door widths, hallway widths, turning radii) in MLS submissions. Marketplace platforms serving Nova Scotia listings should display these fields prominently.
+________________
+
+
+
+
+COMPETITION LAW
+Competition Law Risks for Real Estate Marketplaces
+
+
+Competition Bureau — Official website: competition-bureau.canada.ca
+Competition Bureau — CREA investigation (Oct 2024): Official press release
+Competition Bureau — QPAREB/Centris 2nd court order (May 2025): Official press release
+Competition Bureau — GVR investigation expansion (Jan 2026): Official press release
+
+
+The Competition Bureau is Canada's primary competition law enforcement agency. Under the Competition Act, it investigates abuse of dominance, anti-competitive agreements, and deceptive marketing practices. The real estate sector is under active, multi-year scrutiny.
+
+
+Active Investigations (as of March 2026)
+THREE ACTIVE REAL ESTATE INVESTIGATIONS: (1) CREA — commission rules and Realtor Cooperation Policy (court order obtained October 2024); (2) QPAREB / Societe Centris — data sharing restrictions in Quebec (second court order obtained May 2025); (3) Greater Vancouver REALTORS (GVR) — commission rules expanded to include GVR enforcement (January 2026). No wrongdoing has been concluded. These investigations may result in rule changes that directly affect marketplace data access and display requirements.
+	
+
+* CREA Investigation: The Bureau is investigating whether CREA's commission rules discourage buyers' agents from competing on commissions, and whether the Realtor Cooperation Policy (3-day MLS listing requirement) makes it harder for alternative listing services to compete.
+* QPAREB/Centris Investigation: The Bureau is investigating whether QPAREB's data-sharing restrictions prevent the development of innovative online brokerage services in Quebec. A second Federal Court order was obtained May 6, 2025.
+* GVR Investigation: In January 2026, the Bureau expanded its commission investigation to specifically examine how GVR enforces commission rules in Greater Vancouver, including potential 'steering' practices.
+
+
+Competition Act Risks Specific to Marketplace Operators
+* Historical Precedent (TREB, 2016): The Competition Tribunal ruled against TRREB (then TREB) for anti-competitive conduct that restricted brokers' access to historical home sales data. The decision opened the door for consumer-facing sold price display and was foundational to platforms like HouseSigma.
+* Alternative Listing Services: The Bureau has flagged that CREA's Realtor Cooperation Policy may disadvantage alternative listing services (platforms that offer non-MLS listing options) by effectively requiring all marketed properties to be on MLS within 3 days. Marketplaces offering flat-fee, limited-service, or private-sale options should monitor this investigation closely.
+* Commission Display: If a marketplace displays commission rates or buyer agent compensation to consumers, ensure the display is factual and not structured in a way that could be construed as facilitating commission-fixing.
+* Algorithmic Pricing: Any AI/algorithmic tool that recommends prices or rents based on data that includes competitor information — even if anonymized — may trigger scrutiny under sections 90.1 (agreements) and 79 (abuse of dominance) of the Competition Act.
+* Exclusive Data Agreements: Agreements with boards or brokerages that give your marketplace exclusive access to data that is denied to competitors may attract abuse of dominance scrutiny.
+* Deceptive Marketing: The Competition Bureau's 2025-2026 annual plan identifies deceptive marketing (including greenwashing and drip pricing) as an enforcement priority. Ensure listing prices, fees, and property representations on your platform are accurate and not misleading.
+
+
+
+
+Technology Vendor & Third-Party Agreements
+
+
+A real estate marketplace rarely builds all technology in-house. IDX plugins, API aggregators, CRM systems, email marketing platforms, analytics tools, and cloud providers all interact with MLS data or personal user data — and all introduce compliance risk. The fundamental rule: the licensed participant (the marketplace) remains responsible for compliance regardless of which vendor caused the violation.
+
+
+IDX / API Aggregator Vendors
+* Named Vendor Rule: Many boards require that your IDX data agreement explicitly name the technology vendor or plugin you are using to connect to the feed. If you change vendors, you must update your board agreement. Using an unnamed vendor is a compliance violation.
+* Vendor Compliance Verification: Before signing with any IDX vendor, verify they are: (a) approved by the relevant board; (b) operating on RESO Web API (not deprecated RETS); (c) RESO-certified or in process of certification; (d) able to provide documentation of their compliance with display rules.
+* Canadian IDX API providers include: Repliers (repliers.com) — supports CREA DDF, TRREB, ITSO and other Canadian board feeds with compliance automation.
+* Shared Responsibility: Even if your vendor causes a display rule violation (e.g., fails to purge an expired listing within 24 hours due to a caching bug), the board will hold the licensed participant — not the vendor — responsible for the violation.
+* Contract Requirements: Your vendor agreements must include: (a) obligation to comply with board rules; (b) notification of any rule changes; (c) right to audit their compliance practices; (d) liability provisions for violations caused by the vendor.
+
+
+Data Processors (Privacy Law)
+Under PIPEDA and Law 25, any third party that processes personal information on your behalf (e.g., cloud hosting, CRM, analytics, email marketing) is a data processor. You remain accountable for their handling of Canadian user data.
+* Data Processing Agreements (DPAs): Required under Law 25 for all processors handling Quebec user data. Strongly recommended under PIPEDA for all processors. DPAs must specify: security measures, purpose limitations, data retention, right to audit, and breach notification obligations.
+* Cross-Border Transfers: If a processor is outside Canada (e.g., US-based AWS, Salesforce, HubSpot), you must: (a) disclose this in your Privacy Policy; (b) conduct a PIA before transferring Quebec user data (Law 25); (c) ensure contractual protections equivalent to Canadian law are in place.
+* Subprocessors: Processors must notify you before engaging subprocessors. Cascade the DPA obligations to subprocessors.
+
+
+Email Marketing & CASL Vendors
+* Vendor Record Keeping: Your email marketing platform must maintain suppression lists and honour unsubscribes within 10 business days. Confirm your vendor's compliance before use.
+* Consent Portability: Ensure consent records captured by your vendor are exportable to you. If you change email vendors, you need to import suppression lists and consent logs.
+* Shared Sender Liability: Under CASL, both the organization on whose behalf a CEM is sent AND the organization that sends the CEM can be held liable. Vet your email vendor's CASL compliance practices.
+
+
+Analytics & Tracking Tools
+* Cookie Consent: Under PIPEDA and Law 25, the use of analytics cookies (Google Analytics, etc.) that identify individual users constitutes collection of personal information. Obtain consent before placing non-essential cookies. Implement a CASL and Law 25-compliant cookie consent manager.
+* Data Minimization: Configure analytics tools to anonymize IP addresses and avoid collecting more data than necessary for the stated analytics purpose.
+* Third-Party Ad Networks: CREA's DDF National Shared Pool rules prohibit displaying third-party advertisements alongside National Shared Pool listings. Do not integrate ad networks on pages displaying DDF listing data. Verify the same restriction with each regional board.
+
+
+Vendor Onboarding Checklist
+* Is this vendor named in our board data agreements? (Yes/No — update agreements if No)
+* Does the vendor operate on RESO Web API? (RETS integrations are deprecated — reject)
+* Does the vendor maintain compliance logs that we can access? (Required for TRREB/GVR/ITSO audits)
+* Does the vendor have a Data Processing Agreement for PIPEDA/Law 25? (Required if handling user PII)
+* Does the vendor's contract include liability provisions for compliance violations they cause?
+* Does the vendor support CASL-compliant unsubscribe processing within 10 business days?
+* Has the vendor disclosed all subprocessors and locations?
+
+
+
+
+NON RESIDENTIAL
+Commercial & Non-Residential MLS Listings
+
+
+Commercial real estate listings operate under fundamentally different rules from residential MLS. Most of the IDX/VOW framework described in earlier sections applies exclusively to residential properties. Marketplaces that wish to include commercial, industrial, agricultural, or multi-family listings must understand a separate compliance regime.
+
+
+How Commercial Listings are Handled in Canada
+* No Unified Commercial MLS: Canada does not have a single unified commercial MLS equivalent to the residential system. Commercial listings are fragmented across: board-specific commercial databases, national commercial platforms (CoStar, Realnet), and broker-operated private databases.
+* CREA DDF — Residential Only: The CREA DDF national feed is for residential listings only. Commercial, industrial, and agricultural listings are not included in the DDF. Do not display commercial listings as if they come from the DDF.
+* REALTOR.ca Commercial: CREA operates a commercial section of REALTOR.ca that allows members to post commercial listings, but this is separate from the residential DDF and has its own display and attribution rules.
+* Board Commercial Databases: Some boards (e.g., TRREB, CREB) maintain separate commercial MLS databases. Access requires membership AND a specific commercial data agreement — separate from the residential IDX/VOW agreement.
+
+
+CREA DDF — Listing Types NOT Included
+Listing Type
+	DDF Included?
+	Residential (single family, condo, townhouse)
+	Yes — in the National Shared Pool if opted in
+	Multi-family residential (4+ units)
+	Generally No — varies by board
+	Commercial / Office / Retail / Industrial
+	No
+	Agricultural / Farm
+	No
+	Business Opportunities
+	No
+	Saskatchewan residential
+	No — SK does not participate in DDF
+	Quebec residential
+	No — Quebec does not participate in DDF
+	
+
+Commercial Data Sources in Canada
+* CoStar Canada: The dominant commercial real estate database in Canada, covering office, retail, industrial, and multi-family. Access requires a CoStar subscription and separate data licensing. See: costar.com/ca
+* TRREB Commercial Data: TRREB provides a commercial data feed to members via PropTx. A separate commercial data agreement is required.
+* CREA Commercial on REALTOR.ca: Members can post commercial listings at realtor.ca/commercial. Compliance with CREA trademark and attribution rules applies.
+* Local Board Commercial Databases: Some boards maintain local commercial databases. Contact the board's data services department directly for access terms and compliance rules.
+
+
+Key Compliance Differences for Commercial Listings
+* No VOW Requirement: There is no equivalent to the residential VOW framework for commercial listings. Sold prices for commercial properties are not subject to the same display restrictions — however, they may be subject to privacy considerations if the buyer/seller is an identifiable individual.
+* No Standard Attribution Tag: Commercial listings do not have a standardized 'Listing provided by [Brokerage]' rule equivalent to residential IDX. Follow the data licensing terms of your commercial data source.
+* Agricultural Properties: Farm and agricultural properties may be subject to additional disclosure requirements under provincial agricultural land protection legislation (e.g., BC's Agricultural Land Commission Act, Ontario's Greenbelt Act). These are not MLS compliance issues but are relevant to accurate listing display.
+* Leasing: Commercial lease listings follow the same data source fragmentation as sale listings. Rental rate data for commercial properties is not subject to the VOW framework.
+________________
+
+
+SYSTEM BUILD
+Building an Ongoing Compliance Program
+
+
+MLS compliance is not a one-time setup task — it is an ongoing operational discipline. Boards (TRREB, ITSO, GVR) can request audit logs at any time. Feed agreements can be terminated with notice. Privacy regulators can investigate without warning. The following framework outlines a practical internal compliance program for a real estate marketplace.
+
+
+Governance Structure
+* Chief Compliance Officer (CCO) or designate: Assign a named individual responsible for MLS data compliance. This person must maintain current knowledge of all board rules and be the primary contact for board inquiries.
+* Chief Privacy Officer (CPO): Required under PIPEDA and Law 25. May be the same person as CCO in smaller organizations, but the roles are distinct.
+* Compliance Register: Maintain a living document (like this policy) that maps every board agreement, every feed type, associated display rules, audit log requirements, and expiry/renewal dates.
+* Board Agreement Tracker: Track the status of every signed IDX/VOW agreement, including the board name, feed type, signing date, renewal date, named technology vendor, and key contact at the board.
+
+
+Regular Self-Audit Schedule
+Frequency
+	Audit Activity
+	Daily (automated)
+	Confirm all Expired/Withdrawn/Terminated listings are purged within 24 hours. Alert on any purge failures.
+	Weekly
+	Review VOW registration logs for suspicious activity (bulk registrations, non-bona-fide user patterns). Confirm data freshness (no listings older than 24-hour refresh window).
+	Monthly
+	Audit a random sample of listing detail pages for brokerage attribution, watermark presence, and required disclaimer footer. Test unsubscribe mechanism in all CEM types.
+	Quarterly
+	Review all active board agreements — check for any rule updates published by boards. Review CASL consent logs for expired implied consent. Review PIPEDA breach log.
+	Annually
+	Renew all board agreements as required (e.g., ITSO VOW = $1,500/year). Full review of Privacy Policy for accuracy. Conduct or commission a WCAG accessibility audit. Update this compliance document.
+	On change
+	When making any material change to the platform (new features, new data source, new market), conduct a Privacy Impact Assessment (required under Law 25, recommended under PIPEDA) before launch.
+	
+
+Responding to a Board Notice of Violation
+If your platform receives a notice of violation or an audit request from a board (e.g., ITSO, TRREB/PropTx, GVR), follow this protocol:
+* Acknowledge within 24 hours: Respond to the board's contact within 24 hours of receipt. Failure to provide documentation within 24 hours can itself be a penalizable offence under ITSO rules.
+* Preserve evidence: Do not delete any logs, user records, or data during the investigation period.
+* Root cause analysis: Identify whether the violation was a technical error, a process gap, or a deliberate action. Document your findings.
+* Remediation plan: Provide the board with a written remediation plan and timeline. Implement fixes before responding that the issue is resolved.
+* Escalation path (ITSO example): First offence = warning. Second offence = administrative penalty invoiced to brokerage. Third offence = Incident Report to Professional Standards Committee. Fourth offence = same. Continued violations = suspension.
+* Legal counsel: For any threatened suspension or Incident Report, engage legal counsel experienced in real estate board disputes before responding.
+
+
+Feed Suspension Response Plan
+If a board suspends your data feed credentials, your listings for that board will go offline. Prepare for this scenario in advance:
+* Graceful degradation: Implement a fallback UI that displays a message like 'Some listings in this area are temporarily unavailable' rather than showing broken pages or empty results.
+* Contact list: Maintain an up-to-date emergency contact list for data services departments at all boards you connect to.
+* Backup credentials: For mission-critical boards, explore whether your board agreement permits a backup API credential for redundancy.
+* Incident log: Document every feed interruption — cause, duration, resolution — in your compliance register.
+
+
+Key Audit Log Requirements Summary
+Board / Regime
+	What to Log
+	TRREB / PropTx (VOW)
+	Every registered user + every listing they viewed
+	GVR / FVREB / CADREB (VOW)
+	Registered users, password expiry dates, listing access logs
+	ITSO (VOW)
+	Registered users + listing access
+	PIPEDA
+	All privacy breach incidents (including those below RROSH threshold)
+	Law 25 (Quebec)
+	Confidentiality incident register
+	CASL
+	All opt-in and opt-out events (IP, timestamp, consent text)
+	________________

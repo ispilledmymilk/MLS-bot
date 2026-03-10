@@ -1,0 +1,25 @@
+{
+  "name": "mls-queen",
+  "version": "1.0.0",
+  "description": "Canadian MLS Feeds Compliance desktop app — chat and DOCS from canadian_mls.txt / CANADIAN_MLS.pdf",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "electron",
+    "compliance",
+    "chatbot",
+    "MLS"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pdf-parse": "^1.1.4"
+  }
+}

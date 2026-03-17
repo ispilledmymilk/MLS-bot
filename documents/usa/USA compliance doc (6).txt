@@ -4,9 +4,6 @@ National platforms must reconcile the NAR baseline with the specific, often more
 CRMLS covers the bulk of California's residential real estate market and is the largest MLS in the United States.
 * CRMLS does NOT support the DMEL category. Any listing publicly marketed must be entered within one business day and is immediately eligible for IDX and VOW distribution.
 * Strict no-commingling rule: MLS-sourced data and non-MLS data must be displayed in separate sections or clearly labeled per listing.
-IMPORTANT CORRECTION FROM PRIOR VERSIONS: CRMLS's position on DMEL has been confirmed by NAR as being within its discretionary authority. CRMLS is fully NAR-compliant. Do not flag CRMLS's DMEL stance as a policy violation in any compliance JSON file.
-
-
 6.2 Bright MLS — Mid-Atlantic (DC, MD, VA, PA, NJ, DE, WV)
 * Bright has removed previous 'Coming Soon' status time limits, giving sellers more control over showing availability dates.
 * Requires separate signed agreements for IDX data and VOW data access.
@@ -26,12 +23,10 @@ REBNY (Real Estate Board of New York) is NOT NAR-affiliated and operates under i
 * Exclusive listings and office exclusives play a larger role in NYC than in any other U.S. market.
 * Platforms operating in NYC must execute REBNY-specific data license agreements, not standard NAR IDX agreements.
 * OneKey MLS serves Long Island, Hudson Valley, and surrounding counties; standard NAR IDX rules apply to OneKey.
-
-
 6.5 NWMLS — Northwest MLS (Washington State)
 NWMLS is NOT NAR-affiliated and operates under its own independently governed rules.
 * No mandatory buyer compensation sharing was ever required by NWMLS — the Sitzer/Burnett settlement had limited direct impact on NWMLS operations.
-* IDX and data sharing governed entirely by NWMLS rules, not NAR Policy 7.58.
+* IDX and data sharing are governed entirely by NWMLS rules, not NAR Policy 7.58.
 * Platforms must execute NWMLS-specific participant agreements.
 6.6 REcolorado — Denver Metro and Colorado
 * REcolorado implemented DMEL in 2025; verify current delay period allowance.

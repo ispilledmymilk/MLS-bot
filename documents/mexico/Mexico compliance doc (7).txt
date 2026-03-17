@@ -1,0 +1,58 @@
+﻿7. Standard Transaction Process
+The standard Mexican property purchase follows a defined sequence involving the notario público as the central legal authority. Unlike in the U.S., the notario in Mexico is a government-appointed official — not a private attorney — who has binding responsibility for the legality and tax compliance of the transaction.
+Step
+	Action
+	Party
+	Key Compliance Point
+	1
+	Obtain RFC (fiscal ID)
+	Buyer
+	Required before any contract or bank account. Foreign buyers obtain at SAT office or via power of attorney.
+	2
+	Property search — portals or regional MLS
+	Buyer
+	Verify agent's AMPI membership and NOM-247 contract registration if applicable. Check listing is not ejido land.
+	3
+	Engage a notario público and independent lawyer
+	Buyer
+	Notario conducts due diligence: title search, lien check, tax status, seller authority. Hire independent legal counsel (separate from notario and seller's agent).
+	4
+	Restricted zone check
+	Buyer / Lawyer
+	Confirm property coordinates with SRE if near coast or border. Determine if fideicomiso is required.
+	5
+	SRE fideicomiso permit (if in restricted zone)
+	Buyer / Bank
+	Apply through Mexican bank. SRE approval typically within 5 business days.
+	6
+	Sign purchase agreement / promissory contract
+	Buyer + Seller
+	Deposit paid (typically 10–30%). Document must comply with NOM-247 contract requirements.
+	7
+	AML / LFPIORPI due diligence
+	All parties
+	KYC required. Proof of funds source. Beneficial owner identification. Cash restrictions apply.
+	8
+	Pay ISAI (acquisition tax)
+	Buyer
+	Rate varies 2–5% by state. Paid to notario before or at closing.
+	9
+	Closing — sign Escritura Pública before notario
+	Buyer + Seller + Notario
+	Notario verifies all documents, taxes paid. Deed executed. Balance paid (typically by wire transfer).
+	10
+	Register in Public Property Registry (RPPyC)
+	Buyer / Notario
+	Registration completes ownership transfer. Notario typically handles this.
+	11
+	Predial (property tax) obligations begin
+	Buyer (new owner)
+	Annual predial billed by municipality. Early payment (Jan–Feb) = up to 25% discount.
+	
+
+7.1 The Notario Público — Central Role
+The notario público (Notary Public) in Mexico is a government-appointed professional with legal training who serves simultaneously as a legal authority and a government agent. The notario's role is far broader than in common-law countries: they verify title, confirm all taxes are paid, validate the seller's authority, assess AML compliance, and officially register the deed. All real estate transactions in Mexico must be executed before a notario.
+* The buyer has the right under NOM-247 to select the notario who will formalize the purchase.
+* Notario fees: typically 0.75–1.5% of property value. Fees are regulated by state aranceles (fee schedules).
+* Notario cannot proceed without proof of ISAI payment, clear title, and satisfied LFPIORPI requirements.
+LFPIORPI NOTARIO THRESHOLD — July 2025 Reform (Previously Missing): The July 2025 reform reduced the notario's LFPIORPI reporting threshold for real property transfers from 16,000 UMAs to 8,000 UMAs (approximately MXN $904,000 at 2025 UMA values). Any property transfer at or above this value now triggers mandatory notario due diligence and SAT reporting. Platforms displaying property values should flag listings at or above this threshold in any compliance workflow or transaction management tool.

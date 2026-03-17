@@ -12,7 +12,7 @@ Field
 	Remove from ingestion schema; treat as null.
 	AutomatedValuationModelYN
 	Active — Correct spelling
-	Respect opt-out flag per property. Note: prior doc had typo 'AumtomatedValuationModelYN'.
+	Respect opt-out flag per property.
 	MediaDigitalEnhancementYN
 	New in DD 2.2
 	Flag AI-staged photos on display; show side-by-side with original.
@@ -34,6 +34,9 @@ Specification
 	Query Language
 	OData v4
 	Filters, Paging, and Ordering.
+	Response Format
+	JSON
+	Optimized for mobile and web delivery.
 	Security Layer
 	TLS 1.2 minimum
 	TLS 1.3 strongly recommended.

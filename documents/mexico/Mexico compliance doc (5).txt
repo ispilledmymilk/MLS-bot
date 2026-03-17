@@ -1,0 +1,38 @@
+﻿5. NOM-247-SE-2021 — Consumer Protection Standard
+The Norma Oficial Mexicana NOM-247-SE-2021 (Commercial Practices — Requirements for Commercial Information and Advertising of Real Estate Intended for Housing, and Minimum Elements that Related Contracts Must Contain) entered into force on September 19, 2022. It is mandatory for all commercial service providers marketing residential property in Mexico, including agents, brokers, developers, builders, and — critically for marketplace platforms — any entity involved in the advice or sale of residential real estate to the public.
+SCOPE: NOM-247 applies to: developers, builders, promoters, intermediaries, brokers, and any natural or legal person involved in the commercial advice or sale of residential real estate. It does NOT apply to private individuals selling their own property directly.
+
+
+5.1 Advertising and Listing Display Requirements
+* All advertising must be truthful, verifiable, clear, and not misleading or deceptive.
+* The sale price must be displayed clearly, including all costs and taxes the consumer must pay.
+* Property features (size, construction year, location, amenities) must match what is actually delivered.
+* Availability must be kept current — listings for sold or unavailable properties must be removed promptly.
+* All portal and digital advertising is covered — NOM-247 explicitly includes digital media.
+* Pre-sale listings must clearly identify the property as pre-sale (preventa) and state the expected delivery date.
+
+
+5.2 PROFECO Contract Registration
+One of NOM-247's most significant requirements for marketplace platforms is the mandatory PROFECO adhesion contract registration. Any service provider offering residential real estate must register their standard client contracts with PROFECO before commercialisation. This includes listing agreements, mediation contracts, and purchase agreements.
+* Two approved contract models exist: the PROFECO version and the AMPI version.
+* PROFECO's jurisdiction means faster conciliation if a consumer dispute arises.
+* Platforms that use standardised agency onboarding contracts must ensure those contracts are PROFECO-registered.
+* Over 50 individual compliance points exist within NOM-247 — platforms should conduct a full NOM-247 gap analysis.
+
+
+5.3 Consumer Rights Under NOM-247
+Every consumer in a residential real estate transaction in Mexico holds the following rights under NOM-247:
+* Receive truthful, clear, and updated information and advertising, including via digital media.
+* Be informed of all activity and updated on the status of their property transaction.
+* Have the agent act in their best interests throughout the transaction (fiduciary duty).
+* Have all offers promptly communicated.
+* Have all commission rates, fees, and costs explicitly stated in the contract.
+* Receive proof of any advance payment or deposit made.
+* Select the notary public who will formalize the purchase.
+* Be protected by PROFECO conciliation in case of dispute.
+
+
+5.4 Penalties for Non-Compliance
+* Maximum PROFECO fine: MXN $5,116,688 (approximately USD $250,000 at current exchange rates).
+* PROFECO can also suspend commercial activities for serious violations.
+* Penalties apply per violation — multiple non-compliant listings can result in cumulative fines.

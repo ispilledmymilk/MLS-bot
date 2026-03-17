@@ -1,0 +1,53 @@
+﻿14. Universal Compliance Checklist
+A mature compliance programme for a Portugal marketplace platform must integrate the following controls across technical, legal, and operational functions.
+Area
+	Verification Step
+	Frequency
+	Agent AMI License
+	Verify AMI number active on IMPIC. Confirm insurance valid.
+	On agency onboarding
+	AMI Display
+	AMI number shown on all agency listings on all portals.
+	Per listing
+	Energy Certificate
+	Valid EPC present. Class displayed on listing. Check expiry.
+	Per listing
+	NIF Verification
+	Buyer and seller NIF obtained before contract signing.
+	Per transaction
+	Certidão Permanente
+	Land registry certificate pulled. No blocking encumbrances.
+	Before CPCV
+	IMT Payment
+	IMT paid via Portal das Finanças before deed signing.
+	Before Escritura
+	Stamp Duty
+	0.8% paid to notary at deed signing.
+	At Escritura
+	Land Registry Filing
+	Ownership registered post-deed at Conservatória.
+	After Escritura
+	AL License
+	AL registration number obtained and displayed on STR listing.
+	Before first guest
+	AL Insurance
+	Valid commercial landlord insurance. Proof within 3 days if requested.
+	Annual check
+	AL Guest Registration
+	All non-Portuguese guests registered via SIBA (AIMA) within 3 days.
+	Per stay
+	Tourist Tax
+	Correct rate collected and remitted monthly to correct municipality.
+	Monthly
+	AL Containment Check
+	Verify property not in municipal containment zone before AL application.
+	Before AL application
+	GDPR Consent
+	Marketing opt-in obtained before listing alerts or newsletters sent.
+	Before first send
+	Cookie Consent
+	Explicit consent banner active and compliant on platform.
+	Live on site
+	DPO Registration
+	DPO contact registered with CNPD if company is required to designate one.
+	At designation

@@ -1,11 +1,32 @@
-﻿11. AI, AVM, and Digital Staging Compliance
-11.1 AVM Data Sourcing Constraints
-* Training an AVM requires historical sold data. In non-disclosure states, this must be sourced exclusively via authorized VOW feeds.
-* Platforms are strictly prohibited from scraping sold data from county websites or competitor portals for AVM training.
-* Sellers may opt out of AVM display using the AutomatedValuationModelYN flag in the MLS feed (note: prior versions of this document misspelled this field as 'AumtomatedValuationModelYN' — this is a TYPO; the correct RESO field name is AutomatedValuationModelYN).
-* Platforms must respect the opt-out flag per individual property on every page render.
-11.2 AI-Enhanced Photo Disclosure
-* The 2026 compliance standard requires clear labeling of virtually staged or AI-enhanced photos.
-* RESO Data Dictionary 2.2 introduces the MediaDigitalEnhancementYN field to automate this disclosure.
-* Marketplace displays should provide a side-by-side or alternating view of original and AI-staged photos.
-* The OriginalMediaUrl flag in the RESO feed provides access to the non-altered source image.
+﻿12. NYC FARE Act — Broker Fee and Disclosure Rules (Effective June 11, 2025)
+FRAMING CORRECTION: The FARE Act is sometimes described as 'REBNY rental requirements.' This is factually wrong. REBNY (Real Estate Board of New York) actively challenged the FARE Act in court and lost. The FARE Act is New York City Local Law 119 of 2024, passed by the NYC Council. It has been in effect since June 11, 2025.
+
+
+The Fairness in Apartment Rental Expenses (FARE) Act took effect on June 11, 2025, fundamentally changing how broker fees are handled in New York City apartment rentals. It is enforced by the NYC Department of Consumer and Worker Protection (DCWP). Any real estate marketplace platform displaying NYC rental listings must comply with the FARE Act's advertising disclosure requirements.
+12.1 Core Rule — Fee Follows Representation
+* If a broker represents the landlord (including any listing agent who publishes a listing with the landlord's permission), the LANDLORD pays the broker fee — not the tenant.
+* If a tenant independently hires their own broker, the TENANT pays that broker's fee.
+* Landlords cannot require tenants to hire a specific broker, including a dual agent, as a condition of renting.
+* There is a rebuttable presumption that any broker who publishes a listing did so with the landlord's permission — making the landlord potentially liable for that broker's actions.
+
+
+12.2 Mandatory Listing Disclosure Requirements for Platforms
+This section directly governs marketplace platform listing display obligations for NYC rental listings:
+* All fees that prospective tenants must pay to rent an apartment must be conspicuously disclosed in every advertisement or listing — including application fees, credit check fees, and any other fees payable before lease signing.
+* Listings may NOT include broker fees payable by the tenant when the broker represents the landlord.
+* Platforms displaying NYC rental listings must not accept or display listings that pass illegal broker fees to tenants.
+* Before lease signing, landlords or their agents must provide tenants a signed, itemized written disclosure of ALL fees — the signed disclosure must be retained for three years and a copy given to the tenant.
+
+
+12.3 Permitted Fees
+* Background and credit check fees: permitted up to $20 total per applicant (New York State law cap).
+* Tenant-hired broker fees: fully permitted — if the tenant initiates the broker relationship and pays the fee directly.
+* Security deposits: capped at one month's rent under New York State law.
+
+
+12.4 Enforcement and Penalties
+* Enforcing body: NYC DCWP — issues summonses and pursues penalties through OATH hearings.
+* Civil penalties: up to $2,000 per violation (escalating schedule for repeat violations).
+* Tenants have a private right of action — they can sue in civil court to recover illegally charged fees.
+* Landlords are liable for violations committed by their agents, even if the landlord had no direct contact with the tenant.
+* REBNY's constitutional challenge and request for a preliminary injunction were both denied — the law is fully enforceable.

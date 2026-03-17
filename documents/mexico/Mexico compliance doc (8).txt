@@ -1,0 +1,126 @@
+﻿8. Tax Reference — Property Transactions
+Mexico's property tax system is primarily administered at the state and municipal level. Federal taxes apply to income (ISR) and sales tax (IVA). The key taxes for marketplace platforms to understand are the acquisition tax (ISAI), annual property tax (Predial), and capital gains tax (ISR on gains).
+8.1 ISAI — Property Acquisition Tax
+The Impuesto Sobre Adquisición de Inmuebles (ISAI) is a one-time tax on property transfer, payable by the buyer at closing. Rates are set by each state and municipality and vary significantly across Mexico.
+State / Market
+	ISAI Rate
+	Calculation Basis
+	Notes
+	Quintana Roo (Cancún, Tulum, Playa del Carmen)
+	2%
+	Purchase price
+	One of the lowest rates. Favourable for Riviera Maya buyers.
+	Baja California Sur (Los Cabos)
+	3%
+	Purchase price
+	Popular foreign buyer market.
+	Mexico City (CDMX)
+	4–8% (progressive)
+	Purchase price (higher brackets apply to higher values)
+	Progressive scale; total closing costs 6–9% for most CDMX transactions.
+	Jalisco (Guadalajara)
+	2–4%
+	Purchase price or cadastral value (higher)
+	Verify current rate with state tax authority.
+	Nuevo León (Monterrey)
+	2–3%
+	Purchase price
+	Competitive industrial market.
+	National range
+	2–5%
+	Varies
+	Foreigners pay same rate as Mexican nationals — no surcharge.
+	IMPORTANT: Residential property purchases are typically exempt from IVA (VAT) when used as a primary dwelling (casa habitación). However, new-build purchases may have VAT components on construction services depending on how the developer structures invoices. Verify on a per-transaction basis.
+
+
+8.2 Predial — Annual Municipal Property Tax
+* Calculated as a percentage of the property's cadastral value (the municipal assessed value, typically 30–70% below market value).
+* National rate range: approximately 0.1–0.45% of cadastral value per year — very low compared to U.S. or European standards.
+* Paid annually, typically by 31 March. Monthly payment options available in some municipalities.
+* Early payment discount: 5–25% available for payments made in January–February (varies by municipality).
+* Predial is assessed against the owner of record as of 1 January of the tax year.
+* Unpaid Predial is a lien against the property — platforms advising buyers should flag due diligence on Predial arrears.
+
+
+8.3 ISR — Capital Gains Tax on Sale
+Seller Type
+	Rate
+	Calculation
+	Exemptions
+	Mexican resident individual
+	1.92–35% (progressive)
+	Applied to NET gain after allowable deductions
+	Primary residence exemption available — see below
+	Non-resident individual (default)
+	25% flat
+	Applied to GROSS sale proceeds
+	No deductions under default method
+	Non-resident individual (elective)
+	35% on net gain
+	Applied to NET gain if seller elects to file Mexican ISR return
+	Allows cost deductions; may be lower than 25% of gross for high-cost properties
+	Mexican corporation
+	30% corporate ISR
+	Applied to net gain under accrual accounting
+	Standard corporate deductions apply
+	* Primary residence exemption (residents only): exempt from ISR if property was used as primary home, seller has tax residency in Mexico, sale is not within 5 years of a previous exemption, and the sale does not exceed certain value thresholds. A notario certification of primary residence is required.
+* Deductible costs that reduce the taxable gain: original purchase price + ISAI + notary fees + agent commission at purchase + documented improvement costs.
+* ISR at sale is calculated and withheld by the notario at closing.
+
+
+8.4 IVA / VAT on Rental Income
+* Short-term rentals (under 28 days, including Airbnb/VRBO-type): subject to 16% IVA on gross rental income.
+* Long-term residential rentals: exempt from IVA.
+* ISH (Impuesto Sobre Hospedaje — Lodging Tax): 5% in Quintana Roo and other tourist states. Applied to short-term rental income. Rate varies by state.
+* Rental income (ISR): Mexican residents pay progressive rate on net rental profit. Non-residents: 25% flat on gross unless electing to file a Mexican return.
+* Monthly ISR and IVA returns due by the 17th of the following month via SAT's online portal.
+
+
+8.5 Total Closing Costs — Buyer Estimate
+Cost Item
+	Typical Range
+	Paid By
+	Notes
+	ISAI (acquisition tax)
+	2–5% of purchase price
+	Buyer
+	Rate set by state. Most significant single cost.
+	Notario fees
+	0.75–1.5% of property value
+	Buyer (typically)
+	Regulated by state fee schedules.
+	Public Registry fees
+	0.2–0.5%
+	Buyer
+	Registration in RPPyC.
+	Appraisal (avalúo)
+	MXN 3,000–10,000
+	Buyer
+	Required by banks; recommended for all transactions.
+	Title search / certificates
+	MXN 1,000–5,000
+	Buyer
+	Lien search, tax status certificate.
+	Fideicomiso setup (restricted zone)
+	USD $2,000–$3,000
+	Buyer (foreigner)
+	One-time fee. Bank administrative + legal filings.
+	SRE permit (restricted zone)
+	Fixed government fee
+	Buyer (foreigner)
+	Nominal cost.
+	Independent lawyer
+	USD $1,000–$3,000+
+	Buyer
+	Highly recommended for foreign buyers.
+	Agent commission (seller's agent)
+	4–6% + 16% IVA
+	Seller
+	Paid by seller. Buyer agent less common.
+	Total buyer closing costs (est.)
+	5–8% of purchase price
+	Buyer
+	Excludes fideicomiso costs. Higher in CDMX due to progressive ISAI.
+	
+
+________________

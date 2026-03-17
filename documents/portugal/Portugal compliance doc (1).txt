@@ -1,0 +1,28 @@
+﻿1. Market Structure and Fundamental Differences
+The Portuguese real estate market operates on a fundamentally different architecture from the U.S. MLS-based system. There is no centralized listing database, no mandatory data sharing protocol between competing agencies, and no national IDX or VOW framework. Listings are distributed by individual agencies and private sellers across a fragmented ecosystem of competing commercial portals, with each agency choosing which portals to list on and under what terms.
+
+
+Topic
+	USA (MLS-based)
+	Portugal (Portal-based)
+	Centralized database
+	YES — regional MLS per area
+	NO — fragmented across portals
+	Data sharing obligation
+	YES — IDX/VOW rules mandatory
+	NO — agencies choose portals freely
+	Sold price transparency
+	YES in most states
+	PARTIAL — AT registry has records; portals show asking price only
+	Licensing body
+	NAR (national) + state boards
+	IMPIC (national regulator)
+	Listing exclusivity rule
+	CCP mandates broad exposure
+	Agency contract type governs (exclusive vs. non-exclusive)
+	Compensation
+	Post-settlement 2024 reforms
+	Typically 5–6% paid by seller; buyer agents less common
+	Feed standards
+	RESO Web API, OData, JSON
+	No national feed standard — each portal has own API

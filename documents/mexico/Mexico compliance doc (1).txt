@@ -1,0 +1,40 @@
+﻿1. Market Structure — No National MLS
+Mexico's real estate market operates without a national Multiple Listing Service or any equivalent centralized database. Unlike the United States, there is no federal IDX, VOW, or RESO-standard data feed framework. Agents, developers, and private sellers distribute listings independently across a competitive ecosystem of commercial portals. In certain high-activity tourist and coastal markets, regional AMPI chapter-affiliated MLS systems operate locally — but these are optional, not nationally mandated.
+A further critical distinction: there is no government-issued real estate agent license in Mexico at the federal level. Anybody can legally offer properties for sale without certification. AMPI membership, while widely respected and the industry's best-practice standard, is voluntary.
+
+
+Topic
+	USA (MLS-based)
+	Portugal (Portal-based)
+	Mexico (Portal + Regional MLS)
+	National MLS
+	YES — regional per area
+	NO
+	NO — regional only in select markets
+	Federal agent licensing
+	YES — state-issued
+	YES — IMPIC/AMI
+	NO — voluntary AMPI only
+	Mandatory data sharing
+	YES — IDX/VOW rules
+	NO
+	NO
+	Feed standard
+	RESO Web API
+	None
+	None — each portal proprietary
+	Consumer protection NOM
+	No direct equivalent
+	GDPR / CNPD
+	NOM-247-SE-2021 (in force Sept 2022)
+	Foreign buyer restriction
+	None
+	None (EU rules)
+	YES — Restricted Zone + Fideicomiso
+	AML obligation
+	SAR filing (FinCEN)
+	GDPR / national AML
+	LFPIORPI (July 2025 reform)
+	
+
+________________

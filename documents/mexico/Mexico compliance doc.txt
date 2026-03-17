@@ -1,0 +1,6 @@
+﻿Mexico Real Estate
+Feeds Compliance Policy 2026
+Expert Edition for Real Estate Marketplace Platforms
+Verified & Updated — March 16, 2026
+DOCUMENT PURPOSE: This document is the authoritative compliance reference for real estate marketplace platforms operating in Mexico as of March 2026. It covers market structure, AMPI and MLS systems, portal feeds, NOM-247 consumer standards, AML (LFPIORPI 2025 reform), foreign ownership rules, taxes, and data privacy.
+CRITICAL STRUCTURAL DIFFERENCE: Mexico has NO national MLS. There is no federal licensing requirement for real estate agents. AMPI membership is voluntary. Listing data flows through competing commercial portals, not a regulated central database. Some resort and coastal markets have regional AMPI-affiliated MLS systems.

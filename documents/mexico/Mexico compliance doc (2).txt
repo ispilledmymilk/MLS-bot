@@ -1,0 +1,35 @@
+﻿2. Regulatory Bodies
+2.1 PROFECO — Consumer Protection Authority
+The Procuraduría Federal del Consumidor (PROFECO) is Mexico's federal consumer protection agency and the primary regulator of real estate advertising, contracts, and commercial practices. PROFECO enforces NOM-247-SE-2021 and the Federal Consumer Protection Law (LFPC). Marketplace platforms and agents marketing residential properties are directly subject to PROFECO oversight. Consumers may file complaints directly with PROFECO for conciliation, and PROFECO can impose fines and suspend activities for non-compliance.
+* Official website: profeco.gob.mx
+* Maximum fine for NOM-247 non-compliance: MXN $5,116,688 (five million pesos — as set in NOM-247)
+* Governs: advertising, contract registration, consumer rights, disclosure, and complaint resolution
+
+
+2.2 AMPI — Professional Association
+The Asociación Mexicana de Profesionales Inmobiliarios (AMPI) is Mexico's national real estate professional association, established in 1956. AMPI is the Mexican equivalent of the U.S. NAR — it has signed a formal joint-venture with NAR, such that AMPI members automatically receive NAR membership. AMPI sets ethical standards, provides education, and operates regional MLS systems in select markets. Crucially, AMPI membership is entirely voluntary.
+* Website: ampi.org
+* Membership: approximately 5,000 members in 22+ cities and an international section
+* Requirements: 100 hours of continuing education and testing, verifiable experience, community involvement
+* Code of ethics: AMPI members are bound by fiduciary and ethical standards, though enforcement is association-level only
+* NAR relationship: AMPI-NAR joint venture — AMPI membership confers NAR membership
+* AMPI is NOT a licensing body — it cannot issue or revoke government-recognized credentials
+FOR PLATFORMS: Because there is no mandatory licensing, the only meaningful credential check a platform can perform is (1) AMPI membership status, (2) NOM-247 contract registration with PROFECO, and (3) RFC/tax registration with SAT.
+
+
+2.3 SAT — Tax Authority
+The Servicio de Administración Tributaria (SAT) administers all federal taxes, including ISR (income tax on capital gains and rental income) and IVA (VAT). SAT also supervises compliance with LFPIORPI's vulnerable activities reporting requirements for real estate transactions. All parties to a property transaction require an RFC (Registro Federal de Contribuyentes — tax identification number) from SAT.
+* Portal: sat.gob.mx
+* AML supervision: SAT oversees LFPIORPI compliance for non-financial obligated entities including real estate
+
+
+2.4 SHCP — Ministry of Finance (LFPIORPI Supervisor)
+The Secretaría de Hacienda y Crédito Público (SHCP) is the primary authority for enforcing the LFPIORPI anti-money laundering law. Real estate transactions are classified as 'vulnerable activities' under LFPIORPI and are subject to SHCP oversight via its Financial Intelligence Unit (Unidad de Inteligencia Financiera — UIF). The July 2025 LFPIORPI reform significantly expanded SHCP's enforcement powers.
+
+
+2.5 SRE — Ministry of Foreign Affairs (Foreign Buyer Permits)
+The Secretaría de Relaciones Exteriores (SRE) issues the government permit required for foreigners to establish a fideicomiso (bank trust) to purchase property in Mexico's Restricted Zone. SRE permit approval typically takes five business days.
+
+
+2.6 INFONAVIT / FOVISSSTE — Housing Finance
+INFONAVIT (Instituto del Fondo Nacional de la Vivienda para los Trabajadores) and FOVISSSTE (Fondo de la Vivienda del ISSSTE) are Mexico's primary social housing finance institutions, providing mortgage credit to formal-sector workers. Many residential listings at the entry and mid-market levels qualify for INFONAVIT-backed credit — this affects listing data requirements for platforms that integrate mortgage pre-qualification tools.

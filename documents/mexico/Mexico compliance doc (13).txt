@@ -1,0 +1,53 @@
+﻿13. Universal Compliance Checklist
+A mature compliance programme for a Mexico marketplace platform must integrate the following controls across technical, legal, and operational functions.
+Area
+	Verification Step
+	Frequency
+	Agent AMPI Status
+	Verify AMPI membership is current via AMPI chapter directory.
+	On agency onboarding
+	NOM-247 PROFECO Contract
+	Confirm agency's adhesion contract is registered with PROFECO.
+	On agency onboarding
+	RFC Verification
+	Buyer, seller, and agent RFC obtained and valid with SAT.
+	Per transaction
+	Restricted Zone Check
+	Verify property coordinates against SRE restricted zone boundary.
+	Per listing
+	Fideicomiso Flag
+	Flag listings in restricted zone as requiring fideicomiso for foreign buyers.
+	Per listing
+	Ejido Land Flag
+	Verify property is not ejido-classified via National Agrarian Registry (RAN).
+	Per listing
+	Listing Accuracy (NOM-247)
+	Confirm listing price, size, features, and availability are truthful and current.
+	Per listing
+	Sold/Unavailable Purge
+	Remove or mark as unavailable any sold or withdrawn listings promptly.
+	Daily (automated)
+	ISAI Rate Display
+	Display correct state ISAI rate in buyer cost calculator.
+	Per listing by state
+	LFPIORPI KYC
+	Collect and verify client identity and beneficial owner for transactions above UMA threshold.
+	Per transaction above threshold
+	AML Cash Restriction
+	Confirm no cash received above applicable UMA threshold.
+	Per transaction
+	AML SAT Reporting
+	File activity report with SAT for qualifying transactions.
+	Per qualifying transaction
+	Privacy Notice (ARCO)
+	Valid Aviso de Privacidad published; ARCO rights mechanism operational.
+	Live on site
+	NOM-247 Advertising
+	All portal and digital advertising reviewed for NOM-247 compliance.
+	Per campaign
+	Pre-Sale Disclosure
+	Pre-construction/pre-sale listings clearly labeled with expected delivery date.
+	Per listing
+	IVA on Short-Term Rental
+	IVA (16%) and ISH (state lodging tax) correctly disclosed for STR listings.
+	Per STR listing

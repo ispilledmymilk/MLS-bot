@@ -21,7 +21,7 @@ Zillow and Trulia implemented their Listing Access Standards (LAS) requiring tha
 * LAS enforcement began: June 30, 2025 (not 'mid-2025' as previously stated).
 * Preliminary injunction against LAS denied: February 6, 2026 (Compass v. Zillow).
 * If a listing is marketed for more than 24 hours before MLS entry, Zillow may ban that listing for the life of the listing agreement.
-LEGAL NOTE — IMPORTANT CORRECTION: The February 6, 2026 Compass v. Zillow ruling ONLY denied Compass's motion for a preliminary injunction. It is NOT a final judgment on the merits. The underlying antitrust litigation is ONGOING in the Eastern District. Do not characterize this ruling as confirming the 'legality' of Zillow's LAS. Compliance files should note case status as 'active litigation, preliminary injunction denied.'
+LEGAL NOTE: The February 6, 2026 Compass v. Zillow ruling ONLY denied Compass's motion for a preliminary injunction. It is NOT a final judgment on the merits. The underlying antitrust litigation is ONGOING in the Eastern District. Do not characterize this ruling as confirming the 'legality' of Zillow's LAS. Compliance files should note case status as 'active litigation, preliminary injunction denied.'
 
 
 4.4 Listing Status IDX/VOW Reference

@@ -1,0 +1,23 @@
+﻿11. Data Privacy — LFPDPPP
+Mexico's data protection framework is governed by the Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), enacted in 2010, and its Reglamento (implementing regulations) published in 2011. While modelled on OECD principles, Mexico's data protection law is less prescriptive than the EU's GDPR — there is no mandatory data protection officer requirement or formal certification process. The supervising authority is the INAI.
+11.1 INAI — Data Protection Authority
+The Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI) is Mexico's independent data protection authority. INAI supervises compliance with LFPDPPP and can impose fines and corrective measures on private-sector entities. Real estate marketplace platforms collecting user data are classified as responsible parties (responsables) under LFPDPPP.
+* Website: inai.org.mx
+* Maximum fine: MXN $322,120–MXN $96,636,000 (fine range set by LFPDPPP Art. 64, adjusted by index)
+
+
+11.2 Key Platform Obligations
+* Aviso de Privacidad (Privacy Notice): mandatory — must be provided before collecting personal data. Must describe purposes of processing, data transfers, and subject rights.
+* Consent: required for sensitive data processing and for secondary uses of data not originally disclosed.
+* Data subject rights (ARCO): all data subjects have the right to Access, Rectification, Cancellation, and Objection (ARCO) — platforms must implement mechanisms to honor these.
+* Data security: reasonable technical and organisational measures to protect personal data.
+* Data transfers: international data transfers to countries without adequate protection require express consent or contractual clauses.
+* Sensitive data: geographic location, financial information, biometrics — require express consent and heightened protection.
+GDPR vs LFPDPPP: Mexico's LFPDPPP is opt-out based (not opt-in) for most processing. It is less stringent than GDPR. However, for platforms serving users in Mexico AND Europe, the stricter GDPR standard should be applied globally to avoid compliance gaps.
+
+
+11.3 Email and Digital Marketing
+* Mexico's LFPDPPP allows opt-out for commercial communications — not prior opt-in as required in the EU.
+* All commercial emails must clearly identify the sender and include an opt-out/unsubscribe mechanism.
+* The Aviso de Privacidad must disclose whether personal data will be used for marketing purposes.
+* If data was collected for a different primary purpose, express consent is required before using it for marketing.

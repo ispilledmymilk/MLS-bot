@@ -1,0 +1,33 @@
+﻿3. Agent Licensing — The AMI License
+All real estate agents and agencies operating in Portugal must hold a valid AMI license (Licença AMI) issued by IMPIC. Operating without a valid AMI license is illegal and exposes the individual or company to civil and criminal penalties. For marketplace platforms, the AMI license is the single most important credential to verify when onboarding agency partners.
+3.1 AMI License Requirements
+Requirement
+	Detail
+	Governing law
+	Lei n.º 15/2013, of February 8
+	Issued by
+	IMPIC
+	Mandatory for
+	All real estate agents and agencies mediating property transactions in Portugal
+	Civil liability insurance
+	Minimum EUR 150,000 — mandatory for all licensed agencies
+	Initial registration fee
+	EUR 50
+	Annual activity fee
+	EUR 265
+	Second copy of license card
+	EUR 25
+	Display requirement
+	AMI number must appear on website, promotional materials, business cards, and ALL marketing materials
+	Change notification
+	Agency must notify IMPIC of ALL changes to registration data (Article 20, Lei 15/2013)
+	Contract register
+	Agency must maintain an updated register of all mediation contracts signed (Article 20)
+	Complaints book
+	Livro de reclamações mandatory in all physical establishments
+	
+
+3.2 Verifying an AMI License
+Platforms must verify each agency's AMI status before granting listing access. The process is straightforward: visit impic.pt, navigate to 'Verificar número AMI', enter the license number, and confirm active status and valid insurance. An AMI number that returns no result or shows 'suspended' status must not be onboarded.
+3.3 APEMIP — Professional Association
+The Associação dos Profissionais e Empresas de Mediação Imobiliária de Portugal (APEMIP) is a voluntary professional association for real estate practitioners. APEMIP membership is not required for legal operation — IMPIC registration is the mandatory credential. However, APEMIP membership signals professional commitment and adherence to a code of ethics.

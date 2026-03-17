@@ -1,0 +1,34 @@
+﻿3. AMPI Regional MLS Systems
+In select tourist and coastal markets, AMPI chapters operate local MLS systems. These are voluntary for AMPI members, not nationally mandated. There is no RESO standard, no OData API, and no IDX/VOW framework — each local MLS operates its own database and rules. Platforms wishing to access MLS data in these markets must execute separate agreements with each regional MLS.
+MLS Name
+	Region
+	Key Platform
+	Notes
+	Vallarta-Nayarit MLS
+	Puerto Vallarta / Riviera Nayarit
+	MLSVallarta.com + VallartaNayaritMLS.com
+	Oldest MLS in Mexico (operating since 1988–1989). AMPI Vallarta, AMPI Riviera Nayarit, AMPI Compostela affiliated. Uses FlexMLS platform. Pre-construction MLS rules apply.
+	Los Cabos MLS
+	Baja California Sur (Cabo San Lucas / San José del Cabo)
+	Los Cabos MLS platform
+	Covers one of Mexico's highest-value foreign buyer markets. AMPI Los Cabos affiliated. Fideicomiso zone — all residential in restricted zone.
+	Riviera Maya / Cancún MLS
+	Quintana Roo (Cancún, Playa del Carmen, Tulum)
+	Various AMPI Q. Roo chapters
+	High foreign buyer volume. Restricted zone — fideicomiso required. Multiple AMPI chapters with overlapping coverage.
+	Mexico City (CDMX)
+	Mexico City
+	No formal MLS — portal-driven
+	Largest market by volume. No AMPI MLS. Listings distributed via Inmuebles24, Propiedades.com, etc. Outside restricted zone — direct title possible for all buyers.
+	Guadalajara / Jalisco
+	Jalisco
+	AMPI Guadalajara (no centralized MLS)
+	Second-largest city. Portal-driven market. AMPI Guadalajara active but no regional MLS platform.
+	Monterrey / Nuevo León
+	Nuevo León
+	AMPI Monterrey (no centralized MLS)
+	Major industrial and business market. Outside restricted zone. No formal MLS.
+	
+
+KEY RULE — Pre-Construction MLS Entry (Vallarta-Nayarit): Within 7 days of a ratified Purchase Agreement, the pre-construction/new construction listing must be entered into the MLS. The developer must demonstrate financial capability to complete construction. The lot owner must have executed a listing agreement with an MLS participant. If all lots under a blanket agreement will not be entered within 3 days of ratification, the agreement is submitted as an Office Exclusive.
+NOM-247 PROFECO CONTRACT GATE — AMPI MLS Enforcement (Previously Missing): AMPI chapters in the Vallarta-Nayarit MLS now require agents to upload a valid PROFECO adhesion contract registration number before any listing can be entered into the MLS system. Listings submitted without a confirmed PROFECO contract number are rejected at the MLS entry stage. Platforms ingesting data from these regional MLS systems will not receive listings from non-compliant agents — building in a natural PROFECO compliance filter. This enforcement pattern is expanding to other AMPI chapters.

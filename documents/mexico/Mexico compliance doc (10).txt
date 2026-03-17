@@ -1,0 +1,50 @@
+﻿10. Anti-Money Laundering — LFPIORPI (July 2025 Reform)
+The Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI) is Mexico's primary anti-money laundering law. Real estate transactions have always been classified as 'vulnerable activities' under LFPIORPI. The July 16, 2025 reform — published in the Diario Oficial de la Federación — significantly expanded obligations, raised thresholds, added new vulnerable activities, and increased penalties.
+10.1 Key 2025 Reform Changes
+Change
+	Detail
+	Effective Date
+	Real estate development as vulnerable activity
+	Receipt of funds for real estate development projects for sale or rental is now explicitly a reportable vulnerable activity if the threshold of 8,025 UMAs (~MXN $907,948 in 2025) is exceeded.
+	July 17, 2025
+	Beneficial owner threshold reduced + effective control added
+	Ownership interest threshold reduced from 25% to 20%. Critically, the reform also adds an 'effective control' clause — individuals who exercise effective control over a legal entity must be identified even if their formal ownership stake is below 20%. This broadens the definition significantly beyond a simple percentage test.
+	July 17, 2025
+	Cash restriction expanded — includes bank-routed payments
+	Amended Article 32 explicitly prohibits settling real estate obligations using coins, banknotes (national or foreign currency), or precious metals — whether handed over directly OR processed through a financial institution. The restriction is not limited to physical cash exchanges; payments routed through a bank in cash form are equally prohibited above threshold.
+	July 17, 2025
+	Internal policies manual
+	All obligated entities must prepare and maintain an internal AML policies and procedures manual.
+	July 17, 2025 (implementation rules pending)
+	Automated monitoring systems
+	Implementation of automated transaction monitoring mechanisms required for continuous oversight.
+	Implementation rules pending (up to 12 months)
+	Annual audits
+	Internal or external audits required annually depending on risk level.
+	Implementation rules pending
+	Fideicomiso / trust obligations
+	Trusts are explicitly subject to all LFPIORPI obligations, including beneficial owner identification.
+	July 17, 2025
+	Increased penalties
+	Fines up to 65,000 times the daily UMA value, OR 100% of the transaction value — whichever is greater.
+	July 17, 2025
+	Voluntary compliance benefit
+	One-time benefit: SHCP may waive penalties for voluntary regularization before an official verification begins.
+	July 17, 2025
+	
+
+10.2 Real Estate Marketplace Platform Obligations
+Marketplace platforms that facilitate real estate transactions or provide matching services between buyers and developers may be classified as 'obligated subjects' under LFPIORPI. Platforms should seek formal legal advice on whether their specific business model triggers LFPIORPI obligations. The following are the standard obligations for any entity classified as an obligated subject:
+* KYC (Know Your Customer): identify and verify clients and beneficial owners before executing transactions.
+* Beneficial owner identification: 20% formal ownership OR effective control — whichever is triggered first. Individuals exercising effective control over an entity must be identified even if their formal stake falls below 20%. The 20% is a floor, not an absolute ceiling.
+* Cash restrictions (Article 32, amended July 2025): prohibited above UMA threshold whether physical cash OR payments routed through a financial institution in cash form. Wire transfer (SPEI) is the required method for qualifying transactions.
+* SAT reporting: file activity reports with SAT's Vulnerable Activities portal (portaldeobligaciones.sat.gob.mx).
+* Record retention: maintain all client identification and transaction records for at least 10 years.
+* Designate compliance officer: register with SHCP.
+* Internal policies manual: document all AML procedures.
+* Automated monitoring: implement transaction monitoring systems.
+* Annual audit: internal or external depending on risk classification.
+IMPORTANT: Implementation rules (Reglas Generales) for some new 2025 reform obligations are still being issued by SHCP and SAT. Platforms must monitor the Diario Oficial de la Federación for these secondary regulations as they are published.
+
+
+________________

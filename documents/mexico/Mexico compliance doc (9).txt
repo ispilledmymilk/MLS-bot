@@ -1,0 +1,74 @@
+﻿9. Nuevo León Civil Code Reform — Pre-Sale Rules (Effective March 17, 2026)
+On January 16, 2026, the Congress of the State of Nuevo León published Decree Number 178 in the Official Gazette (Periódico Oficial del Estado), amending the Civil Code of Nuevo León to expressly regulate real estate pre-sale offers. The reform enters into force on March 17, 2026 — today — making this the most time-sensitive compliance item in this document for marketplace platforms operating in Nuevo León or distributing listings from the Monterrey metropolitan area.
+EFFECTIVE TODAY — MARCH 17 2026: Any pre-sale listing or pre-sale offer received or published in Nuevo León on or after March 17, 2026 is subject to the new Civil Code provisions. Platforms must update their listing intake workflows, pre-sale disclosure logic, and developer onboarding immediately.
+
+
+9.1 Legal Definition of Pre-Sale — Now Codified
+The reform introduces Article 1720 Bis and six subsidiary articles. For the first time in Nuevo León, a legal definition of real estate pre-sale is codified. A pre-sale offer is defined as an offer to purchase a real estate property with respect to which, at the time of the offer, the owner of the future real estate is not yet legally able to transfer the property because the property is still under development.
+
+
+9.2 Construction License Requirement
+Article 1720 Bis 2 imposes the most significant obligation for developers and platforms. Only the holder of a valid, in-force construction license (licencia de construcción) may receive pre-sale offers from buyers. The key rules are:
+* Mandatory pre-condition: a valid construction license must exist before any pre-sale offer can be made or received.
+* No license = no pre-sale: if no valid construction license exists, no pre-sale offers may be accepted.
+* Assignment allowed: the license holder may assign their rights to receive pre-sale offers to another party, BUT the assignment must be made in writing and ratified before a notary public.
+* Sales authorization vs construction license: a developer may offer pre-sales even if the formal sales authorization (autorización de ventas) required by Nuevo León's Urban Development Law has not yet been issued — but if that authorization is subsequently denied, the developer must return all amounts received plus 9% annual interest within 60 calendar days.
+
+
+9.3 Offer Acceptance Timeline
+* Once a pre-sale offer is received, the developer has a maximum of 3 months to notify acceptance.
+* If 3 months pass without express acceptance, the offer is legally deemed rejected.
+* Acceptance of the pre-sale offer does NOT constitute a definitive sale — it is a binding preliminary commitment, not a completed transfer.
+* Delivery of any deposit or advance payment by the buyer constitutes automatic acceptance of the offer by the developer.
+
+
+9.4 Developer Disclosure Obligations
+Once a pre-sale has been accepted, the developer (recipient of the offer) is obligated to promptly inform the buyer (offeror) if either of the following occurs:
+* Expiration or lapse of the construction license
+* Denial of the sales authorization by the relevant urban development authority
+Upon either event, the buyer has the right to revoke the pre-sale offer. The developer must then return ALL amounts received, plus interest at a minimum annual rate of 9%, within 60 calendar days of the revocation. This right cannot be waived in advance by the buyer.
+
+
+9.5 Penalties and Enforcement
+* Penalties for non-compliance (e.g. late delivery, default on obligations) may be agreed by both parties in the pre-sale document.
+* Agreed penalties are enforceable without the need for a prior judicial declaration — a significant departure from prior law that required court proceedings.
+* In case of non-payment of agreed penalties or refunds, obligations may be enforced directly.
+
+
+9.6 Minimum Content of Pre-Sale Document
+The reform establishes minimum content requirements for the document in which the pre-sale is recorded. Platforms displaying pre-construction listings or facilitating pre-sale transactions must ensure developer-supplied documents contain these elements:
+* Identification of both parties (offeror/buyer and recipient/developer)
+* Full property description including location, dimensions, and intended use
+* Reference to the construction license number and issuing authority
+* Total price and payment schedule
+* Expected completion and delivery date
+* Terms for return of deposits if construction license expires or sales authorization is denied
+* Agreed penalties for non-compliance by either party
+
+
+9.7 Platform Compliance Obligations for Nuevo León Pre-Sale Listings
+Obligation
+	Detail
+	JSON Field
+	Construction license verification
+	Before publishing any new-build or pre-construction listing in Nuevo León, verify that developer holds a valid construction license. Display license number on listing.
+	nl_construction_license_number, nl_construction_license_valid
+	Pre-sale disclosure label
+	Label all pre-construction listings in Nuevo León as 'pre-sale' (preventa) with expected delivery date.
+	nl_presale_listing, nl_expected_delivery_date
+	Assignment verification
+	If developer is not the construction license holder, verify notarized written assignment exists.
+	nl_license_assignment_notarized
+	Deposit protection disclosure
+	Inform buyers that deposits are refundable plus 9% annual interest if license expires or sales authorization denied.
+	nl_deposit_protection_disclosed
+	3-month acceptance window
+	Flag listings where offer has not been accepted within 3 months as requiring status review.
+	nl_offer_acceptance_deadline
+	Developer disclosure tracking
+	Track whether developer has notified buyers of any license expiry or sales authorization denial.
+	nl_disclosure_compliant
+	NOM-247 INTERACTION: The Nuevo León reform operates alongside NOM-247-SE-2021. Both apply to pre-sale marketing in Nuevo León. NOM-247 governs federal advertising standards; the Civil Code reform governs the contractual and legal structure of the pre-sale itself. Platforms must comply with both.
+
+
+________________

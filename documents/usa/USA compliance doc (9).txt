@@ -1,16 +1,66 @@
-﻿9. Fair Housing and ADA Web Accessibility
-9.1 Algorithmic Bias and Disparate Impact
-* HUD's 2023 guidance on AI and fair housing confirmed the 'disparate impact' standard applies to algorithmic tools used by real estate platforms.
-* Platforms must regularly audit search-ranking algorithms and recommendation engines to ensure they do not systematically steer users based on protected characteristics.
-* Use of geographic proxies (ZIP code, school district) in ranking models requires rigorous testing for discriminatory outcomes.
+﻿9. FinCEN Residential Real Estate Rule — Effective March 1, 2026
+The Financial Crimes Enforcement Network (FinCEN), a bureau of the U.S. Treasury Department, implemented a nationwide Residential Real Estate (RRE) Rule on March 1, 2026. This rule replaces the prior system of Geographic Targeting Orders (GTOs), which applied only in select cities with purchase price thresholds. The new rule has no geographic limitations and no minimum purchase price — it applies nationwide to any qualifying transaction.
+SCOPE: The RRE Rule applies when all three conditions are met: (1) residential real estate is transferred, (2) the buyer is a legal entity or trust — NOT an individual taking title in their own name, and (3) the transaction is non-financed, meaning no mortgage from a regulated bank secured by the property.
 
 
-9.2 WCAG 2.1 Level AA Digital Accessibility
-* Federal courts have consistently held WCAG 2.1 Level AA as the compliance standard for real estate websites.
-* Descriptive alt-text required on all property photos (e.g., 'Kitchen with granite countertops and stainless steel appliances').
-* Keyboard-only operability required for all interactive maps.
-* Skip-navigation links required for screen readers.
-* At least one manual screen-reader audit must be performed annually.
+9.1 What Is a 'Non-Financed' Transfer
+A transfer is non-financed unless it involves credit that is both secured by the property being transferred AND extended by a financial institution subject to federal AML program and SAR requirements. The following all qualify as non-financed and are therefore reportable if the buyer is an entity or trust: all-cash purchases, seller-financed transactions, privately financed transactions, and loans from non-bank lenders not subject to AML obligations.
 
 
-________________
+9.2 Covered Property Types
+* Single-family houses, townhouses, condominiums, and cooperatives (including units in large multi-unit buildings)
+* One-to-four family residential properties
+* Vacant land where the purchaser intends to construct a one-to-four family residential structure
+* Mixed-use and apartment buildings
+* Applies in all 50 states, Washington D.C., Puerto Rico, and Native American lands
+
+
+9.3 Who Must File — Reporting Person Cascade
+The filing obligation falls on designated 'reporting persons' involved in the closing or settlement — not on buyers or sellers directly. The cascade works as follows: the first person on a defined list who is involved in the transaction must file. The list includes: the closing or settlement agent that prepares the closing statement, the title insurance company, the escrow company, the buyer's attorney, and the seller's attorney, in that priority order.
+ATTORNEY STATES: Attorneys in states where attorneys routinely handle escrow and title — including New York, Connecticut, Delaware, Georgia, Massachusetts, North Carolina, South Carolina, Vermont, and West Virginia — should expect to be designated as the reporting person in many transactions.
+
+
+9.4 What Must Be Reported
+* Property address and legal description
+* Closing date and purchase price
+* Payment method
+* For entity buyers: full name, address, jurisdiction of formation, EIN, and beneficial owner information for all individuals with 25%+ ownership or substantial control
+* For trust buyers: trustee information, grantor information, beneficiary information, and information on any individuals with authority to control decisions on behalf of the trust
+
+
+9.5 Filing Deadline and Retention
+* Report must be filed by the LATER of: (1) the last day of the month following the month of closing, OR (2) 30 calendar days after closing date.
+* The reporting person must retain a copy of the filed report for five years.
+* FinCEN does not permit submission of reports with missing required information — collect all data before closing.
+
+
+9.6 Exemptions
+* Transfers occurring by reason of death or inheritance
+* Transfers incident to divorce or dissolution of marriage
+* Court-ordered transfers
+* Bankruptcy proceedings
+* Certain Section 1031 exchange transactions (narrowly defined — verify on a per-transaction basis)
+NOT EXEMPT: Individual buyers taking title in their own name are not covered (no reporting required regardless of payment method). But the moment an LLC, partnership, corporation, or trust is the buyer, the rule applies to non-financed transactions.
+
+
+Scenario
+	Reportable?
+	Reason
+	Individual buys home with all cash, takes title in own name
+	NO
+	Buyer is an individual, not entity or trust
+	LLC buys home with all cash
+	YES
+	Entity buyer + non-financed
+	Trust buys home, no mortgage
+	YES
+	Trust buyer + non-financed
+	LLC buys home with regulated bank mortgage
+	NO
+	Financed by AML-regulated institution
+	LLC buys home with seller financing
+	YES
+	Seller financing = non-financed under rule
+	Individual buys home, places in LLC after closing
+	NO
+	Transfer at closing was to individual

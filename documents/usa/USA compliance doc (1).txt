@@ -3,12 +3,41 @@ The foundational structure of the U.S. MLS system has shifted from a rigid top-d
 
 
 1.1 MLS Count — Verified Figure
-As of early 2026, RESO tracks just over 500 MLS systems in the United States. The National Association of REALTORS® (NAR) oversees approximately 500 REALTOR-affiliated MLSs. Any reference to "580" in prior versions of this document was incorrect and has been removed. 
+As of early 2026, RESO tracks just over 500 MLS systems in the United States. The National Association of REALTORS® (NAR) oversees approximately 500 REALTOR-affiliated MLSs. Any reference to "580" in prior versions of this document was incorrect and has been removed. Use 'just over 500' in all JSON metadata fields.
+1.2 The 18 NAR MLS Policy Changes — Full Reference
+On November 14–16, 2025, during NAR NXT in Houston, NAR's Executive Committee approved 18 comprehensive updates to the MLS Policy Handbook — the most extensive update in 20 years. These changes took effect January 2026. Five policy changes with direct platform impact were missing from the prior version of this document and are added here.
+CRITICAL ADDITION — POLICY 7.87 REPEAL: NAR repealed Policy Statement 7.87 (Transmittal of Participants' Listings to Aggregators and Public Sites). There is NO longer any national framework governing whether an MLS must transmit listing data to third-party portals or aggregators. Syndication is now entirely a local MLS decision. Platforms cannot assume any national syndication right — every market now requires a per-MLS syndication agreement.
 
 
-1.2 NAR Self-Certification Deadline — New in 2026
+Policy
+	Change
+	Platform Impact
+	PS 7.7 — Association Membership as MLS Prerequisite
+	REPEALED
+	Membership may still be required locally. Platforms must verify participation rules per MLS — no national standard.
+	PS 7.58 — IDX Display Limited to REALTORS® Only
+	AMENDED — local restriction removed
+	MLSs can no longer limit IDX display rights exclusively to REALTOR® members. Broader IDX eligibility is now the default.
+	PS 7.87 — Syndication to Third-Party Aggregators
+	REPEALED — CRITICAL FOR PLATFORMS
+	No national syndication framework exists. Every MLS sets its own syndication rules. Platforms must execute individual agreements per MLS.
+	PS 7.62 — Open Listings Excluded from MLS
+	REPEALED
+	MLSs may now choose to accept open listings where permitted by state law. Update listing status logic accordingly.
+	PS 7.89 — MLS Financial Penalty Cap ($15,000)
+	REPEALED
+	The national $15,000 MLS violation fine cap is removed. Local MLSs now set their own fine schedules with no ceiling.
+	Section 5 — MLS Disciplinary Guidelines
+	FULLY REPEALED
+	Entire disciplinary framework removed from national handbook. Each MLS now governs its own discipline, fines, and enforcement.
+	PS 7.71 & 7.73 — Offer Presentation Rules
+	REPEALED from MLS rules
+	Offer obligations now governed solely by NAR Code of Ethics and state law — not enforceable as MLS violations.
+	
+
+1.3 NAR Self-Certification Deadline — New in 2026
 Unless indicated otherwise in the NAR 2026 MLS Handbook, all local MLS organizations were required to self-certify adoption of the updated Handbook policies by March 1, 2026. This deadline is not present in prior versions of this document and is critical for compliance auditing: any MLS that has not self-certified by this date is operating out of policy and presents elevated feed risk for marketplace platforms.
-1.3 Participation Models — Thompson Broker Rule (FL, GA, AL)
+1.4 Participation Models — Thompson Broker Rule (FL, GA, AL)
 Since 1991, Florida, Georgia, and Alabama have permitted non-REALTOR member access to the MLS via what is commonly called the "Thompson Broker" rule. In these three states, licensed brokers who are not NAR members retain the right to access MLS data and IDX feeds. Marketplace platforms operating in these states must account for Thompson Broker participants in their feed access verification logic.
 State
 	Participation Rule
@@ -32,7 +61,7 @@ State
 	Check local MLS participation policy.
 	
 
-1.4 Access Mechanisms
+1.5 Access Mechanisms
 Marketplace platforms interact with listing data through three primary mechanisms, each fundamentally altered by the August 17, 2024, antitrust settlement and subsequent 2026 policy updates.
 Mechanism
 	2026 Compliance Focus
@@ -49,6 +78,3 @@ Mechanism
 	BBO Feed
 	Internal analytics and back-office operations.
 	MLS Policy Statement 8.7.
-	
-
-________________

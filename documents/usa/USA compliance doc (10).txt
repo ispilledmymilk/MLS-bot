@@ -1,26 +1,25 @@
-﻿10. Antitrust and Competition Law — 2026
-10.1 FTC / State AG Action Against Zillow and Redfin — Corrected
-The FTC filed suit on September 30, 2025, against Zillow and Redfin centering on a multifamily rental syndication agreement. The complaint alleges the $100 million deal effectively eliminated Redfin as a competitor in the ILS advertising market for large unit complexes.
-IMPORTANT CORRECTION — MISSING CO-PLAINTIFFS: Five state Attorneys General co-filed identical allegations on October 1, 2025: Arizona, Connecticut, New York, Virginia, and Washington State. The cases were consolidated. All compliance JSON files referencing this litigation must include all six plaintiffs (FTC + 5 state AGs) and note venue as the Eastern District of Virginia.
+﻿10. Washington State SB 6091 — Pocket Listing Prohibition
+Washington State Senate Bill 6091 was signed into law by Governor Bob Ferguson in mid-March 2026, following unanimous passage in the Senate (49-0 on February 10, 2026) and passage through the House. The law adds a new provision to Chapter 18.86 RCW (Washington's real estate brokerage law) prohibiting selective, exclusive, or private listing marketing for residential real estate.
+EFFECTIVE DATE — CRITICAL: SB 6091 was signed in March 2026 but does NOT take immediate effect. The law goes into effect approximately three months after signing — June 10, 2026. Platforms should prepare for enforcement from that date, not from the signing date.
 
 
-10.2 Compass v. Zillow — Corrected Case Status
-CRITICAL LEGAL CORRECTION: The February 6, 2026 ruling in Compass v. Zillow ONLY denied Compass's motion for a preliminary injunction. This is NOT a final judgment. The court found Compass had not shown a likelihood of success on the merits at the injunction stage. The underlying antitrust case is still ACTIVE. Do not characterize this ruling as confirming the legality of Zillow's LAS policy.
-Antitrust Risk Area
-	Compliance Strategy
-	Regulatory Focus
-	Exclusive Data Deals
-	Ensure non-exclusive access to all MLS feeds.
-	FTC Bureau of Competition.
-	Compensation Aggregation
-	Do not display or host any broker compensation data.
-	NAR Settlement Mandate.
-	Algorithmic Pricing
-	Use independent pricing models; avoid coordination.
-	Sherman Act Section 1.
-	Listing Bans
-	Neutral, consistent application of transparency rules.
-	Compass v. Zillow (active case).
-	State AG Risk
-	Monitor AZ, CT, NY, VA, WA enforcement actions.
-	Five-state AG coalition (Oct 2025).
+10.1 What the Law Prohibits
+Under SB 6091, a Washington-licensed broker may NOT market the sale or lease of residential real estate to a limited or exclusive group of prospective buyers or brokers, or any combination thereof, unless the real estate is concurrently marketed to the general public and all other brokers.
+* Prohibition: marketing to selective, private, or exclusive buyer networks without simultaneous public marketing
+* Required: any residential listing a broker markets must be accessible to all consumers and all Washington-licensed brokers at the same time
+* Enforcement: violations are subject to disciplinary action by the Washington State Department of Licensing
+
+
+10.2 What the Law Does NOT Prohibit
+* Private party sales: a seller may sell their property privately without listing it — the law only applies once a broker markets the property
+* Not an MLS mandate: the law does NOT require MLS entry. Public marketing can be as simple as posting on the broker's own website
+* Technology neutral: the law does not specify how public marketing must occur — no sign, open house, or MLS listing required, only that the listing be broadly accessible
+* Health/safety exception: exclusive marketing is permitted where reasonably necessary to protect the health or safety of the owner or occupant
+
+
+10.3 Platform Compliance Implications
+* Washington platforms and brokers using private listing network models (e.g. Compass Private Exclusives) must redesign workflows before the effective date
+* NWMLS already prohibited private listings — SB 6091 creates a uniform statewide standard superseding the patchwork of MLS-specific rules
+* The law applies to all Washington-licensed brokers regardless of which MLS they belong to, closing the previous gap where non-NWMLS brokers could use private listing strategies
+* Platforms should update their listing intake and compliance screening for Washington-state listings by June 2026
+NATIONAL SIGNIFICANCE: Washington is the first state to codify a pocket listing prohibition into broker licensing law. Industry observers expect other states to introduce similar legislation in 2026-2027. Oregon, Colorado, and Minnesota have been cited as likely next movers.

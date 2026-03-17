@@ -6,6 +6,3 @@ The FTC's CAN-SPAM Act remains the federal standard for commercial email. Unlike
 * Transactional messages (e.g., VOW registration confirmations) are largely exempt, provided they contain no false or misleading routing information.
 * Each separate email in violation of CAN-SPAM is subject to civil penalties of up to $53,088 (2026 FTC-adjusted figure).
 * Unsubscribe mechanisms must be clearly visible and all opt-out requests honored within ten (10) business days.
-
-
-________________

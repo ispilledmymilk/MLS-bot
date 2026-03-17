@@ -1,0 +1,52 @@
+﻿6. Foreign Ownership Rules and the Fideicomiso
+Mexico's Constitutional restriction on foreign property ownership in coastal and border areas is one of the most important compliance considerations for any marketplace platform serving international buyers. All platforms must correctly identify whether a property falls inside or outside the Restricted Zone and surface the appropriate ownership structure accordingly.
+6.1 The Restricted Zone
+Zone
+	Definition
+	Foreign Ownership Rule
+	Restricted Zone — coastal
+	All land within 50 kilometers of any coastline
+	Direct foreign ownership PROHIBITED. Must use fideicomiso or Mexican corporation.
+	Restricted Zone — border
+	All land within 100 kilometers of any international border
+	Direct foreign ownership PROHIBITED. Must use fideicomiso or Mexican corporation.
+	Interior Mexico (outside restricted zone)
+	All other areas: Mexico City, Guadalajara, Monterrey, Querétaro, and most of the interior
+	Direct foreign ownership PERMITTED. Foreigner registers directly in their name in the Public Property Registry.
+	CRITICAL: The restricted zone applies equally to ALL foreign nationalities — there is no preferential treatment for U.S., Canadian, EU, or any other passport. All foreign buyers face identical constitutional restrictions.
+
+
+6.2 The Fideicomiso — Bank Trust Structure
+The fideicomiso is a legally recognized bank trust that allows foreign buyers to hold property rights in Mexico's Restricted Zone. Under the fideicomiso structure, a Mexican bank holds legal title as trustee while the foreign buyer is the trust beneficiary with full practical ownership rights. The structure is legally sound, widely used, and specifically designed by Mexican law to facilitate international investment.
+Feature
+	Detail
+	Trust duration
+	50 years — renewable indefinitely
+	Foreign buyer's rights
+	Full: sell, lease, renovate, mortgage, bequeath — all require only the buyer's written instruction to the bank
+	Bank's role
+	Trustee — holds legal title only. Cannot act without buyer's written approval.
+	SRE permit
+	Required from the Ministry of Foreign Affairs (SRE). Typically approved within 5 business days.
+	Setup cost
+	USD $2,000–$3,000 (one-time). Includes bank administrative work and legal filings.
+	Annual fee
+	USD $550–$1,000 per year to the trustee bank for ongoing trust management.
+	Setup timeline
+	45–60 days average from SRE permit approval to closing.
+	Inheritance
+	Beneficiaries named in the trust document. Property passes without Mexican probate.
+	Commercial properties (non-residential)
+	Foreigners may hold directly through a 100% foreign-owned Mexican corporation in the restricted zone for commercial purposes.
+	
+
+6.3 Outside the Restricted Zone — Direct Ownership
+Foreigners purchasing property outside the restricted zone — including Mexico City, Guadalajara, Monterrey, Querétaro, and most interior cities — may hold title directly in their own name, registered in the Public Property Registry. This is called dominio pleno (freehold). As of early 2026, this form of ownership is fully available to all foreign nationals with no additional structures required.
+
+
+6.4 Ejido Land — Critical Risk
+Ejido land is communal agricultural land under a special constitutional classification. Ejido land cannot be directly purchased by foreigners and in many cases cannot be transacted at all without a formal conversion process. Platforms must ensure listings do not display ejido-classified land without clearly flagging the classification and the legal complexity. Purchasing ejido land without proper legal conversion is a common and serious mistake for foreign buyers.
+PLATFORM OBLIGATION: Any listing involving ejido-classified land should carry a clear disclosure label. Platforms should not display ejido land as straightforwardly purchasable without surfacing the legal risk prominently.
+
+
+________________

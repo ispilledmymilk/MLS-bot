@@ -1,0 +1,73 @@
+﻿4. Listing Portal Landscape
+Mexico's listing market is dominated by a small number of large portals, with a significant ownership consolidation having occurred in 2022 when Brazilian PropTech giant QuintoAndar acquired both Inmuebles24 (the market leader) and Vivanuncios. This duopoly structure has significant implications for marketplace platforms seeking feed integrations.
+4.1 Major Portals — Reference Table
+Portal
+	URL
+	Owner
+	Position
+	Key Notes
+	Inmuebles24
+	inmuebles24.com
+	QuintoAndar (Brazil)
+	#1
+	Market leader. Over 424,000 active listings. QuintoAndar also offers free CRM to agents — used to discourage third-party CRM integrations.
+	Propiedades.com
+	propiedades.com
+	Independent (acquired 2022)
+	#2
+	Claims 1.2M active listings, 270,000 exclusives. Strong in mid-market residential. Rose to #2 after QuintoAndar consolidation.
+	Vivanuncios
+	vivanuncios.com.mx
+	QuintoAndar (Brazil)
+	#3
+	Historically #2; dropped after QuintoAndar shifted focus to Inmuebles24 brand. Stronger in secondary cities.
+	Lamudi México
+	lamudi.com.mx
+	Lifull (Japan, acquired 2023 from Dubizzle)
+	#4
+	New-build and premium residential focus. Also integrated into Proppit aggregator network (Trovit, Mitula, Icasas, Wasi).
+	Metros Cúbicos
+	metroscubicos.com
+	MercadoLibre
+	#5
+	MercadoLibre marketplace integration gives high visibility. Mixed residential and commercial.
+	MercadoLibre Inmuebles
+	inmuebles.mercadolibre.com.mx
+	MercadoLibre
+	#5 (same)
+	MercadoLibre's native real estate section. Very high traffic from MercadoLibre's general marketplace.
+	Trovit / Mitula / Icasas
+	trovit.com.mx / icasas.mx
+	Lifull / Proppit
+	Aggregator
+	Aggregate listings from multiple sources. Part of Lifull/Proppit network. Good for reach; low lead quality.
+	Clau.com
+	clau.com
+	Mexican PropTech startup
+	Challenger
+	Super-app model: listings + mortgage + AVM. Data analytics focus. Growing in CDMX.
+	Doorvel
+	doorvel.com
+	Independent
+	Niche
+	Newer platform, lightweight UX, personalised recommendations.
+	REMAX México
+	remax.com.mx
+	REMAX (franchise)
+	Agency brand
+	REMAX franchise network brand site. Not a general aggregator.
+	Century 21 México
+	century21mexico.com
+	Century 21 (franchise)
+	Agency brand
+	Century 21 franchise brand site.
+	
+
+4.2 Portal Compliance Obligations
+* NOM-247-SE-2021 applies to all advertising on all portals — truthful, verifiable, clear information is mandatory.
+* Lamudi listings carry a standard footer referencing NOM-247-SE-2021 and the portal's PROFECO adhesion contract registration number (e.g., Contract 924-2025 on Lamudi). Platforms must replicate or reference this disclosure where required.
+* There is no national feed standard. Each portal has its own proprietary API and XML/JSON feed format. Platforms must build per-portal integrations.
+* QuintoAndar (Inmuebles24 + Vivanuncios) blocked EasyBroker CRM feeds in 2023 and offers its own free CRM — platforms should monitor ongoing access restrictions.
+* Duplicate listings are endemic — the same property often appears on multiple portals simultaneously under different agencies (legal under non-exclusive contracts).
+* Private individuals may list on most portals without AMPI membership or NOM-247 compliance (NOM-247 applies to commercial service providers only).
+IVA / VAT ON PORTAL FEES: Portal listing fees are subject to 16% IVA. Platforms and agencies must obtain valid CFDI (electronic invoice) from portals for tax deduction purposes.

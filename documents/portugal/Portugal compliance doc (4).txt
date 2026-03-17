@@ -1,0 +1,56 @@
+﻿4. Listing Portal Landscape
+In the absence of an MLS, Portugal's property market is distributed across a competitive ecosystem of listing portals. Unlike the U.S. system where IDX feeds create a standardized data layer, each Portuguese portal operates independently with its own proprietary feed formats, API specifications, and content policies.
+4.1 Major Portals — Reference Table
+Portal
+	URL
+	Position
+	Key Notes
+	Idealista Portugal
+	idealista.pt
+	#1 — Largest
+	Spain-origin platform. Available in 15+ languages. Free for private sellers. Requires AMI display for all agency listings.
+	Imovirtual
+	imovirtual.com
+	#2
+	Local favourite, strong in rentals. Paid listings auto-cross-post to OLX (same OLX Group ownership).
+	OLX Imóveis
+	olx.pt
+	#2–3 (general classifieds)
+	General classifieds platform. Private and agency listings. Less professional oversight than specialist portals.
+	Casa Sapo
+	casa.sapo.pt
+	#4
+	Legacy portal established 2001. Strong agency partnerships. Also branded as SuperCasa (mobile app).
+	Green Acres
+	green-acres.pt
+	#5
+	Primarily targets international buyers. English-friendly interface. Rural, villa, and luxury focus.
+	BPI Expresso Imobiliário
+	bpiexpressoimobiliario.pt
+	#6
+	Bank-owned. Specialist in bank-repossessed properties. High-value listings.
+	REMAX Portugal
+	remax.pt
+	Agency #1 brand site
+	REMAX Portugal brand portal. Separate from general listing portals above.
+	ERA Portugal
+	era.pt
+	Agency #2 brand site
+	ERA Portugal brand portal. Strong nationwide coverage.
+	Pure Portugal
+	pureportugal.co.uk
+	Niche
+	Specialist in rural land, farms, and renovation projects. Not a mainstream general portal.
+	Custo Justo
+	custojusto.pt
+	Classifieds
+	Budget classifieds. Peer-to-peer. Low agency presence. No AMI verification.
+	
+
+4.2 Portal Compliance Rules
+* AMI number must be displayed on all agency listings across all portals — this is a national legal requirement, not a portal policy.
+* There is no national feed standard equivalent to RESO. Each portal has its own API and feed format. Platforms must build per-portal integrations.
+* The same property is frequently listed by multiple agencies simultaneously on the same portal, which is legal under non-exclusive agency contracts.
+* Sold prices are not displayed on any portal. Only asking prices are shown. Actual sale prices are held by the AT (tax authority).
+* Imovirtual paid listings automatically cross-post to OLX due to shared OLX Group ownership.
+* Private individuals may list on Idealista (free), OLX, and Custo Justo without an AMI license.

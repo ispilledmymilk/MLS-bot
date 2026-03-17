@@ -1,0 +1,24 @@
+﻿14. Antitrust and Competition Law — 2026
+14.1 FTC / State AG Action Against Zillow and Redfin
+The FTC filed suit on September 30, 2025, against Zillow and Redfin centering on a multifamily rental syndication agreement. The complaint alleges the $100 million deal effectively eliminated Redfin as a competitor in the ILS advertising market for large unit complexes.
+
+
+14.2 Compass v. Zillow — Case Status
+Antitrust Risk Area
+	Compliance Strategy
+	Regulatory Focus
+	Exclusive Data Deals
+	Ensure non-exclusive access to all MLS feeds.
+	FTC Bureau of Competition.
+	Compensation Aggregation
+	Do not display or host any broker compensation data.
+	NAR Settlement Mandate.
+	Algorithmic Pricing
+	Use independent pricing models; avoid coordination.
+	Sherman Act Section 1.
+	Listing Bans
+	Neutral, consistent application of transparency rules.
+	Compass v. Zillow (active case).
+	State AG Risk
+	Monitor AZ, CT, NY, VA, WA enforcement actions.
+	Five-state AG coalition (Oct 2025).

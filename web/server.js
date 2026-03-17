@@ -126,13 +126,14 @@ async function loadUsaDocuments() {
     console.warn('Document Library: documents/usa not found. Tried:', candidates.join(', '));
     return;
   }
+  const supportedExt = (f) => /\.(txt|md|markdown|pdf)$/i.test(f);
   const files = fs.readdirSync(docsDir)
-    .filter((f) => f.toLowerCase().endsWith('.txt'))
+    .filter(supportedExt)
     .sort((a, b) => {
       if (a === 'USA compliance doc.txt') return -1;
       if (b === 'USA compliance doc.txt') return 1;
-      const numA = a.match(/\((\d+)\)\.txt$/)?.[1];
-      const numB = b.match(/\((\d+)\)\.txt$/)?.[1];
+      const numA = a.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
+      const numB = b.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
       return (Number(numA) || 0) - (Number(numB) || 0);
     });
   const sections = [];
@@ -140,8 +141,9 @@ async function loadUsaDocuments() {
   for (let i = 0; i < files.length; i++) {
     const category = USA_CATEGORIES[i] || 'Overview & Reference';
     const filePath = path.join(docsDir, files[i]);
+    const mime = filePath.toLowerCase().endsWith('.pdf') ? 'application/pdf' : (filePath.toLowerCase().endsWith('.md') || filePath.toLowerCase().endsWith('.markdown') ? 'text/markdown' : 'text/plain');
     try {
-      const parsed = await parseFile(filePath, 'text/plain');
+      const parsed = await parseFile(filePath, mime);
       for (const sec of parsed) {
         sections.push({
           id: `usa-${sectionIndex}`,
@@ -172,13 +174,14 @@ async function loadMexicoDocuments() {
     console.warn('Document Library: documents/mexico not found. Tried:', candidates.join(', '));
     return;
   }
+  const supportedExt = (f) => /\.(txt|md|markdown|pdf)$/i.test(f);
   const files = fs.readdirSync(docsDir)
-    .filter((f) => f.toLowerCase().endsWith('.txt'))
+    .filter(supportedExt)
     .sort((a, b) => {
       if (a === 'Mexico compliance doc.txt') return -1;
       if (b === 'Mexico compliance doc.txt') return 1;
-      const numA = a.match(/\((\d+)\)\.txt$/)?.[1];
-      const numB = b.match(/\((\d+)\)\.txt$/)?.[1];
+      const numA = a.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
+      const numB = b.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
       return (Number(numA) || 0) - (Number(numB) || 0);
     });
   const sections = [];
@@ -186,8 +189,9 @@ async function loadMexicoDocuments() {
   for (let i = 0; i < files.length; i++) {
     const category = MEXICO_CATEGORIES[i] || 'Overview & Reference';
     const filePath = path.join(docsDir, files[i]);
+    const mime = filePath.toLowerCase().endsWith('.pdf') ? 'application/pdf' : (filePath.toLowerCase().endsWith('.md') || filePath.toLowerCase().endsWith('.markdown') ? 'text/markdown' : 'text/plain');
     try {
-      const parsed = await parseFile(filePath, 'text/plain');
+      const parsed = await parseFile(filePath, mime);
       for (const sec of parsed) {
         sections.push({
           id: `mexico-${sectionIndex}`,
@@ -217,13 +221,14 @@ async function loadPortugalDocuments() {
     console.warn('Document Library: documents/portugal not found. Tried:', candidates.join(', '));
     return;
   }
+  const supportedExt = (f) => /\.(txt|md|markdown|pdf)$/i.test(f);
   const files = fs.readdirSync(docsDir)
-    .filter((f) => f.toLowerCase().endsWith('.txt'))
+    .filter(supportedExt)
     .sort((a, b) => {
       if (a === 'Portugal compliance doc.txt') return -1;
       if (b === 'Portugal compliance doc.txt') return 1;
-      const numA = a.match(/\((\d+)\)\.txt$/)?.[1];
-      const numB = b.match(/\((\d+)\)\.txt$/)?.[1];
+      const numA = a.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
+      const numB = b.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
       return (Number(numA) || 0) - (Number(numB) || 0);
     });
   const sections = [];
@@ -231,8 +236,9 @@ async function loadPortugalDocuments() {
   for (let i = 0; i < files.length; i++) {
     const category = PORTUGAL_CATEGORIES[i] || 'Overview & Reference';
     const filePath = path.join(docsDir, files[i]);
+    const mime = filePath.toLowerCase().endsWith('.pdf') ? 'application/pdf' : (filePath.toLowerCase().endsWith('.md') || filePath.toLowerCase().endsWith('.markdown') ? 'text/markdown' : 'text/plain');
     try {
-      const parsed = await parseFile(filePath, 'text/plain');
+      const parsed = await parseFile(filePath, mime);
       for (const sec of parsed) {
         sections.push({
           id: `portugal-${sectionIndex}`,
@@ -262,13 +268,14 @@ async function loadCanadaDocuments() {
     console.warn('Document Library: documents/canada not found. Tried:', candidates.join(', '));
     return;
   }
+  const supportedExt = (f) => /\.(txt|md|markdown|pdf)$/i.test(f);
   const files = fs.readdirSync(docsDir)
-    .filter((f) => f.toLowerCase().endsWith('.txt'))
+    .filter(supportedExt)
     .sort((a, b) => {
       if (a === 'CANADIAN MLS.txt') return -1;
       if (b === 'CANADIAN MLS.txt') return 1;
-      const numA = a.match(/\((\d+)\)\.txt$/)?.[1];
-      const numB = b.match(/\((\d+)\)\.txt$/)?.[1];
+      const numA = a.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
+      const numB = b.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
       return (Number(numA) || 0) - (Number(numB) || 0);
     });
   const sections = [];
@@ -276,8 +283,9 @@ async function loadCanadaDocuments() {
   for (let i = 0; i < files.length; i++) {
     const category = CANADA_CATEGORIES[i] || 'Overview & Reference';
     const filePath = path.join(docsDir, files[i]);
+    const mime = filePath.toLowerCase().endsWith('.pdf') ? 'application/pdf' : (filePath.toLowerCase().endsWith('.md') || filePath.toLowerCase().endsWith('.markdown') ? 'text/markdown' : 'text/plain');
     try {
-      const parsed = await parseFile(filePath, 'text/plain');
+      const parsed = await parseFile(filePath, mime);
       for (const sec of parsed) {
         sections.push({
           id: `canada-${sectionIndex}`,
@@ -313,24 +321,51 @@ const STOP_WORDS = new Set([
   'all','its','it','my','your','our','us','we','me','he','she','his','her',
 ]);
 
-function getBestSectionsForQuery(query, region, maxChars = 15000) {
+function getBestSectionsForQuery(query, region, maxChars = 22000) {
   const s = store[region];
   if (!s || !s.sections || s.sections.length === 0) return [];
-  const q = String(query || '').toLowerCase().replace(/[^\w\s]/g, ' ').split(/\s+/).filter((w) => w.length >= 2 && !STOP_WORDS.has(w));
-  if (q.length === 0) return s.sections.slice(0, 3).map((sec) => sec.content);
+  const normalized = String(query || '').toLowerCase().replace(/[^\w\s\u00C0-\u024F]/g, ' ').replace(/\s+/g, ' ').trim();
+  const q = normalized.split(/\s+/).filter((w) => w.length >= 2 && !STOP_WORDS.has(w));
+  const extraTerms = [];
+  const acronymMatch = query.match(/\(([A-Za-z]{2,10})\)/);
+  if (acronymMatch) extraTerms.push(acronymMatch[1].toLowerCase());
+  const searchTerms = [...new Set([...q, ...extraTerms])];
+  if (searchTerms.length === 0) {
+    const fallbackSecs = s.sections.slice(0, 12);
+    let total = 0;
+    const out = [];
+    for (const sec of fallbackSecs) {
+      if (total >= maxChars) break;
+      const chunk = sec.content.slice(0, maxChars - total);
+      out.push(chunk);
+      total += chunk.length;
+    }
+    return out;
+  }
   const scored = s.sections.map((sec) => {
     const titleLower = (sec.title || '').toLowerCase();
     const contentLower = (sec.content || '').toLowerCase();
     let score = 0;
-    q.forEach((w) => {
+    searchTerms.forEach((w) => {
       if (titleLower.includes(w)) score += 2;
       if (contentLower.includes(w)) score += 1;
     });
     return { sec, score };
   });
   scored.sort((a, b) => b.score - a.score);
-  const top = scored.filter((x) => x.score > 0).slice(0, 5).map((x) => x.sec);
-  if (top.length === 0) return s.sections.slice(0, 3).map((sec) => sec.content.slice(0, maxChars));
+  const top = scored.filter((x) => x.score > 0).slice(0, 12).map((x) => x.sec);
+  if (top.length === 0) {
+    const fallbackSecs = s.sections.slice(0, 12);
+    let total = 0;
+    const out = [];
+    for (const sec of fallbackSecs) {
+      if (total >= maxChars) break;
+      const chunk = sec.content.slice(0, maxChars - total);
+      out.push(chunk);
+      total += chunk.length;
+    }
+    return out;
+  }
   let total = 0;
   const out = [];
   for (const sec of top) {
@@ -398,7 +433,7 @@ app.get('/api/sections', (req, res) => {
   res.json({ ok: true, sections });
 });
 
-const DOC_SYSTEM = `You are a Real Estate Feeds Compliance Expert. Answer questions using only the provided documentation. Be clear and concise. If the answer is not in the documentation, say "This is not covered in the provided documentation." Do not make up policy details.`;
+const DOC_SYSTEM = `You are a Real Estate Feeds Compliance Expert. You have been given the full text of every compliance document (Canada, USA, Portugal, Mexico). Answer questions using only this documentation. Be clear and concise; cite the relevant region or document when helpful. If the answer is not in the documentation, say "This is not covered in the provided documentation." Do not make up policy details.`;
 
 function sseError(res, msg) {
   res.write(`data: ${JSON.stringify({ error: msg })}\n\n`);
@@ -437,9 +472,16 @@ app.post('/api/chat', async (req, res) => {
     return sseError(res, 'AI is not configured. Set GEMINI_API_KEY or OPENAI_API_KEY in .env.');
   }
 
-  const allParts = regionsToSearch.flatMap((reg) => getBestSectionsForQuery(message.trim(), reg, 12000));
-  const context = allParts.join('\n\n').slice(0, 40000);
-  const prompt = `${DOC_SYSTEM}\n\n--- DOCUMENTATION ---\n${context}\n\n--- QUESTION ---\n${message.trim()}`;
+  const totalDocBudget = 450000;
+  const allParts = regionsToSearch.map((reg) => {
+    const s = store[reg];
+    const fullDoc = (s && s.sections && s.sections.length)
+      ? s.sections.map((sec) => `${sec.title}\n\n${sec.content}`).join('\n\n')
+      : (s && s.fullText) ? s.fullText : '';
+    return `[${reg.toUpperCase()}]\n${fullDoc}`;
+  });
+  const context = allParts.join('\n\n').slice(0, totalDocBudget);
+  const prompt = `${DOC_SYSTEM}\n\n--- DOCUMENTATION (ALL DOCUMENTS) ---\n${context}\n\n--- QUESTION ---\n${message.trim()}`;
 
   try {
     if (geminiKey && geminiKey.trim()) {
@@ -457,7 +499,7 @@ app.post('/api/chat', async (req, res) => {
       const stream = await openai.chat.completions.create({
         model: process.env.OPENAI_MODEL || 'gpt-4o-mini',
         messages: [{ role: 'user', content: prompt }],
-        max_tokens: 600,
+        max_tokens: 1024,
         stream: true,
       });
       for await (const chunk of stream) {

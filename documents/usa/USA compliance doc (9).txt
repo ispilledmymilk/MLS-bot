@@ -1,0 +1,16 @@
+﻿9. Fair Housing and ADA Web Accessibility
+9.1 Algorithmic Bias and Disparate Impact
+* HUD's 2023 guidance on AI and fair housing confirmed the 'disparate impact' standard applies to algorithmic tools used by real estate platforms.
+* Platforms must regularly audit search-ranking algorithms and recommendation engines to ensure they do not systematically steer users based on protected characteristics.
+* Use of geographic proxies (ZIP code, school district) in ranking models requires rigorous testing for discriminatory outcomes.
+
+
+9.2 WCAG 2.1 Level AA Digital Accessibility
+* Federal courts have consistently held WCAG 2.1 Level AA as the compliance standard for real estate websites.
+* Descriptive alt-text required on all property photos (e.g., 'Kitchen with granite countertops and stainless steel appliances').
+* Keyboard-only operability required for all interactive maps.
+* Skip-navigation links required for screen readers.
+* At least one manual screen-reader audit must be performed annually.
+
+
+________________

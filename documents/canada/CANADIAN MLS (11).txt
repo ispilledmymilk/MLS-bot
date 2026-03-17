@@ -1,0 +1,43 @@
+﻿SREC COMPLIANCE 
+1. The "Authorization to Advertise" Rule (Bylaw 727)
+Saskatchewan has one of the strictest "written consent" rules in Canada. You cannot display a listing—even if it is in a public feed—without verifying the legal authority to do so.
+* The Rule: A registrant shall only advertise properties for sale, lease, or sold when written authorization has been obtained from the owner.
+* Marketplace Impact: If your platform allows manual uploads, you must include a mandatory checkbox or field where the uploader confirms they hold a valid "Authorization to Advertise" form from the seller.
+* Reference: SREC Bylaw 727: Authorization to Advertise
+2. "Sold" Advertising & New Owners
+SREC has a unique interpretation of "Sold" data that differs from other provinces.
+* The New Owner Rule: Once a property is sold and possession has passed, the original seller’s authorization to advertise that property expires.
+* The Requirement: To continue displaying that property as "Sold" on your marketplace, the agent technically needs written permission from the new owner (the buyer), as they now hold the privacy rights to the home's image and data.
+* Reference: SREC Consent Order: Foord (Re), 2025 SKREC 9
+3. Brokerage Prominence & Legal Names
+SREC’s Advertising Checklist (updated for 2024–2026) mandates that the brokerage must be the "anchor" of the advertisement.
+* The Full Name: You must use the full name of the brokerage as it appears on their Certificate of Registration. Nicknames or shortened "marketing names" for the brokerage are not permitted.
+* Readability: The brokerage name must be "clearly and prominently displayed and easily readable." It cannot be hidden in a "details" tab; it should be visible on the main listing card.
+* Reference: SREC Advertising Checklist
+4. Immediate Removal of Expired Listings (Bylaw 726)
+SREC classifies leaving an expired listing online as "Inaccurate or Misleading Advertising."
+* The 24-Hour Rule: While the bylaws state "within a reasonable period," SREC bulletins clarify that since many platforms update automatically, manual listings or social media posts must be removed immediately upon expiry.
+* Marketplace Liability: If your marketplace shows a property as "Available" when the contract has expired, it is a breach of Bylaw 726. Your system must have a "hard-kill" switch for listings that are no longer active in the SRA (Saskatchewan Realtors® Association) feed.
+5. Comparative Claims & Awards
+If your marketplace ranks agents or shows "Top Producer" badges:
+* The Disclosure Rule: Any claim of being "Number 1" or "Top Rated" must include the basis of the claim (source and date) directly in the advertisement. You cannot just use a badge; you must link to the data that supports it.
+________________
+
+
+6. SREC Marketplace Compliance Checklist
+Rule
+	Saskatchewan (SREC) Requirement
+	Brokerage Name
+	Full legal name, prominent, same visibility as the agent.
+	Sold Status
+	Must remove once possession passes unless new owner consents.
+	Written Consent
+	Must confirm uploader has written authority from the seller.
+	Accuracy
+	Timestamps required; must indicate the "last date for revision."
+	Expired Listings
+	Purge immediately upon expiry of the brokerage contract.
+	Official SREC Reference Links
+1. SREC Bylaws (June 2024/2026 version): Full Bylaws PDF
+2. Advertising Checklist: Mandatory Review Points
+3. Information Bulletin: Expiry of Authorization: The 727 Rule

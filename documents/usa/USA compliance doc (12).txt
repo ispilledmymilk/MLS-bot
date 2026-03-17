@@ -1,0 +1,124 @@
+﻿12. Universal Compliance Checklist and Audit Program
+Area
+	2026 Verification Step
+	Frequency
+	Feed License
+	Confirm technology vendor is named in all MLS agreements.
+	Annual / On Change
+	NAR Self-Cert
+	Confirm MLS self-certified by March 1, 2026.
+	Once / Ongoing
+	API Status
+	Verify 100% RESO Web API; no RETS connections.
+	Ongoing
+	Comp Filter
+	Confirm all compensation data is stripped from search/display.
+	Daily (Automated)
+	Attribution
+	Firm name + Phone/Email on all Property Detail Pages.
+	Weekly Spot-Check
+	Data Purge
+	Expired/Withdrawn listings removed within 24 hours.
+	Daily (Automated)
+	VOW Gate
+	Registration required; email verified before rich data access.
+	Monthly Test
+	HPPA Opt-In
+	Documented opt-in before any mortgage lead sharing.
+	Ongoing
+	GPC Signal
+	Honor Global Privacy Control as opt-out (CA + CO).
+	Ongoing
+	AVM Opt-Out
+	Respect AutomatedValuationModelYN per property.
+	Per Render
+	AI Photo Label
+	MediaDigitalEnhancementYN flagged and labeled in UI.
+	Per Render
+	Accessibility
+	WCAG 2.1 Level AA screen-reader audit.
+	Annual
+	Vendor SPA
+	Signed CCPA Service Provider Agreements for all processors.
+	At Onboarding
+	Thompson Broker
+	Verify non-NAR broker access rights in FL, GA, AL.
+	On Feed Setup
+	
+
+COMPLIANCE LOG: Platforms must maintain a Compliance Log detailing every automated status purge, registration verification, and audit result. This log is essential for defending against MLS violation notices or regulatory inquiries. Respond to any MLS violation notice within 24 hours with a written remediation plan.
+
+
+Appendix A: MLS Quick Reference 
+MLS Name
+	NAR Affiliated
+	DMEL Supported
+	Thompson Broker
+	State
+	Special Notes
+	CRMLS
+	Yes
+	No
+	Yes (CA — standard)
+	CA
+	Largest U.S. MLS; no-commingling strict; DMEL not supported.
+	Bright MLS
+	Yes
+	Yes
+	No
+	DC/MD/VA/PA/NJ/DE/WV
+	Separate IDX + VOW agreements; automated attribution audits.
+	Stellar MLS
+	Yes
+	Yes
+	Yes (FL)
+	FL/PR
+	DMEL from Sept 16, 2025; photo integrity strict fines.
+	REBNY
+	No
+	N/A
+	No
+	NYC
+	Own IDX rules; separate REBNY data agreement required.
+	OneKey MLS
+	Yes
+	Yes
+	No
+	NY (downstate)
+	Standard NAR rules; separate from REBNY.
+	NWMLS
+	No
+	N/A
+	No
+	WA
+	Own governing rules; not subject to NAR Policy 7.58.
+	REcolorado
+	Yes
+	Yes
+	No
+	CO
+	CPA privacy law applies; verify DMEL delay period.
+	ARMLS
+	Yes
+	Yes
+	No
+	AZ
+	State AG co-plaintiff in FTC v. Zillow/Redfin case.
+	ABOR
+	Yes
+	Yes
+	No
+	TX
+	Full non-disclosure state; VOW-only AVM data.
+	Canopy MLS
+	Yes
+	Yes
+	No
+	NC/SC
+	Disclosure states; verify co-mingling status.
+	Miami REALTORS
+	Yes
+	Yes
+	Yes (FL)
+	FL
+	Thompson Broker state; unique intl listing rules.

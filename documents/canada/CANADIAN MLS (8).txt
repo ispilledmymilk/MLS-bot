@@ -1,0 +1,23 @@
+﻿5. Quebec
+
+
+REGULATORY ALERT: The Canadian Competition Bureau has obtained two Federal Court orders (2023 and May 2025) investigating QPAREB and Societe Centris for potential anti-competitive data sharing restrictions. The landscape for Quebec MLS data access may be subject to future regulatory changes. View official page
+	
+
+5.1 QPAREB & Societe Centris
+Official QPAREB website: qpareb.ca
+Centris public listing portal: centris.ca
+
+
+5.1.1 Access Model (Unique to Quebec)
+* Per-Brokerage Authorization: Unlike other provinces with a single provincial feed, Centris requires individual authorization from each brokerage whose listings you wish to display.
+* No Standard IDX/VOW: There is no single provincial IDX or VOW feed as found elsewhere in Canada. Access must be negotiated brokerage-by-brokerage through Centris.
+* Active Listings Only: Centris does not provide historical listing data. Only active listing data is available — no sold prices or expired listings.
+* MLS Not Publicly Accessible: Quebec's MLS system is not accessible to the general public. Access is exclusively for licensed broker and agency members.
+* NOT in CREA DDF: Quebec does not participate in the national CREA DDF feed.
+
+
+5.1.2 Process for Data Access
+* Step 1: Contact individual brokerages in Quebec to obtain authorization for their listings.
+* Step 2: Once brokerages agree, Centris grants access to their listing data through its API.
+* Step 3: Display must comply with Centris data use terms, including attribution and non-redistribution rules.

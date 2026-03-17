@@ -1,0 +1,73 @@
+﻿15. Competition Law Risks for Real Estate Marketplaces
+
+
+Competition Bureau — Official website: competition-bureau.canada.ca
+Competition Bureau — CREA investigation (Oct 2024): Official press release
+Competition Bureau — QPAREB/Centris 2nd court order (May 2025): Official press release
+Competition Bureau — GVR investigation expansion (Jan 2026): Official press release
+
+
+The Competition Bureau is Canada's primary competition law enforcement agency. Under the Competition Act, it investigates abuse of dominance, anti-competitive agreements, and deceptive marketing practices. The real estate sector is under active, multi-year scrutiny.
+
+
+15.1 Active Investigations (as of March 2026)
+THREE ACTIVE REAL ESTATE INVESTIGATIONS: (1) CREA — commission rules and Realtor Cooperation Policy (court order obtained October 2024); (2) QPAREB / Societe Centris — data sharing restrictions in Quebec (second court order obtained May 2025); (3) Greater Vancouver REALTORS (GVR) — commission rules expanded to include GVR enforcement (January 2026). No wrongdoing has been concluded. These investigations may result in rule changes that directly affect marketplace data access and display requirements.
+	
+
+* CREA Investigation: The Bureau is investigating whether CREA's commission rules discourage buyers' agents from competing on commissions, and whether the Realtor Cooperation Policy (3-day MLS listing requirement) makes it harder for alternative listing services to compete.
+* QPAREB/Centris Investigation: The Bureau is investigating whether QPAREB's data-sharing restrictions prevent the development of innovative online brokerage services in Quebec. A second Federal Court order was obtained May 6, 2025.
+* GVR Investigation: In January 2026, the Bureau expanded its commission investigation to specifically examine how GVR enforces commission rules in Greater Vancouver, including potential 'steering' practices.
+
+
+15.2 Competition Act Risks Specific to Marketplace Operators
+* Historical Precedent (TREB, 2016): The Competition Tribunal ruled against TRREB (then TREB) for anti-competitive conduct that restricted brokers' access to historical home sales data. The decision opened the door for consumer-facing sold price display and was foundational to platforms like HouseSigma.
+* Alternative Listing Services: The Bureau has flagged that CREA's Realtor Cooperation Policy may disadvantage alternative listing services (platforms that offer non-MLS listing options) by effectively requiring all marketed properties to be on MLS within 3 days. Marketplaces offering flat-fee, limited-service, or private-sale options should monitor this investigation closely.
+* Commission Display: If a marketplace displays commission rates or buyer agent compensation to consumers, ensure the display is factual and not structured in a way that could be construed as facilitating commission-fixing.
+* Algorithmic Pricing: Any AI/algorithmic tool that recommends prices or rents based on data that includes competitor information — even if anonymized — may trigger scrutiny under sections 90.1 (agreements) and 79 (abuse of dominance) of the Competition Act.
+* Exclusive Data Agreements: Agreements with boards or brokerages that give your marketplace exclusive access to data that is denied to competitors may attract abuse of dominance scrutiny.
+* Deceptive Marketing: The Competition Bureau's 2025-2026 annual plan identifies deceptive marketing (including greenwashing and drip pricing) as an enforcement priority. Ensure listing prices, fees, and property representations on your platform are accurate and not misleading.
+
+
+
+
+16. Technology Vendor & Third-Party Agreements
+
+
+A real estate marketplace rarely builds all technology in-house. IDX plugins, API aggregators, CRM systems, email marketing platforms, analytics tools, and cloud providers all interact with MLS data or personal user data — and all introduce compliance risk. The fundamental rule: the licensed participant (the marketplace) remains responsible for compliance regardless of which vendor caused the violation.
+
+
+16.1 IDX / API Aggregator Vendors
+* Named Vendor Rule: Many boards require that your IDX data agreement explicitly name the technology vendor or plugin you are using to connect to the feed. If you change vendors, you must update your board agreement. Using an unnamed vendor is a compliance violation.
+* Vendor Compliance Verification: Before signing with any IDX vendor, verify they are: (a) approved by the relevant board; (b) operating on RESO Web API (not deprecated RETS); (c) RESO-certified or in process of certification; (d) able to provide documentation of their compliance with display rules.
+* Canadian IDX API providers include: Repliers (repliers.com) — supports CREA DDF, TRREB, ITSO and other Canadian board feeds with compliance automation.
+* Shared Responsibility: Even if your vendor causes a display rule violation (e.g., fails to purge an expired listing within 24 hours due to a caching bug), the board will hold the licensed participant — not the vendor — responsible for the violation.
+* Contract Requirements: Your vendor agreements must include: (a) obligation to comply with board rules; (b) notification of any rule changes; (c) right to audit their compliance practices; (d) liability provisions for violations caused by the vendor.
+
+
+16.2 Data Processors (Privacy Law)
+Under PIPEDA and Law 25, any third party that processes personal information on your behalf (e.g., cloud hosting, CRM, analytics, email marketing) is a data processor. You remain accountable for their handling of Canadian user data.
+* Data Processing Agreements (DPAs): Required under Law 25 for all processors handling Quebec user data. Strongly recommended under PIPEDA for all processors. DPAs must specify: security measures, purpose limitations, data retention, right to audit, and breach notification obligations.
+* Cross-Border Transfers: If a processor is outside Canada (e.g., US-based AWS, Salesforce, HubSpot), you must: (a) disclose this in your Privacy Policy; (b) conduct a PIA before transferring Quebec user data (Law 25); (c) ensure contractual protections equivalent to Canadian law are in place.
+* Subprocessors: Processors must notify you before engaging subprocessors. Cascade the DPA obligations to subprocessors.
+
+
+16.3 Email Marketing & CASL Vendors
+* Vendor Record Keeping: Your email marketing platform must maintain suppression lists and honour unsubscribes within 10 business days. Confirm your vendor's compliance before use.
+* Consent Portability: Ensure consent records captured by your vendor are exportable to you. If you change email vendors, you need to import suppression lists and consent logs.
+* Shared Sender Liability: Under CASL, both the organization on whose behalf a CEM is sent AND the organization that sends the CEM can be held liable. Vet your email vendor's CASL compliance practices.
+
+
+16.4 Analytics & Tracking Tools
+* Cookie Consent: Under PIPEDA and Law 25, the use of analytics cookies (Google Analytics, etc.) that identify individual users constitutes collection of personal information. Obtain consent before placing non-essential cookies. Implement a CASL and Law 25-compliant cookie consent manager.
+* Data Minimization: Configure analytics tools to anonymize IP addresses and avoid collecting more data than necessary for the stated analytics purpose.
+* Third-Party Ad Networks: CREA's DDF National Shared Pool rules prohibit displaying third-party advertisements alongside National Shared Pool listings. Do not integrate ad networks on pages displaying DDF listing data. Verify the same restriction with each regional board.
+
+
+16.5 Vendor Onboarding Checklist
+* Is this vendor named in our board data agreements? (Yes/No — update agreements if No)
+* Does the vendor operate on RESO Web API? (RETS integrations are deprecated — reject)
+* Does the vendor maintain compliance logs that we can access? (Required for TRREB/GVR/ITSO audits)
+* Does the vendor have a Data Processing Agreement for PIPEDA/Law 25? (Required if handling user PII)
+* Does the vendor's contract include liability provisions for compliance violations they cause?
+* Does the vendor support CASL-compliant unsubscribe processing within 10 business days?
+* Has the vendor disclosed all subprocessors and locations?

@@ -1,0 +1,59 @@
+﻿4. Clear Cooperation Policy (CCP) and Listing Status
+The Clear Cooperation Policy (CCP) requires that any listing publicly marketed must be submitted to the MLS within one (1) business day. In 2026, CCP operates alongside the Multiple Listing Options for Sellers (MLOS) framework, which introduced the Delayed Marketing Exempt Listing (DMEL) category.
+4.1 The DMEL Framework
+A DMEL is a listing where the seller has authorized the listing agent to withhold the listing from IDX feeds and syndication for a delay period set by the local MLS. During the delay, the listing is active and visible to all MLS participants and their registered clients but cannot appear on public-facing portals.
+* Listing agents must obtain a signed Exempt Listing Disclosure (seller consent form) — exact form name varies by MLS.
+* CRMLS does not support the DMEL category (see Section 6.1).
+* Stellar MLS requires the Owners Exclusion Form be uploaded within 24 hours of an MLS request.
+
+
+4.2 Public Marketing Triggers
+The following events constitute public marketing and trigger the one business day CCP submission requirement:
+* Yard signs or physical marketing materials.
+* Digital marketing on any public website, including social media posts.
+* Emails sent to more than one (1) outside brokerage.
+CLARIFICATION: NAR has confirmed that one-to-one communications between brokers do NOT trigger CCP. Multi-brokerage communications DO trigger CCP.
+
+
+4.3 Zillow Listing Access Standards (LAS) — Corrected
+Zillow and Trulia implemented their Listing Access Standards (LAS) requiring that any publicly marketed property appear in the MLS within one business day to be eligible for display on their sites. Key corrected dates:
+* LAS announced: April 2025.
+* LAS enforcement began: June 30, 2025 (not 'mid-2025' as previously stated).
+* Preliminary injunction against LAS denied: February 6, 2026 (Compass v. Zillow).
+* If a listing is marketed for more than 24 hours before MLS entry, Zillow may ban that listing for the life of the listing agreement.
+LEGAL NOTE — IMPORTANT CORRECTION: The February 6, 2026 Compass v. Zillow ruling ONLY denied Compass's motion for a preliminary injunction. It is NOT a final judgment on the merits. The underlying antitrust litigation is ONGOING in the Eastern District. Do not characterize this ruling as confirming the 'legality' of Zillow's LAS. Compliance files should note case status as 'active litigation, preliminary injunction denied.'
+
+
+4.4 Listing Status IDX/VOW Reference
+Status
+	IDX Inclusion
+	VOW Inclusion
+	Compliance Implication
+	Active
+	Yes
+	Yes
+	Standard listing status; full distribution.
+	Coming Soon
+	No (Local Option)
+	Yes
+	Restricted public display; time-limited per local MLS.
+	DMEL
+	No
+	Yes
+	Gated display only during delay period; requires seller consent form.
+	Office Exclusive
+	No
+	No
+	No public marketing allowed; internal participant use only.
+	Pending
+	Local Option
+	Yes
+	Must check local MLS per-feed settings before display.
+	Expired
+	No
+	No
+	Must be purged from all displays within 24 hours of expiration.
+	Withdrawn
+	No
+	No
+	Must be purged from all displays within 24 hours.

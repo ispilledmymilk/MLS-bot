@@ -1,0 +1,51 @@
+﻿1. National Framework — CREA & DDF
+
+
+How Canadian MLS is Structured
+Canada operates a federated MLS system. The Canadian Real Estate Association (CREA) oversees national coordination through REALTOR.ca, while local and provincial real estate boards maintain control over listing rules, membership, and data access for their regions. There are over 80 real estate boards across Canada feeding into this ecosystem.
+
+
+The two primary national instruments for data access are:
+* REALTOR.ca DDF (Data Distribution Facility): CREA's national feed of active listings, accessible to all CREA members in good standing.
+* Regional MLS Feeds (IDX/VOW): Board-level data feeds providing richer data including sold prices, expired listings, and days on market — accessible only to licensed members of that specific board.
+
+
+IMPORTANT: Saskatchewan and Quebec do NOT participate in the REALTOR.ca DDF. Agents seeking listings in those provinces must access their respective regional systems directly (SRA for Saskatchewan; Centris for Quebec).
+	
+
+CREA DDF — National Feed Rules
+Official DDF policy and rules (January 2024 PDF): crea.ca — DDF Policy & Rules
+CREA DDF member portal: crea.ca/realtor-members/data-distribution-facility-ddf
+CREA DDF API documentation: ddfapi-docs.realtor.ca
+CREA DDF member login portal: member.realtor.ca
+
+
+Rule
+	Requirement
+	Access Eligibility
+	Must be a CREA member in good standing AND listed as a DDF Participant in the DDF dashboard.
+	Feed Types
+	Must opt-in to specific feeds: Own Listings, Brokerage, or National Shared Pool in the DDF dashboard.
+	Data Scope
+	Active listings only. No historical/sold data. Approximately 60–65% of all active Canadian listings.
+	Non-Members
+	Strictly prohibited from accessing DDF or scraping REALTOR.ca. Copying from public portals is banned.
+	Attribution
+	Every public DDF listing page must show CREA's required marks and full brokerage attribution.
+	Photo Watermarks
+	Watermarks must remain on all photos. Cropping or blurring watermarks is prohibited.
+	National Shared Pool
+	No co-branding or third-party ads on pages displaying National Shared Pool listings.
+	Signed Agreement
+	Many local boards require a signed tech/data agreement naming your specific plugin or vendor.
+	Refresh Rate
+	Listing content must be refreshed at least once every 24 hours. Listings no longer current after a refresh must be removed from public display.
+	Max Websites
+	Participants may not operate more than 10 websites using DDF Listing Content.
+	
+
+CREA Mandatory Footer Disclaimer
+The trademarks REALTOR®, REALTORS®, and the REALTOR® logo are controlled by The Canadian Real Estate Association (CREA). The trademarks MLS®, Multiple Listing Service® and the associated logos are owned by CREA. Listing data is deemed reliable but not guaranteed.
+	
+
+This footer (or a board-approved variant) must appear on every page displaying Canadian MLS data.

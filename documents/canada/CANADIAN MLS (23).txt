@@ -1,0 +1,49 @@
+﻿14. Digital Accessibility Requirements
+
+
+Accessible Canada Act (ACA) — Canada.ca: canada.ca/en/employment-social-development/programs/accessible-canada.html
+ACA Regulations Summary (Canada.ca): canada.ca — ACA Regulations
+Accessibility for Ontarians with Disabilities Act (AODA): ontario.ca/AODA
+
+
+Over 6 million Canadians — 22% of the population — have one or more disabilities. Accessibility is not only a legal obligation but a commercial opportunity. Canadian law has developed a layered framework of federal and provincial accessibility requirements that apply to real estate marketplace platforms.
+
+
+14.1 Federal — Accessible Canada Act (ACA, 2019)
+The ACA requires federally regulated organizations and organizations under federal jurisdiction to identify, remove, and prevent barriers to accessibility, including in information and communication technology (ICT). In December 2025, the Canadian government issued significant amendments expanding digital accessibility requirements.
+
+
+* Standard: The ACA aligns with WCAG 2.1 Level AA and the Canadian standard CAN/ASC-EN 301 549 for ICT.
+* Accessibility Plans: Organizations must publish accessibility plans and progress reports. Large organizations (100+ employees) were required to publish their first plan by June 1, 2023. Small organizations (10-99 employees) by June 1, 2024.
+* Accessibility Plans on Website: Plans must be available on the organization's homepage (directly or via hyperlink), follow the latest WCAG AA standards, and be available in both official languages.
+* Feedback Process: Organizations must establish and publish a mechanism for users to provide feedback about accessibility barriers.
+* Penalty: Up to $250,000 CAD for non-compliance.
+
+
+14.2 Provincial Accessibility Laws by Province
+Province
+	Law / Standard / Notes
+	Ontario
+	AODA (2005). WCAG 2.0 AA required. All organizations with 50+ employees must comply. Report every 3 years (next deadline: Dec 31, 2026). Fines up to $100,000/day for corporations.
+	Manitoba
+	Accessibility for Manitobans Act (AMA). WCAG 2.1 AA. All sectors required to comply by May 1, 2025.
+	Nova Scotia
+	Nova Scotia Accessibility Act (2017). Developing standards including web accessibility. Target: accessible province by 2030.
+	BC
+	Accessible British Columbia Act (2021). WCAG 2.1 AA for organizations under the Act. Standards still being developed. Penalties up to $250,000.
+	Saskatchewan
+	Act Respecting Accessibility in Saskatchewan. Public sector bodies required to develop accessibility plans.
+	NL
+	Act Respecting Accessibility (2021). Includes digital and web services. Standards in development.
+	NB/PEI/AB/QC
+	No province-level private-sector accessibility laws yet, but federal ACA applies to federally regulated entities and the Human Rights framework applies to discriminatory barriers.
+	
+
+14.3 WCAG 2.1 Level AA — Practical Requirements
+The following WCAG 2.1 Level AA principles apply to all public-facing marketplace pages, including listing search, property detail pages, VOW registration, and contact forms:
+* Perceivable: All images must have descriptive alt text. Videos require captions. Text contrast ratio must be at least 4.5:1.
+* Operable: All functionality must be accessible via keyboard. No content should flash more than 3 times per second. Skip navigation links must be provided.
+* Understandable: Language of page must be identified in HTML. Error messages must be descriptive and suggest corrections. Labels must be associated with form inputs.
+* Robust: HTML must be valid. Name, role, and value of all UI components must be programmatically determinable (ARIA where needed).
+* NSAR Accessibility Fields (2024): NSAR mandates accessibility measurement fields (door widths, hallway widths, turning radii) in MLS submissions. Marketplace platforms serving Nova Scotia listings should display these fields prominently.
+________________

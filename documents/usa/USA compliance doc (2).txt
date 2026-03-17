@@ -1,0 +1,37 @@
+﻿2. NAR IDX Policy and Display Rules for 2026
+The IDX policy governs how marketplace platforms display listings from other MLS participants. The 2026 updates emphasize broker attribution, consumer clarity, and the absolute prohibition of certain data types. Feeds are now delivered exclusively via the RESO Web API.
+2.1 IDX Access and Feed Management
+Access to an IDX feed requires a valid agreement between the MLS, the participant (broker), and the technology vendor (the marketplace platform). As of January 2026, NAR mandates that MLSs act on requests for IDX feeds within five (5) business days, barring extenuating circumstances. The "actual and apparent control" rule remains in effect.
+2.2 Core Display and Attribution Requirements
+Every property detail page (PDP) and thumbnail display must include:
+* The listing brokerage firm name in a reasonably prominent location.
+* The listing broker's email address OR phone number as provided by the listing participant.
+* These fields must be automated in UI templates — manual entry is not sufficient for compliance.
+
+
+Display Element
+	2026 Requirement
+	Implementation Note
+	Broker Attribution
+	Firm Name + Phone OR Email
+	Must be 'reasonably prominent' on every PDP and thumbnail.
+	Buyer Broker Compensation
+	PROHIBITED — Absolute ban
+	Filter ALL remark fields, note fields, and any free-text areas.
+	Seller Concessions
+	Permitted
+	Display ONLY from designated concession fields in the MLS feed.
+	Listing Status Purge
+	24-Hour Removal
+	Expired and Withdrawn listings must be removed within 24 hours.
+	Photo Watermarks
+	Must be preserved
+	Do not crop, overlay, or remove watermarks from listing photos.
+	Co-mingling (MLS + Non-MLS)
+	Label or separate
+	FSBO / non-MLS data must be labeled or shown separately unless local MLS has dropped restriction.
+	
+
+2.3 Compensation and Concession Display — Post-Sitzer/Burnett
+A critical mandate arising from the August 17, 2024, Sitzer/Burnett settlement is the absolute prohibition of buyer broker compensation offers within the MLS and its data feeds. Marketplace platforms are strictly forbidden from using MLS data to create or maintain any platform that aggregates compensation offers. Violating this rule is a material breach of the data license resulting in immediate termination of all MLS access.
+CRITICAL: The BuyerAgencyCompensation field has been deprecated and removed from the RESO Data Dictionary following the settlement. Any feed ingestion engine referencing this field must be updated to treat it as a deprecated/null field.

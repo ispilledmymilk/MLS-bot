@@ -1,0 +1,90 @@
+﻿2. Ontario
+
+
+Ontario has the most complex MLS data landscape in Canada, served by four primary data feeds: TRREB (via PropTx), ITSO, WECAR, and CREA DDF.
+
+
+2.1 TRREB / PropTx (Toronto Regional Real Estate Board)
+Official TRREB website: trreb.ca
+PropTx platform: proptx.ca
+TRREB Member Hub (login required): member.trreb.ca
+TRREB PropTx member profile portal: myprofile.torontomls.net
+
+
+TRREB is the largest board in Canada. Its data is managed and distributed through PropTx Innovations Inc., a wholly-owned TRREB subsidiary. PropTx covers the Greater Toronto Area and surrounding regions. OREB (Ottawa), KAREA, CDREA, RCREB, and LSTAR are also joining the PropTx MLS platform through 2024.
+
+
+2.1.1 VOW Gate — Mandatory —--for Premium Data
+* Registration Wall: Sold/expired data cannot be shown to anonymous visitors. Users must register with full name and valid email.
+* Email Verification: Email must be verified (e.g., via magic link or code) before VOW access is granted.
+* VOW Agreement: Before searching, user must click 'I Agree' to a Terms of Use establishing a lawful consumer-broker relationship.
+* Bona Fide Consumer Verification (2026 update): Must explicitly ask or verify the user is a genuine consumer, not a competitor mining the feed.
+
+
+2.1.2 Display & Branding Rules
+* Brokerage Prominence: Listing brokerage name must be visible on the FIRST VIEW of the property detail page.
+* Attribution Tag: Use the phrase: 'Listing provided by [Full Registered Brokerage Name]'.
+* Watermarks: PropTx/TRREB watermarks must appear on ALL images. Strictly prohibited: cropping, removing, or overlaying your own logo over the board watermark.
+* No Co-mingling (2026): TRREB does not allow combining TRREB and non-TRREB listings in a single search result list unless the source of each listing is clearly labeled.
+
+
+2.1.3 Image Integrity & AI Rules (TRESA 2026)
+* AI Disclosure: If AI is used to enhance photos or virtually stage a room, an unstaged original photo must immediately follow the staged version.
+* No Amenity Stock Photos: Stock photos of nearby parks or cafes cannot be used unless those amenities are actually visible from the property.
+
+
+2.1.4 Technical Compliance
+Requirement
+	Detail
+	24-Hour Purge
+	Once a listing is marked Expired, Withdrawn, or Terminated in PropTx feed, remove from public site within 24 hours.
+	Audit Logs
+	Maintain a log of every registered VOW user and every listing they viewed for at least one year. TRREB/PropTx may request this log.
+	No Indexing
+	noindex and nofollow meta tags required on ALL VOW-gated pages. Sold prices in Google is a major violation.
+	Feed Cost
+	TRREB does not charge its members for data feeds.
+	
+
+2.1.5 TRREB Mandatory Footer
+The trademarks REALTOR®, REALTORS®, and the REALTOR® logo are controlled by CREA. The trademarks MLS®, Multiple Listing Service® and the associated logos are owned by CREA. Search results for the Greater Toronto Area are provided by the Toronto Regional Real Estate Board. The information is deemed reliable but not guaranteed.
+	
+
+2.2 ITSO (Information Technology Systems Ontario)
+Official ITSO website: itsosystems.ca
+ITSO System Access & Feed Instructions: itsosystems.ca/access
+ITSO Professional Standards: itsosystems.ca/psc
+
+
+NOTE ON BDAR: Barrie and District Association of Realtors (BDAR) had its ITSO MLS Services Agreement terminated August 2025, with transition extended to December 31, 2025. Verify directly with BDAR: info@bdar.ca | 705-739-4650 | bdar.ca View official page
+	
+
+2.2.1 ITSO Core Feed Rules
+* Membership Required: You must be a member of an ITSO-affiliated association to access ITSO data feeds.
+* VOW Feed Cost: ITSO charges $1,500 annually for VOW feed access. IDX listing access is free for members. (Source: itsosystems.ca/access)
+* IDX Download Limit: An IDX or VOW operator must limit the number of listings a user may view, retrieve, or download to not more than 100 current listings and not more than 200 listings per search.
+* No Private Trade Advertising: ITSO rules do not permit advertising private trades on the MLS System.
+
+
+2.2.2 ITSO Compliance & Penalties
+* Administrative Penalties: Non-compliance is subject to administrative penalties (e.g., failure to provide audit documentation within 24 hours).
+* Escalation Path: A third offence results in an Incident Report to the Professional Standards Committee. A fourth offence triggers the same escalation process.
+* Brokerage Accountability: Penalties are invoiced to the brokerage. If an Incident Report is filed, the individual User is the named Respondent.
+* Suspension: Continued irregularities can result in MLS access suspension and referral to the Professional Standards Committee.
+
+
+2.3 WECAR (Windsor-Essex County Association of REALTORS)
+WECAR is an IDX-only feed covering Windsor and Sarnia areas. It provides active listings only — no VOW/sold data — with several hundred unique listings not found in CREA DDF or TRREB. Agents targeting the Windsor-Sarnia area should add WECAR in addition to their primary Ontario feeds.
+
+
+2.4 Ontario Data Feed Coverage Summary
+Feed
+	Type / Coverage
+	TRREB / PropTx
+	IDX + VOW. ~82,000+ listings. GTA and surrounding regions including OREB, LSTAR, KAREA.
+	ITSO
+	IDX + VOW. ~17,000+ unique listings. Central and Northern Ontario, Cornerstone region.
+	WECAR
+	IDX only. Windsor and Sarnia areas.
+	CREA DDF
+	IDX only (active listings). National feed for smaller Ontario boards.

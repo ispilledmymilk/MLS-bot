@@ -1,0 +1,48 @@
+﻿MSC COMPLIANCE 
+1. Registration & "Trading" Definition (Section 41)
+In Manitoba, "advertising the real estate of others" is legally considered trading in real estate.
+* The Rule: Any platform that provides "private sale services" or "trading services" (finding real estate for others or making representations about it) must be registered with the MSC unless it is strictly a newspaper-style classified with no lead-routing or data-syncing features.
+* Marketplace Impact: If your marketplace acts as a bridge between buyers and sellers, the MSC may view the platform itself as a "registrant" or a "brokerage." You must clarify in your docs whether you are a registered brokerage or a "third-party service provider" under contract with a registered brokerage.
+2. Mandatory Service Agreements (RESA Section 25)
+A major shift in 2024–2026 is the requirement for written service agreements.
+* The Rule: Brokerages must enter into a written service agreement with a consumer before providing real estate services.
+* Marketplace Impact: If your platform captures leads and "assigns" them to agents, your compliance doc must ensure that the partner agent presents a digital service agreement to the consumer. Your platform should have a workflow to store or acknowledge that these agreements have been initiated.
+* Reference: MSC: Real Estate Services Act Overview
+3. Brokerage Name Prominence (The "Obvious" Test)
+The MSC is particularly strict about the visibility of the "Employer" (the Brokerage).
+* Visible Identification: The name of the brokerage must be "visibly displayed" to identify who the salesperson is employed with.
+* The "Team" Restriction: Team names (e.g., The Winnipeg Property Group) are permitted, but they must not give the impression of being an incorporated company or an independent brokerage.
+* Font Rule: The brokerage name cannot be hidden at the bottom of the page in small type. It must be prominent enough that a consumer is not "misled or confused" as to who is providing the service.
+* Reference: MSC Advertising Guidelines (PDF)
+4. Internet & Social Media "Full Disclosure"
+The MSC and the Manitoba Real Estate Association (MREA) have specific "Internet Best Practices."
+* Every Viewable Page: Every page that a consumer can view as a "separate unit" (including framed pages and individual listing details) must include the Full Disclosure:
+   1. The licensee’s name as registered.
+   2. The name of the brokerage.
+   3. The address of the brokerage office.
+* Banner Ads: If a banner ad is too small for full disclosure, it must link directly to a page that contains it.
+* Reference: Manitoba Internet Best Practices Guidelines
+5. Sold Data & The Competition Bureau
+Manitoba has historically been one of the more restrictive provinces regarding online "Sold" data.
+* Current Status (2026): While the Competition Bureau has pushed for more transparency, the MSC still requires prescribed consents for the disclosure of property sales information.
+* The VOW Requirement: To display sold prices in Manitoba, your platform must function as a VOW (Virtual Office Website). You cannot show sold prices on an open "advertising" (IDX) page without violating the privacy terms of the standard Manitoba listing agreement.
+________________
+
+
+6. MSC Marketplace Compliance Checklist
+Rule
+	Manitoba (MSC) Requirement
+	Brokerage Name
+	Full licensed name; must be visible on every "viewable unit/page."
+	Service Agreements
+	Platform must facilitate/track the delivery of written agreements.
+	Team Names
+	Must not use "Realty," "Inc," or "Company" in the team name.
+	Lead Routing
+	Must clearly disclose if the agent receiving the lead is the Listing Agent.
+	Sold Prices
+	Strictly behind a VOW registration wall.
+	Official MSC Reference Links
+1. The Real Estate Services Act (CCSM c. R21): Current Legislation
+2. MSC Advertising & Team Name Guidelines: Registrar’s Guide
+3. Internet Best Practices: Digital Marketing Standards

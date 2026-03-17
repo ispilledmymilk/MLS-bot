@@ -1,0 +1,41 @@
+﻿3. British Columbia
+
+
+3.1 Greater Vancouver REALTORS (GVR / formerly REBGV)
+Official GVR website: gvrealtors.ca
+GVR Member portal & WebAPI/BridgeAPI transition FAQ: member.gvrealtors.ca
+GVR IDX compliance inquiries: idx@gvrealtors.ca (email)
+BridgeAPI platform (WebAPI feed): bridgeinteractive.com
+
+
+3.1.1 Access Requirements
+* Membership: You must be a licensed REALTOR with GVR, CADREB (Chilliwack), or FVREB (Fraser Valley) to access these feeds.
+* Reciprocal Agreement: GVR, FVREB, and CADREB share data reciprocally — one connection provides data from all three boards.
+* RESO Web API (BridgeAPI): RETS has been fully deprecated (deadline: February 28, 2025). ALL integrations must now use the RESO Web API via the BridgeAPI platform.
+* Compliance Review: After development, your website must be submitted for compliance review by GVR's IDX department. Production credentials are not issued until compliance is confirmed.
+
+
+3.1.2 IDX Display Rules
+* Members may only advertise authorized prices and terms.
+* Sold prices cannot be advertised before public registry availability or without buyer and seller consent.
+* SOLD signs require seller permission and compliance with local board rules.
+* Public representations must be factual and include disclaimers for board-sourced information.
+
+
+3.1.3 VOW Rules
+* Registrants must acknowledge privacy notices, non-commercial use restrictions, and data redistribution prohibitions upon VOW access.
+* Registrants must agree not to copy, redistribute, or engage in data mining.
+* VOW participants must maintain user records for at least 180 days after password expiration.
+* BC Assessment Data: Members are prohibited from using BC Assessment data for solicitation or any form of harassment.
+
+
+3.2 Other BC Boards
+Board
+	Official Contact / Notes
+	Victoria Real Estate Board (VREB)
+	vreb.org — Operates own IDX and VOW feeds.
+	Kamloops & District Real Estate Assoc.
+	kadrea.com — Also available via CREA DDF shared pool.
+	BC Northern Real Estate Board
+	bcnreb.bc.ca — Included in GVR/FVREB/CADREB reciprocal agreement (residential).
+	________________

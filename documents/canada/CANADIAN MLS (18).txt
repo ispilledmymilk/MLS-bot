@@ -1,0 +1,38 @@
+﻿9. Universal Compliance Checklist
+
+
+9.1 Access & Membership
+* Only licensed CREA members in good standing may access DDF or regional MLS data feeds.
+* Non-members are strictly prohibited from accessing any Canadian MLS feed or scraping REALTOR.ca.
+* A signed IDX/VOW data agreement must be in place with your board.
+
+
+9.2 Attribution & Display
+* The listing brokerage must always be identified on property detail pages (on first view).
+* CREA trademarks (MLS, REALTOR) must be displayed correctly and may not be modified.
+* The applicable board/CREA mandatory footer disclaimer must appear on every page displaying MLS data.
+
+
+9.3 Photos & Media
+* All watermarks on listing photos must be preserved. No cropping, blurring, or overlaying of watermarks.
+* AI-enhanced or virtually staged photos require disclosure and must be accompanied by the original unstaged version.
+* Stock photos of nearby amenities are not permitted unless the amenity is directly visible from the property.
+
+
+9.4 Purge & Data Freshness
+* Expired, Withdrawn, or Terminated listings must be removed from your public site within 24 hours of status change.
+* Active listing data must be refreshed at least every 24 hours via scheduled API/RESO updates.
+
+
+9.5 VOW Requirements
+* Registration wall: Full name and valid email required before access to sold/expired data.
+* Email verification: Required before granting VOW access.
+* Audit logs: User identity and listing view records must be maintained for at least 1 year (TRREB) or 180 days post-password expiry (GVR/BC).
+* No search engine indexing: noindex/nofollow required on all VOW-gated pages.
+
+
+9.6 Prohibited Activities
+* No data mining, scraping, or bulk copying of MLS data.
+* No redistribution of MLS data to unauthorized third parties.
+* No co-mingling of listings from different boards without clear per-listing source labeling.
+* No use of BC Assessment data or equivalent provincial assessment data for solicitation or harassment.

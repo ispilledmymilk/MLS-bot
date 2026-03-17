@@ -1,0 +1,94 @@
+﻿10. Privacy Law — PIPEDA, Provincial PIPA, and Quebec Law 25
+
+
+A real estate marketplace collects and processes significant quantities of personal information: VOW user registrations, search behaviour, saved listings, contact requests, audit logs, and email communications. This makes compliance with Canadian privacy law non-negotiable. Three distinct privacy regimes apply depending on where users are located.
+
+
+10.1 PIPEDA — Federal Private-Sector Privacy Law
+Official PIPEDA resource centre (OPC): priv.gc.ca/en/privacy-topics/pipeda
+PIPEDA 10 Fair Information Principles: priv.gc.ca — Principles
+OPC Privacy Guide for Businesses: priv.gc.ca — Business Guide
+
+
+PIPEDA applies to all private-sector organizations across Canada that collect, use, or disclose personal information in the course of commercial activities — including a real estate marketplace. Importantly, PIPEDA also applies to international companies that have a genuine and significant connection to Canada (i.e., handling data of Canadian users).
+
+
+STATUS UPDATE: Bill C-27 (the Consumer Privacy Protection Act / CPPA), which would have significantly modernized and strengthened PIPEDA, died on the order paper with the prorogation of Parliament in January 2025. PIPEDA remains in force. Law reform is expected to become a priority in the 45th Parliament. Monitor the Office of the Privacy Commissioner (OPC) for updates. View official page
+	
+
+10.1.1 The 10 PIPEDA Fair Information Principles
+Every marketplace must implement practices that satisfy all 10 principles:
+* 1. Accountability: Appoint a Chief Privacy Officer (CPO) or designated privacy lead. Develop and maintain a written Privacy Management Program. The CPO must be reachable by users.
+* 2. Identifying Purposes: Document the reason for collecting each piece of personal information before or at the time of collection. Avoid overly broad purposes.
+* 3. Consent: Obtain express consent for sensitive data (VOW registration, contact forms). Implied consent may apply for lower-risk interactions, but must be contextually appropriate. Pre-checked boxes do not constitute valid consent.
+* 4. Limiting Collection: Collect only what is necessary for the identified purpose. Do not collect data simply because it might be useful later.
+* 5. Limiting Use, Disclosure & Retention: Do not use or disclose personal information for secondary purposes without re-consent. Establish and follow a data retention schedule. Destroy or anonymize data that is no longer needed.
+* 6. Accuracy: Keep personal information as accurate and up-to-date as necessary. Provide mechanisms for users to correct their information.
+* 7. Safeguards: Protect personal information with physical, organizational, and technical measures appropriate to its sensitivity. VOW audit logs and user registration data are sensitive and require strong encryption and access controls.
+* 8. Openness: Publish a clear, accessible Privacy Policy on your website. Describe what data is collected, how it is used, who it may be shared with, and how users can exercise their rights.
+* 9. Individual Access: Respond to access and correction requests within 30 days. Verify user identity securely before fulfilling requests. Include details of these rights in your Privacy Policy.
+* 10. Challenging Compliance: Maintain a documented process for receiving and responding to privacy complaints. Direct users to your CPO as the first point of contact.
+
+
+10.1.2 Mandatory Breach Reporting (PIPEDA)
+* Reporting Trigger: Organizations must report a breach to the OPC and notify affected individuals when the breach poses a 'real risk of significant harm' (RROSH standard).
+* Timing: Report to the OPC and notify individuals 'as soon as feasible' after determining the breach meets the RROSH threshold. Delays create both legal and reputational risk.
+* What to Include: Nature of the breach, type of information involved, number of affected individuals, steps taken after discovery, and contact information for your CPO.
+* Breach Records: Maintain an internal log of ALL security breaches — including those that do not meet the RROSH threshold — for a minimum of 24 months. The OPC may request this log.
+OPC breach reporting form: Report a breach (OPC)
+
+
+10.1.3 Third-Party Data Transfers (PIPEDA)
+* If personal information is transferred to a third-party processor (e.g., a US-based cloud provider, CRM, analytics platform), you remain accountable under PIPEDA for how that third party handles the data.
+* Contracts with processors must outline: security measures, purpose limitations, and compliance obligations. Include the right to audit.
+* Transparency: Disclose in your Privacy Policy that data may be transferred outside Canada and that it could be accessed by foreign authorities.
+
+
+10.2 Alberta & BC — Personal Information Protection Act (PIPA)
+BC PIPA — Office of the Information and Privacy Commissioner (BC): oipc.bc.ca
+Alberta PIPA — Office of the Information and Privacy Commissioner (AB): oipc.ab.ca
+
+
+Alberta and British Columbia have enacted their own private-sector privacy laws (PIPA) that have been deemed 'substantially similar' to PIPEDA. For organizations operating within these provinces, PIPA applies instead of PIPEDA for intra-provincial activities. For cross-border activities (e.g., sending an email to a BC user from an Ontario server), PIPEDA still applies.
+
+
+* Both PIPA laws mirror the 10 PIPEDA principles but have distinct procedural and enforcement rules.
+* Breach Reporting: Both Alberta and BC PIPA require breach notification to affected individuals and the respective Privacy Commissioner when a breach creates a real risk of significant harm.
+* Retention: BC PIPA requires that personal information used to make a decision about an individual be retained long enough for that individual to have a reasonable opportunity to request access.
+* Practical impact: A marketplace operating nationally must satisfy the highest standard across all three regimes (PIPEDA, BC PIPA, AB PIPA) simultaneously.
+
+
+10.3 Quebec — Law 25 (Loi 25)
+Commission d'accès à l'information (CAI — Quebec regulator): cai.gouv.qc.ca
+
+
+Law 25 is the strictest private-sector privacy law ever passed in Canada and is often compared to the EU's GDPR. It applies to ANY organization handling personal information of Quebec residents — regardless of where the organization is located. A Toronto-based marketplace with Quebec users is fully subject to Law 25.
+	
+
+Law 25 was enacted in September 2021 and phased in over three years, with the final provision (right to data portability) taking effect September 22, 2024.
+
+
+10.3.1 Key Law 25 Obligations
+* Privacy Officer (Mandatory): Appoint a Privacy Officer and publish their name and contact information prominently on your website (must be findable in two clicks). If no one is appointed, the CEO is the default Privacy Officer.
+* Privacy Policy: Publish a confidentiality policy (Privacy Policy) in clear, plain language on your website and mobile app. Required since September 22, 2023.
+* Privacy Impact Assessments (PIAs): Required before acquiring, developing, or overhauling any information system, electronic service delivery system, or before communicating personal information outside Quebec. The CAI has published a PIA template (in French).
+* Sensitive Personal Information: Law 25 introduces a 'sensitive' category — medical, biometric, or otherwise intimate information — requiring express consent before collection or use.
+* Minor Consent: Express consent from the parent or tutor is required before collecting, using, or disclosing personal information about a person under age 14.
+* Cross-Border Transfers: Before transmitting personal data outside Quebec (including to other Canadian provinces), organizations must: (a) conduct a PIA; (b) ensure the destination provides protection equivalent to Law 25; (c) document contractual safeguards.
+* Data Portability (Since September 22, 2024): Users can request their personal data in a structured, commonly used, machine-readable format (e.g., CSV/JSON/XML). Organizations must fulfill portability requests within 30 days.
+* Breach Notification: Promptly notify the CAI and affected individuals of any confidentiality incident posing a risk of serious injury. Maintain a breach register, a copy of which must be sent to the CAI upon request.
+* Biometric Database Notification: Disclose to the CAI any use of biometric processes at least 60 days before creating a biometric database.
+
+
+10.3.2 Law 25 Penalties
+Violation Type
+	Penalty
+	Administrative monetary penalties (CAI)
+	Up to CAD $10 million or 2% of worldwide turnover — whichever is greater
+	Penal fines (Court of Quebec)
+	Up to CAD $25 million or 4% of worldwide revenue — for serious violations causing significant harm
+	Failure to report a breach
+	Subject to both administrative and penal penalties
+	Using de-identified information to re-identify individuals
+	Subject to penal fines up to CAD $25 million
+	________________

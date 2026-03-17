@@ -1,0 +1,45 @@
+﻿17. Commercial & Non-Residential MLS Listings
+
+
+Commercial real estate listings operate under fundamentally different rules from residential MLS. Most of the IDX/VOW framework described in earlier sections applies exclusively to residential properties. Marketplaces that wish to include commercial, industrial, agricultural, or multi-family listings must understand a separate compliance regime.
+
+
+17.1 How Commercial Listings are Handled in Canada
+* No Unified Commercial MLS: Canada does not have a single unified commercial MLS equivalent to the residential system. Commercial listings are fragmented across: board-specific commercial databases, national commercial platforms (CoStar, Realnet), and broker-operated private databases.
+* CREA DDF — Residential Only: The CREA DDF national feed is for residential listings only. Commercial, industrial, and agricultural listings are not included in the DDF. Do not display commercial listings as if they come from the DDF.
+* REALTOR.ca Commercial: CREA operates a commercial section of REALTOR.ca that allows members to post commercial listings, but this is separate from the residential DDF and has its own display and attribution rules.
+* Board Commercial Databases: Some boards (e.g., TRREB, CREB) maintain separate commercial MLS databases. Access requires membership AND a specific commercial data agreement — separate from the residential IDX/VOW agreement.
+
+
+17.2 CREA DDF — Listing Types NOT Included
+Listing Type
+	DDF Included?
+	Residential (single family, condo, townhouse)
+	Yes — in the National Shared Pool if opted in
+	Multi-family residential (4+ units)
+	Generally No — varies by board
+	Commercial / Office / Retail / Industrial
+	No
+	Agricultural / Farm
+	No
+	Business Opportunities
+	No
+	Saskatchewan residential
+	No — SK does not participate in DDF
+	Quebec residential
+	No — Quebec does not participate in DDF
+	
+
+17.3 Commercial Data Sources in Canada
+* CoStar Canada: The dominant commercial real estate database in Canada, covering office, retail, industrial, and multi-family. Access requires a CoStar subscription and separate data licensing. See: costar.com/ca
+* TRREB Commercial Data: TRREB provides a commercial data feed to members via PropTx. A separate commercial data agreement is required.
+* CREA Commercial on REALTOR.ca: Members can post commercial listings at realtor.ca/commercial. Compliance with CREA trademark and attribution rules applies.
+* Local Board Commercial Databases: Some boards maintain local commercial databases. Contact the board's data services department directly for access terms and compliance rules.
+
+
+17.4 Key Compliance Differences for Commercial Listings
+* No VOW Requirement: There is no equivalent to the residential VOW framework for commercial listings. Sold prices for commercial properties are not subject to the same display restrictions — however, they may be subject to privacy considerations if the buyer/seller is an identifiable individual.
+* No Standard Attribution Tag: Commercial listings do not have a standardized 'Listing provided by [Brokerage]' rule equivalent to residential IDX. Follow the data licensing terms of your commercial data source.
+* Agricultural Properties: Farm and agricultural properties may be subject to additional disclosure requirements under provincial agricultural land protection legislation (e.g., BC's Agricultural Land Commission Act, Ontario's Greenbelt Act). These are not MLS compliance issues but are relevant to accurate listing display.
+* Leasing: Commercial lease listings follow the same data source fragmentation as sale listings. Rental rate data for commercial properties is not subject to the VOW framework.
+________________

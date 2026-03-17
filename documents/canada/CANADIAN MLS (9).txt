@@ -1,0 +1,45 @@
+﻿OACIQ COMPLIANCE
+1. Mandatory French Language (Bill 96)
+Since June 2023, the Charter of the French Language requires that all commercial "public-facing" information in Quebec be available in French.
+* The Rule: If your marketplace operates in Quebec, all listing data, interface elements, and search tools must be provided in French. An English version is allowed, but the French version must be "markedly predominant" or at least equivalent.
+* Feed Impact: If your feed source (like Centris) provides bilingual data, your platform must prioritize the French fields for users in Quebec.
+2. Prohibition on Displaying "Sold" Prices
+Unlike other provinces that allow sold prices behind a VOW login, Quebec has historically been much more restrictive about the public dissemination of sold price data.
+* The Rule: Under OACIQ guidelines, a licensee (broker) cannot advertise the specific selling price of a property, even after it is sold, unless they have specific written authorization from the parties.
+* Marketplace Impact: You cannot display "Sold" prices on an open marketplace. Even for registered users, displaying sold prices in Quebec is legally sensitive and often leads to disciplinary action by the OACIQ if the data is used for "commercial prospection" or public display.
+* Reference: OACIQ Guideline: Advertising of Completed Transactions
+3. Privacy Law 25 (Data Sovereignty)
+Quebec’s Law 25 (formerly Bill 64) is the strictest privacy law in North America, surpassing PIPEDA.
+* The "Privacy Officer" Rule: Your marketplace must appoint a Person in Charge of Personal Information and publish their contact info on the site.
+* Privacy Impact Assessment (PIA): Before launching or overhauling a data feed system that handles Quebecers' info, you must conduct a formal PIA.
+* Lead Consent: Opt-in consent must be "clear, free, and informed." You cannot use "pre-checked" boxes for newsletters or marketing when a user submits a lead form.
+* Reference: OACIQ: Actions to comply with Law 25
+4. Brokerage & Licensee Identification
+The OACIQ requires absolute clarity on who is representing a property to prevent "illegal brokerage."
+* Mandatory Identification: Every listing must clearly display the name of the agency (brokerage) or the broker acting on their own account.
+* Practice Rights (2026 Update): As of May 2026, Quebec brokers must specify if they hold a Residential or Commercial right to practice. Your marketplace must display the correct practice designation next to the agent's name.
+* Illegal Brokerage: If your marketplace allows "For Sale by Owner" (FSBO) alongside broker listings, the distinction must be unmistakable. You cannot allow a "Private Seller" to look like a "Broker."
+5. Centris® Feed Specifics
+In Quebec, most professional data flows through Centris (owned by the Quebec Professional Association of Real Estate Brokers).
+* Integrity of the Data: You are prohibited from altering Centris data. If the "General Impression" of a listing is changed (e.g., through AI-enhanced photos or edited text), the OACIQ can hold the marketplace and the listing agent jointly liable.
+* Copyright: The OACIQ maintains strict copyright over the "Mandatory Forms" and the way data is structured. You cannot reproduce Centris-only fields (like "Private Remarks") on a public marketplace.
+________________
+
+
+6. OACIQ Marketplace Compliance Checklist
+Requirement
+	Quebec (OACIQ) Standard
+	Language
+	Full French interface and data display is mandatory.
+	Sold Prices
+	Strictly Prohibited from public advertising.
+	Brokerage Name
+	Full legal name must be visible on the "first screen" of the listing.
+	Privacy (Law 25)
+	Privacy Policy must be Quebec-specific; must name a Privacy Officer.
+	Photos
+	Written consent from the photographer is required to display images on third-party sites.
+	Official OACIQ Reference Links
+1. Advertising of Completed Transactions: Guideline 7.2
+2. Marketing and Social Networks: Official OACIQ Guide
+3. Law 25 for Real Estate: Privacy Protection Guidelines

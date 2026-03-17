@@ -1,0 +1,48 @@
+﻿5. RESO Web API Technical Standards
+The technical architecture of the U.S. real estate market is now built exclusively on the RESO Web API standard. The legacy Real Estate Transaction Standard (RETS) is fully deprecated and must not be used in any 2026 integration.
+5.1 Data Dictionary 2.0 Certification
+NAR-affiliated MLSs were required to achieve RESO Data Dictionary 2.0 certification by April 2025. Significant updates include standardized status values (Active, Pending, Closed), detailed environmental hazard fields (fire/flood risk), and transition to 'Primary' terminology for property features.
+UPCOMING: RESO is moving toward Data Dictionary 2.1 and 2.2 releases, which introduce fields for digital staging and AI-enhanced photo disclosure including MediaDigitalEnhancementYN (see Section 11).
+5.2 Deprecated and New Fields — 2026
+Field
+	Status
+	Action Required
+	BuyerAgencyCompensation
+	DEPRECATED — Removed post-settlement
+	Remove from ingestion schema; treat as null.
+	AutomatedValuationModelYN
+	Active — Correct spelling
+	Respect opt-out flag per property. Note: prior doc had typo 'AumtomatedValuationModelYN'.
+	MediaDigitalEnhancementYN
+	New in DD 2.2
+	Flag AI-staged photos on display; show side-by-side with original.
+	OriginalMediaUrl
+	New / Updated
+	Provides non-altered source images; required by emerging consumer protection laws.
+	ListingKeyNumeric
+	Active
+	Use as primary unique identifier for listings across feeds.
+	
+
+5.3 Technical Specifications
+Specification
+	2026 Requirement
+	Technical Standard
+	Transport Protocol
+	RESTful HTTP
+	RESO Web API.
+	Query Language
+	OData v4
+	Filters, Paging, and Ordering.
+	Security Layer
+	TLS 1.2 minimum
+	TLS 1.3 strongly recommended.
+	Auth Method
+	OAuth 2.0
+	Bearer Tokens and Scopes.
+	Notification
+	Webhooks / EntityEvent
+	Real-time push updates.
+	Legacy Protocol
+	RETS — PROHIBITED
+	Reject any MLS still on RETS; flag for escalation.

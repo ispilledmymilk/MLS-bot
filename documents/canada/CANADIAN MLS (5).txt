@@ -1,0 +1,45 @@
+﻿BCFSA COMPLIANCE
+1. Prominent Brokerage Identification (Section 40)
+BCFSA is stricter than almost any other province regarding how a brokerage is identified on a website.
+* The "Full Name" Rule: You must use the full, legal name of the brokerage as registered with BCFSA. Short forms (e.g., using "ABC Realty" instead of "ABC Hillside Realty Ltd.") are strictly prohibited.
+* +1
+* The "Readability" Test: The brokerage name must be "displayed prominently and in an easily readable form." BCFSA has penalized platforms where the brokerage name was tucked away in a footer or shown in a font size significantly smaller than the agent's name.
+* Reference: BCFSA Advertising Checklist & Brokerage Name Requirements
+2. Real-Time Accuracy (The "Next Business Day" Rule)
+BCFSA considers an outdated listing to be "False or Misleading Advertising" (Section 41).
+* Sold/Rented Purge: Once a property is sold or a rental agreement is signed, the advertisement must be removed by the following business day.
+* Platform Liability: If your feed syncs every 48–72 hours, you are technically in violation of BC rules. For BC-specific feeds, your sync logic should aim for a 24-hour maximum turnaround.
+* Reference: BCFSA: When Your Ad Becomes False Advertising
+3. Team Name Compliance
+BC has very specific rules for "Teams" (e.g., The Vancouver Luxury Group).
+* Impression of a Brokerage: A team name on your marketplace must not give the impression that the team is its own incorporated brokerage. Terms like "Realty" or "Real Estate" are generally forbidden in team names unless they end in "Real Estate Team" or "Real Estate Group."
+* Unlicensed Assistants: If your marketplace displays team members, any unlicensed assistants must be clearly identified as "Unlicensed."
+4. Digital Image Integrity
+BCFSA has issued specific warnings regarding "Digitally Enhanced" photos.
+* The Rule: You cannot use photo-enhancing applications to alter a property in a way that misrepresents its physical condition (e.g., removing a power line or changing the view).
+* Disclosure: If an image is virtually staged, BCFSA requires a clear and visible disclaimer on the image itself or immediately adjacent to it.
+5. Home Buyer Rescission Period (HBRP) Data
+As of 2025/2026, BC has unique reporting requirements regarding the "Cooling-Off Period" (HBRP).
+* The Rule: For residential sales, buyers have a 3-business-day rescission period.
+* Marketplace Impact: If your marketplace displays "Pending" or "Conditional" statuses, you should avoid marking a property as "Sold" until the 3-day rescission period has officially lapsed, as the contract is not considered "firm" until then.
+* Reference: BCFSA: Home Buyer Rescission Period (HBRP) Requirements
+________________
+
+
+6. BCFSA Marketplace Compliance Checklist
+Rule
+	BCFSA Standard for Marketplaces
+	Brokerage Name
+	Full legal name, prominent, and easily readable on every page.
+	Status Purge
+	Remove Sold/Rented listings by the next business day.
+	Team Names
+	Must include the parent brokerage name in equal prominence.
+	Image Disclaimer
+	Clearly label all "Virtually Staged" or "Rendered" images.
+	Accuracy
+	Information must be "Current, Accurate, and Verifiable."
+	Official BCFSA Reference Links
+1. Advertising Checklist: Dos and Don'ts of BC Advertising
+2. Real Estate Services Rules (Part 4): Business Practices & Advertising
+3. Misleading Advertising Guide: How BCFSA Penalizes False Claims

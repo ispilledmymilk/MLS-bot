@@ -1,0 +1,35 @@
+﻿PEI + NL COMPLIANCE 
+1. Prince Edward Island (PEI)
+Regulator: Superintendent of Insurance (under the Department of Justice and Public Safety)
+Association: Prince Edward Island Real Estate Association (PEIREA)
+In PEI, real estate is governed by the Real Estate Trading Act. The Superintendent of Insurance acts as the Registrar.
+* Brokerage Prominence: All advertisements (including digital marketplace listings) must clearly and prominently display the brokerage name as it appears on the license.
+* The "Trading" Definition: PEI law defines "trading" broadly. If your marketplace facilitates the "disposition or acquisition" of real estate, you must ensure you aren't crossing into unlicensed brokerage activity.
+* Sold Data: Like other Atlantic provinces, PEI does not allow the public display of sold prices on open websites. To display this data, you must follow the VOW (Virtual Office Website) model, requiring user registration and a verified "Consumer-Broker" relationship.
+* Freshness: Online information must be "current and accurate." SREC and PEI standards generally require a timestamp indicating the last date of revision.
+* Reference: PEI Real Estate Trading Act
+________________
+
+
+2. Newfoundland and Labrador (NL)
+Regulator: Digital Government and Service NL (Financial Services Division)
+Act: Real Estate Trading Act, 2019
+NL updated its legislation recently (2019/2020) to modernize digital standards. Service NL is very focused on the "Employer/Employee" relationship.
+* The "Employer" Rule: Section 25 of the NL Act requires that every advertisement by a salesperson must indicate the name of the broker (the brokerage) by whom the salesperson is employed.
+* Immediate Removal of Expired Listings: NL regulation is explicit: when a listing expires or is withdrawn, it must be removed from the marketplace immediately. Allowing "stale" listings to remain for lead-generation purposes is considered a violation of the Code of Conduct.
+* Team Names: Team names are permitted but must be registered with the Superintendent. On your marketplace, the Brokerage Name must be displayed with equal or greater prominence than the team name.
+* Trust Account Disputes: If your marketplace handles deposits (rare for a listing site, but common for full-service platforms), you must comply with the new Real Estate Trust Account Dispute Resolution rules established in 2024.
+* Reference: NL Real Estate Trading Act & Regulations
+________________
+
+
+3. Atlantic Canada "Quick-Check" for Marketplaces
+Since the Atlantic provinces (NS, NB, PEI, NL) often share similar feed structures via the Atlantic Real Estate Boards, your compliance code should hit these three "Universal" marks:
+Rule
+	Requirement
+	Brokerage Name
+	Full legal name must be visible on the "First View" (no scrolling).
+	Sold Prices
+	Always Gated. Never show a price to an anonymous user.
+	Outdated Data
+	Purge logic must run at least every 24 hours.

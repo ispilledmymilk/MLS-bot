@@ -1,0 +1,27 @@
+﻿4. Alberta
+
+
+4.1 Calgary Real Estate Board (CREB / Pillar 9)
+Official CREB website: creb.com
+Official Pillar 9 platform: pillarnine.com
+CREB About/Member Info: creb.com/About_Us
+
+
+4.1.1 IDX Rules
+* IDX Access: Available to all CREB members and associated member associations in good standing.
+* IDX License Agreement: Members must complete an IDX license agreement (including broker signature) and be approved by their board.
+* Private Data (Full Address): For display of private information such as full street addresses, a VOW must be in place.
+
+
+4.1.2 Pillar 9 Platform
+Pillar 9 powers a single provincial MLS System for Alberta, aggregating listing data from across the province. The system is built on Matrix (CoreLogic) and follows RESO Gold data standards. It includes data integrity tools, automated compliance checks, and integrated CMA tools.
+
+
+4.2 REALTORS Association of Edmonton (EREB / Pillar 9)
+Official EREB website: realtorsofedmonton.com
+EREB serves the Edmonton metropolitan area and uses the same Pillar 9 platform as CREB. An IDX license agreement with broker signature is required, followed by board approval.
+
+
+4.3 Grande Prairie & Area Association of REALTORS (GPAAR)
+Official GPAAR website: gpaar.ca
+GPAAR serves northwestern Alberta. Members access CREA DDF for national exposure. Local IDX access is available to members; direct board contact is required for feed agreements.

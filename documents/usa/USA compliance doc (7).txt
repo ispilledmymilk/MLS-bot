@@ -1,0 +1,46 @@
+﻿7. Privacy Law Compliance and the HPPA
+7.1 Homebuyers Privacy Protection Act (HPPA) — Corrected Date
+The Homebuyers Privacy Protection Act (H.R. 2808) amends the Fair Credit Reporting Act. It largely bans the sale of mortgage 'trigger leads'.
+CRITICAL DATE CORRECTION: The HPPA effective date is March 5, 2026. Credit reporting agencies are prohibited from furnishing a consumer report in connection with a residential mortgage transaction to any third party unless that party has the consumer's documented opt-in consent or holds an existing relationship with the consumer.
+* Real estate marketplaces partnering with lenders must completely overhaul lead-generation workflows to ensure all consumer information shared with a lender is preceded by a clear and documented opt-in.
+7.2 CCPA, GPC, and ADMT — California
+* Effective January 1, 2026, platforms must honor the Global Privacy Control (GPC) signal as a valid opt-out request for the sale or sharing of personal information.
+* ADMT regulations take effect April 1, 2027. Platforms using AI for listing ranking, AVM estimates, or consumer matching must provide a pre-use notice and allow consumers to opt out.
+
+
+7.3 State Privacy Law Matrix — 2026
+State
+	Law
+	2026 Status
+	Key Marketplace Requirement
+	California
+	CCPA / CPRA
+	Updated Jan 2026
+	Honor GPC signal; ADMT pre-use notice by April 1, 2027.
+	Virginia
+	VCDPA
+	Active
+	Right to opt out of targeted advertising; data subject rights.
+	Colorado
+	CPA
+	Active
+	Universal opt-out signal recognition; data processor obligations.
+	Texas
+	TDPSA
+	Active
+	Detailed data processor obligations; controller accountability.
+	Florida
+	FDBR
+	Active
+	Controller and processor accountability requirements.
+	Connecticut
+	CTDPA
+	Active
+	Consumer rights: access, deletion, portability, correction.
+	Washington
+	My Health MY Data Act
+	Active
+	Broad health data protections; relevant to AVM and property condition data.
+	
+
+________________

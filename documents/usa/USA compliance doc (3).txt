@@ -1,0 +1,57 @@
+﻿3. NAR VOW Policy: Virtual Office Website Compliance
+The Virtual Office Website (VOW) is the primary vehicle for marketplaces providing enhanced data services to registered clients. VOW compliance is more rigorous than IDX, requiring a documented consumer-broker relationship before rich data can be accessed.
+3.1 Registration and User Authentication
+Every VOW must implement a registration wall that:
+* Captures the consumer's full name and a valid email address.
+* Sends a confirmation email and verifies the consumer's address before granting access.
+* Requires the consumer to affirmatively accept a Terms of Use (TOU) restricting data to personal, non-commercial use.
+* Prohibits redistribution or retransmission of any data.
+* Maintains audit logs of registrations and listings viewed by each user to facilitate MLS compliance reviews.
+3.2 Rich Data and Non-Disclosure State Constraints
+VOW feeds provide access to historical sold data essential for valuation tools. As of 2026, twelve (12) states do not require public recording of real estate sale prices. VOW displays in these areas must strictly adhere to local MLS rules.
+
+
+State
+	Disclosure Status
+	Key Operational Constraint
+	Alaska
+	Full Non-Disclosure
+	Sold prices are confidential; rely on agent-led research.
+	Idaho
+	Full Non-Disclosure
+	Prices not publicly recorded; AVMs must label outputs as 'estimates'.
+	Kansas
+	Full Non-Disclosure
+	Market research requires MLS access via professional boards.
+	Louisiana
+	Full Non-Disclosure
+	Deep legal roots in transaction privacy; prices withheld from public record.
+	Mississippi
+	Full Non-Disclosure
+	Deeds list token consideration only (e.g., $10); no public price data available.
+	Missouri
+	Partial Non-Disclosure
+	Major counties (St. Louis City, St. Louis County, Jackson County / Kansas City metro) disclose; remaining counties remain private. Verify per-county.
+	Montana
+	Confidential
+	Sellers file Realty Transfer Certificates; clerk keeps the information private.
+	New Mexico
+	Full Non-Disclosure
+	Strictly non-disclosure; prices only disclosed to owners and licensed agents.
+	North Dakota
+	Full Non-Disclosure
+	Engaging a realtor with MLS access is the only route for research.
+	Texas
+	Full Non-Disclosure
+	Prices never public; AVMs must use VOW-sourced historical data only.
+	Utah
+	Strict Non-Disclosure
+	Omits prices from all public records; among the highest privacy protections nationally.
+	Wyoming
+	Full Non-Disclosure
+	Sales information accessible via professional MLS only.
+	
+
+
+
+________________

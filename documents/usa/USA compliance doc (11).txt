@@ -1,0 +1,11 @@
+﻿11. AI, AVM, and Digital Staging Compliance
+11.1 AVM Data Sourcing Constraints
+* Training an AVM requires historical sold data. In non-disclosure states, this must be sourced exclusively via authorized VOW feeds.
+* Platforms are strictly prohibited from scraping sold data from county websites or competitor portals for AVM training.
+* Sellers may opt out of AVM display using the AutomatedValuationModelYN flag in the MLS feed (note: prior versions of this document misspelled this field as 'AumtomatedValuationModelYN' — this is a TYPO; the correct RESO field name is AutomatedValuationModelYN).
+* Platforms must respect the opt-out flag per individual property on every page render.
+11.2 AI-Enhanced Photo Disclosure
+* The 2026 compliance standard requires clear labeling of virtually staged or AI-enhanced photos.
+* RESO Data Dictionary 2.2 introduces the MediaDigitalEnhancementYN field to automate this disclosure.
+* Marketplace displays should provide a side-by-side or alternating view of original and AI-staged photos.
+* The OriginalMediaUrl flag in the RESO feed provides access to the non-altered source image.

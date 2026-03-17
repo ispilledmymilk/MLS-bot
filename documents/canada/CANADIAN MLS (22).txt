@@ -1,0 +1,38 @@
+﻿13. AI & Automated Valuation Model (AVM) Compliance
+
+
+Real estate marketplaces increasingly use artificial intelligence for property valuations (AVMs), market trend analysis, search ranking, and photo enhancement. Each of these uses carries distinct compliance obligations in Canada.
+
+
+13.1 What is an AVM?
+An Automated Valuation Model (AVM) is an AI/algorithm-driven tool that estimates a property's market value using large datasets — including sold prices, listing history, tax assessments, and neighbourhood data. Consumer-facing AVMs (like Zillow's Zestimate in the US, or HouseSigma's estimates in Canada) display estimated values directly to users. AVMs are also used by lenders for mortgage decisions.
+
+
+13.2 AVM Data Sourcing Rules
+* Sold Price Data Requirement: To build or operate an accurate AVM in Canada, you need access to historical sold price data. This data is only accessible through a VOW feed (not standard IDX). You must have a valid VOW agreement and comply with all VOW display and audit rules before sourcing sold data for AVM calculations.
+* TRREB/PropTx VOW for AVM: TRREB's 2026 'Bona Fide Consumer' rule (Section 2.1.1 of this document) was directly inspired by platforms like HouseSigma that were registering dummy accounts to harvest sold price data for AVM purposes. Systematic data harvesting via mass dummy VOW accounts is a material violation.
+* Assessment Data Restrictions: In BC, the REBGV/GVR rules explicitly prohibit using BC Assessment data for solicitation or harassment. Using assessment data as an AVM input for re-selling leads or targeted advertising likely violates board rules.
+* No Scraping: Harvesting sold price data by scraping public government registries or third-party sites without authorization violates both board rules and PIPEDA (collecting personal information — property addresses associated with individuals — without a stated lawful purpose).
+
+
+13.3 AVM Display Compliance
+* Disclosure Required: Any AVM estimate displayed to users must be clearly labeled as an 'estimate' or 'automated valuation' — not as an appraised value or official market value. Presenting an AVM as authoritative could violate consumer protection laws and TRESA in Ontario.
+* Confidence Score: Best practice (and increasingly a regulatory expectation) is to display a confidence score or error range alongside AVM estimates, so users understand the uncertainty in the model.
+* Not a Replacement for Appraisal: AVMs must not be presented as replacing a professional appraisal for mortgage or legal purposes. This distinction must be clear in your terms of use and on any page displaying AVM output.
+* TRESA (Ontario — 2026): AI-generated valuations and market analysis tools used by licensed agents in Ontario must comply with TRESA's transparency requirements. If your platform provides AI-generated market analysis to agents for use with clients, the agent's obligations under TRESA apply downstream.
+
+
+13.4 AI Photo Enhancement Rules
+* TRREB/TRESA Mandate: If AI is used to enhance photos or virtually stage rooms, an unstaged, original version of each photo must immediately follow the staged version in the listing display. This rule applies to any platform displaying TRREB data.
+* Stock Photo Prohibition: Stock photos of nearby parks, cafes, or amenities cannot be used in listing displays unless those amenities are directly visible from the listed property. This applies to AI-generated or AI-selected imagery.
+* National Best Practice: Although currently mandated only under TRESA/TRREB, the AI photo disclosure rule is recommended as a national standard — other provinces are expected to adopt similar rules. Implementing it nationally now reduces future compliance burden.
+
+
+13.5 Algorithmic Pricing & Competition Act Risk
+The Competition Bureau investigated RealPage and Yardi's algorithmic rental pricing software in Canada (investigation concluded late 2025, no wrongdoing found, but guidance was issued). The Bureau has confirmed it will continue monitoring algorithmic pricing in all real estate sectors. Any marketplace using AI-driven pricing recommendations or market analysis tools that incorporate competitor data — even anonymized — may trigger scrutiny under sections 90.1 and 79 of the Competition Act. View official page
+	
+
+* Do not build pricing algorithms that ingest competitor transaction data without independent legal review.
+* Avoid default settings that make it easier to accept algorithmic pricing recommendations than to reject them — this is a specific factor the Bureau considers in assessing anti-competitive conduct.
+* Document your AI model governance: who has oversight, how it is tested for bias, and how inputs are sourced.
+________________

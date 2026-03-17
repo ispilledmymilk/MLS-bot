@@ -1,0 +1,51 @@
+﻿12. RESO Web API — Technical Standards
+
+
+12.1 What is the RESO Web API?
+The RESO Web API is a REST-style API that uses HTTP, JSON, OData v4 query syntax (filters, paging, ordering), and OAuth 2.0 authentication. It replaces the older XML-based RETS protocol and provides:
+* Live Queries: Direct calls to MLS databases in response to user searches — eliminating the need for large local replicated databases.
+* Standardized Data: RESO Data Dictionary defines standard names and types for MLS fields (e.g., ListingId, Status, ListPrice, LivingArea, StandardStatus) so data from different boards maps consistently.
+* OAuth 2.0: Modern authentication and authorization, replacing RETS username/password credentials.
+* OData v4: A protocol for building and querying APIs using well-known HTTP conventions — supported by major development frameworks.
+
+
+12.2 RESO Data Dictionary 2.0
+RESO Data Dictionary 2.0 became the required standard in April 2024, with all MLS systems required to certify within one year (April 2025 deadline). This is a significant upgrade from Data Dictionary 1.7. Key impacts for marketplace developers:
+* StandardStatus Values: 'Active', 'Pending', and 'Closed' now mean the same thing across all RESO-certified MLS boards — enabling multi-market aggregation.
+* New Required Fields: DD 2.0 adds required fields for accessibility measurements, energy ratings, and green features. NSAR in Nova Scotia was first in Canada to mandate accessibility fields in MLS submissions (June 2024).
+* Consistent Schema: Any marketplace connecting to multiple Canadian boards can use a single data model rather than maintaining custom field-mapping for each board.
+
+
+12.3 Technical Architecture Requirements
+Component
+	Requirement
+	Transport Protocol
+	RESO Web API (REST/OData v4/JSON). RETS is deprecated and unsupported.
+	Authentication
+	OAuth 2.0. Client credentials flow for server-to-server integrations; authorization code flow for user-delegated access.
+	TLS Encryption
+	All API connections must use TLS 1.2 or higher. No unencrypted HTTP connections are acceptable.
+	Data Refresh Rate
+	Active listing data must be refreshed at least once every 24 hours (CREA DDF rule). Most integrations implement more frequent polling (every 15–60 minutes).
+	Metadata Endpoint
+	Consume the OData $metadata endpoint to dynamically understand available fields and data types. Do not hardcode field names.
+	Replication vs. Live Query
+	Many Canadian boards (TRREB/PropTx, ITSO) provide both replication (bulk data export) and live query. Marketplaces displaying sold/expired data must ensure their replication sync honours the 24-hour purge rule.
+	Rate Limits
+	Each board imposes its own rate limits. Implement exponential back-off and honour 429 Too Many Requests responses. Exceeding rate limits can trigger temporary suspension of feed credentials.
+	Listing Search Limits
+	For IDX/VOW contexts: do not return more than 100 current listings per query or 200 per session (ITSO rule). Implement server-side pagination controls.
+	
+
+12.4 Connecting to Canadian MLS Boards via RESO Web API
+* GVR / FVREB / CADREB (BC): Use BridgeAPI (BridgeInteractive). Complete GVR's compliance review before production credentials are issued. Contact idx@gvrealtors.ca to begin.
+* TRREB / PropTx (Ontario): Connect via the PropTx API. Access is managed through the PropTx member portal at myprofile.torontomls.net. Only licensed TRREB members can apply.
+* ITSO (Ontario): Access via ITSO's Matrix Web API. Review access terms at itsosystems.ca/access.
+* CREB / EREB (Alberta): Connect via Pillar 9's RESO Web API. Apply through your CREB or EREB membership.
+* CREA DDF (National): Connect via the DDF API documented at ddfapi-docs.realtor.ca. Requires CREA membership and DDF dashboard opt-in.
+* Official RESO Web API documentation: reso.org/reso-web-api
+* RESO Data Dictionary 2.0 specification: reso.org — Data Dictionary
+* RESO certification status map: reso.org — Analytics
+* RESO Web API transition leaderboard: reso.org — Transition Leaderboard
+* * RESO (Real Estate Standards Organization) is an independent not-for-profit that creates, certifies, and maintains data standards for the real estate industry. As of 2025-2026, RESO Web API is the mandatory transport standard for MLS data exchange, replacing the legacy RETS (Real Estate Transaction Standard) protocol which has been fully deprecated.
+* RETS IS FULLY DEPRECATED. RETS support officially ended in 2024-2025 across most major MLS platforms. GVR in BC deprecated RETS on February 28, 2025. Any marketplace still running RETS integrations is operating on expired, unsupported infrastructure and must migrate immediately.

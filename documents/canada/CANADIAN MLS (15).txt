@@ -1,0 +1,47 @@
+﻿NSREC COMPLIANCE 
+1. "Coming Soon" Advertising Policy
+NSREC has a formal policy for properties that are not yet on the market. If your marketplace allows users to "tease" a listing:
+* The Mandatory Disclaimer: Every "Coming Soon" advertisement must include the exact phrase: "This is not an offering for sale."
+* The 3-Day Cooperation Sync: Like the national CREA rule, if a property is marketed as "Coming Soon," it must be placed on the MLS® System within three business days.
+* Written Authority: The marketplace must ensure the agent has a specific "Coming Soon" authorization in writing from the seller before the tag is applied.
+2. Brokerage & Team Branding (The "Equal Size" Rule)
+NSREC is strict about ensuring a team doesn't look like an independent brokerage.
+* Size Requirements: A team name or logo cannot appear larger than the brokerage name. They must be the same size or smaller.
+* Prominence: The full legal name of the brokerage must be "prominent" on every page where a listing or agent is displayed.
+* Designated Agency: If your marketplace identifies agents, you must list all members of a team as the "Designated Agent" for a property, as they are legally deemed to share confidential client information.
+* Reference: NSREC Designated Agency & Team FAQs
+3. Sold Price Transparency (Dual Consent)
+Nova Scotia has a high bar for displaying what a home actually sold for.
+* The Rule: To advertise the purchase price of a property, a licensee needs written permission from both parties (the buyer and the seller).
+* The VOW Solution: Similar to other provinces, the only way to show historical sold data at scale on a marketplace is through a Virtual Office Website (VOW).
+   * The user must register, verify their email, and agree to a "Lawful Consumer-Broker Relationship."
+   * Even with a VOW, you must display the original listing brokerage's name clearly alongside the sold data.
+* Reference: NSREC Conduct & Trade Practices FAQ
+4. Unlicensed Assistant Restrictions
+If your marketplace has a "Chat" or "Support" feature handled by staff:
+* Prohibited Activity: Unlicensed individuals cannot review, interpret, or explain listings, offers, or contracts to consumers.
+* Lead Handling: They can relay factual, already-advertised listing information, but any "comparative market analysis" or advice must be directed to a licensed REALTOR®.
+5. Incentives & Inducements (July 2025 Update)
+As of July 1, 2025, NSREC updated the rules regarding incentives (e.g., "Buy this home and get a free iPad" or "Commission Rebates").
+* Disclosure: Any incentive offered on your marketplace must include all details, terms, and conditions in writing within the advertisement.
+* Broker Approval: Individual licensees can now offer their own incentives (previously it had to be brokerage-wide), but they must still have written approval from their Broker of Record.
+________________
+
+
+6. NSREC Marketplace Compliance Checklist
+Rule
+	Nova Scotia (NSREC) Requirement
+	Coming Soon
+	Must display "This is not an offering for sale."
+	Team Branding
+	Brokerage name must be equal to or larger than team name.
+	Sold Prices
+	Requires written consent from buyer AND seller (use VOW).
+	Brokerage Name
+	Full legal name (as on license) must be on every page.
+	Incentives
+	All terms/conditions must be visible or linked in the ad.
+	Official NSREC Reference Links
+1. Commission Policies (2026): Official Policy List
+2. Coming Soon Policy: Minimum Standards for Teaser Ads
+3. Mandatory Forms (Form 100): Working with the Real Estate Industry (Eff. Feb 2026)

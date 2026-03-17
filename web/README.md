@@ -1,0 +1,26 @@
+# Compliance Bot — Web App
+
+Upload compliance documents for **USA**, **Portugal**, and **Mexico**. The bot answers questions using only the docs you upload for the selected region.
+
+## Run locally
+
+```bash
+cd web
+npm install
+cp .env.example .env
+# Edit .env and add GEMINI_API_KEY or OPENAI_API_KEY for AI answers
+npm start
+```
+
+Open http://localhost:3000
+
+## Features
+
+- **Upload**: Choose region (USA / Portugal / Mexico), select one or more files (TXT, PDF, MD). Uploaded docs replace existing docs for that region.
+- **Chat**: Select region and ask a question. Answers are based only on that region’s uploaded documentation. Requires `GEMINI_API_KEY` or `OPENAI_API_KEY` in `.env`.
+- **DOCS**: Browse sections by region. Same content as used for Chat.
+
+## Deploy as a website
+
+- Run the server on your host (Node.js) and expose the port (e.g. reverse proxy to `http://localhost:3000`).
+- For production, use HTTPS, set `PORT`, and keep API keys in environment variables (never in the repo).

@@ -1,0 +1,37 @@
+﻿7. Atlantic Provinces
+
+
+7.1 Nova Scotia — NSAR
+Official NSAR website: nsrealtors.ca
+Nova Scotia Real Estate Commission (NSREC — regulator): nsrec.ns.ca
+
+
+* Membership: NSAR represents 2,000+ brokers and salespeople across the province. MLS access is exclusive to NSAR members.
+* Paragon Platform: The provincial MLS platform is Paragon (since 2003). Members list and search province-wide.
+* Accessibility Fields (2024): NSAR became the first MLS System in Canada to make accessibility measurement fields (door widths, hallway widths, turning radii) mandatory as of June 2024.
+* AI Compliance Automation (2025): NSAR partnered with a tech firm to automate MLS compliance checking using AI, handling 8,000+ listings efficiently.
+* DDF Participation: Nova Scotia participates in CREA DDF.
+
+
+7.2 New Brunswick — NBREA
+Official NBREA website: nbrea.ca
+
+
+* DDF Participation: NB boards participate in CREA DDF.
+* IDX/VOW: Standard IDX and VOW feeds available to licensed NBREA members.
+
+
+7.3 Newfoundland & Labrador — NLREA
+Official NLREA website: nlrea.ca
+
+
+* DDF Participation: NLREA participates in CREA DDF.
+* Local IDX: Available to licensed members; direct contact with NLREA required for feed agreements.
+
+
+7.4 Prince Edward Island — PEIARA
+Official PEIARA website: peiara.ca
+
+
+* DDF Participation: PEIARA participates in CREA DDF.
+* IDX Access: Available to licensed members; agreements must be signed with PEIARA.

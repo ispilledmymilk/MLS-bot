@@ -1,0 +1,26 @@
+﻿6. Prairie Provinces (Manitoba & Saskatchewan)
+
+
+6.1 WinnipegREALTORS / Manitoba
+Official WinnipegREALTORS website: winnipegrealtors.ca
+Winnipeg Regional Real Estate Board: winnipegregionalrealestateboard.ca
+
+
+* DDF Participation: Manitoba boards participate in CREA DDF, feeding data into the national pool.
+* Local IDX: WinnipegREALTORS provides IDX feeds to members; a signed IDX agreement is required.
+* Regulatory Reform: Manitoba replaced the Real Estate Brokers Act (REBA, from 1947) with the new Real Estate Services Act and Regulation in 2022.
+
+
+6.2 Saskatchewan REALTORS Association (SRA)
+Official SRA website: saskatchewanrealtorsassociation.ca
+SRA MLS System page: saskatchewanrealtorsassociation.ca/mls-system
+
+
+Saskatchewan does NOT participate in the CREA DDF national feed. This is a critical distinction — agents needing Saskatchewan listings must access the SRA regional MLS directly.
+	
+
+* Direct SRA Access Required: No national feed alternative exists for Saskatchewan.
+* Sold Listings: Saskatchewan IDX/reciprocity does NOT permit display of sold listings or co-mingling of listings from other boards.
+* Minimum Listing Duration: SRA rules require a minimum listing duration of 60 days on the MLS System.
+* PST: A 6% Saskatchewan Provincial Sales Tax (PST) applies to IDX set-up and monthly/annual fees.
+________________

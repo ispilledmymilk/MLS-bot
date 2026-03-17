@@ -1,0 +1,45 @@
+﻿RECA COMPLIANCE
+1. The "Immediate Adjacency" Rule
+RECA’s most famous rule for digital platforms is how the brokerage name must be displayed.
+* Proximity: The brokerage name must be "immediately adjacent" to the most prominent identifier (like the agent's name or the property price).
+* Size: The brokerage name must be in a font size similar to or larger than the agent’s name or team name.
+* Prohibited Terms: You cannot use terms that make a team or a marketplace look like a brokerage. Prohibited words unless followed by "Team" or "Group" include: Agency, Associates, Brokerage, Company, Corp, Inc, Ltd, Properties, or Realty.
+* Reference: RECA New Clarifications on Advertising
+2. Authorization to Advertise (Written Consent)
+In Alberta, a listing cannot be advertised on a third-party marketplace without the written authorization of the seller.
+* Rule: While the DDF/IDX agreement usually provides this, if your marketplace allows "Exclusive" listings, you must ensure the uploader has a signed Exclusive Seller Representation Agreement that specifically permits "Third-Party Website Advertising."
+* Reference: RECA Advertising Guidelines (Section 2.5)
+3. Internet & Social Media Guidelines
+If your marketplace generates "Social Media Cards" or "Share" buttons for listings, RECA has specific rules for the metadata:
+* Banner Ads: If a thumbnail or "Banner Ad" is too small to fit the full brokerage name, it must link directly to a page that prominently displays the full brokerage name.
+* Accuracy: Online information must be "current and accurate." RECA requires that listing displays indicate the last date for revision of the information (the timestamp).
+* Reference: RECA Internet & Social Media Advertising Guidelines
+4. "Sold" Data and Identification
+Alberta is very strict about privacy regarding sold properties.
+* Written Consent for Solds: You cannot display identifying photos or the Sold Price of a property without the written consent of the sellers.
+* The VOW Solution: Similar to Ontario, the only legal way to show Alberta sold prices on a marketplace without individual seller consent for every house is through a Virtual Office Website (VOW) login.
+* Reference: RECO/RECA Online Advertising Bulletin 5.3 (Note: RECA and RECO maintain similar standards for VOW data).
+5. RECA "ProCheck" Integration
+For a marketplace to be considered "high-compliance" in Alberta, it is recommended to verify that the agents posting or receiving leads are active.
+* The Rule: Industry members must trade only in the name that appears on their license.
+* Implementation: Use the RECA ProCheck tool or API (if available) to ensure that the brokerage names displayed on your feed match the current RECA registration database.
+________________
+
+
+6. RECA Marketplace Compliance Summary
+Feature
+	Alberta (RECA) Requirement
+	Brokerage Font
+	Must be same size or larger than agent/team name.
+	Brokerage Placement
+	Must be "Immediately Adjacent" to the price/agent info.
+	Sold Prices
+	Gated behind a VOW (Login/Verified Email).
+	Expired Listings
+	Purge within 24 hours of status change.
+	Team Names
+	Must end in "Team" or "Group" (e.g., "The Smith Group").
+	Core Document Directory for Alberta
+1. RECA Advertising Guidelines (PDF): Official Guide
+2. RECA Social Media Guide: Visual Compliance Examples
+3. Real Estate Act Rules: Legislation

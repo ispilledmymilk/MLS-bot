@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "web/server.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": [
+          "web/public/**",
+          "web/docs-parser.js",
+          "documents/**"
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "web/server.js"
+    }
+  ]
+}

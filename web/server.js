@@ -537,4 +537,17 @@ async function startServer(port) {
   });
 }
 
-startServer(PORT);
+if (process.env.VERCEL) {
+  // On Vercel, load all documents at cold-start before handling any request.
+  // Top-level await is valid in ESM modules.
+  await Promise.all([
+    loadCanadaDocuments(),
+    loadUsaDocuments(),
+    loadMexicoDocuments(),
+    loadPortugalDocuments(),
+  ]);
+} else {
+  startServer(PORT);
+}
+
+export default app;

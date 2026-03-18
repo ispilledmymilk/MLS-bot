@@ -1,5 +1,6 @@
 node_modules/
 .env
+web/.env
 dist/
 out/
 *.log

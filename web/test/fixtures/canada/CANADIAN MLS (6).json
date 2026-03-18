@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "file": "CANADIAN MLS (6).txt",
+  "category": "Alberta",
+  "sections": [
+    {
+      "id": "canada-canadian-mls-(6)-0",
+      "title": "Alberta",
+      "contentHtml": "<p class=\"doc-bullet\">Calgary Real Estate Board (CREB / Pillar 9)</p>\n<p>Official CREB website: <a href=\"https://creb.com\" target=\"_blank\" rel=\"noopener noreferrer\">creb.com</a></p>\n<p>Official Pillar 9 platform: <a href=\"https://pillarnine.com\" target=\"_blank\" rel=\"noopener noreferrer\">pillarnine.com</a></p>\n<p>CREB About/Member Info: <a href=\"https://creb.com/About_Us\" target=\"_blank\" rel=\"noopener noreferrer\">creb.com/About_Us</a></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-bullet\">IDX Rules</p>\n<p class=\"doc-bullet\">* IDX Access: Available to all CREB members and associated member associations in good standing.</p>\n<p class=\"doc-bullet\">* IDX License Agreement: Members must complete an IDX license agreement (including broker signature) and be approved by their board.</p>\n<p class=\"doc-bullet\">* Private Data (Full Address): For display of private information such as full street addresses, a VOW must be in place.</p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-bullet\">Pillar 9 Platform</p>\n<p>Pillar 9 powers a single provincial MLS System for Alberta, aggregating listing data from across the province. The system is built on Matrix (CoreLogic) and follows RESO Gold data standards. It includes data integrity tools, automated compliance checks, and integrated CMA tools.</p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-bullet\">REALTORS Association of Edmonton (EREB / Pillar 9)</p>\n<p>Official EREB website: <a href=\"https://realtorsofedmonton.com\" target=\"_blank\" rel=\"noopener noreferrer\">realtorsofedmonton.com</a></p>\n<p>EREB serves the Edmonton metropolitan area and uses the same Pillar 9 platform as CREB. An IDX license agreement with broker signature is required, followed by board approval.</p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-bullet\">Grande Prairie &amp; Area Association of REALTORS (GPAAR)</p>\n<p>Official GPAAR website: <a href=\"https://gpaar.ca\" target=\"_blank\" rel=\"noopener noreferrer\">gpaar.ca</a></p>\n<p>GPAAR serves northwestern Alberta. Members access CREA DDF for national exposure. Local IDX access is available to members; direct board contact is required for feed agreements.</p>",
+      "category": "Alberta"
+    }
+  ]
+}

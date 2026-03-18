@@ -6,7 +6,8 @@
  *   node web/scripts/generate-fixtures.js
  *
  * Output:
- *   web/test/fixtures/canada.json
+ *   web/test/fixtures/canada.json          — combined Canada fixture
+ *   web/test/fixtures/canada/<file>.json   — one file per Canada document
  *   web/test/fixtures/usa.json
  *   web/test/fixtures/mexico.json
  *   web/test/fixtures/portugal.json
@@ -204,11 +205,52 @@ async function generateFixture({ region, folder, baseFile, categories }) {
   console.log(`[${region}] Wrote ${sections.length} sections → ${path.relative(process.cwd(), outPath)}`);
 }
 
+async function generateCanadaIndividualFixtures() {
+  const folder = 'canada';
+  const baseFile = 'CANADIAN MLS.txt';
+  const outDir = path.join(FIXTURES_DIR, 'canada');
+  fs.mkdirSync(outDir, { recursive: true });
+
+  const docsDir = resolveDocsDir(folder);
+  if (!docsDir) {
+    console.error('[canada/individual] documents/canada not found — skipping.');
+    return;
+  }
+
+  const allFiles = fs.readdirSync(docsDir).filter((f) =>
+    /\.(txt|md|markdown|pdf)$/i.test(f)
+  );
+  const files = sortFiles(allFiles, baseFile);
+
+  for (let i = 0; i < files.length; i++) {
+    const filename = files[i];
+    const category = CANADA_CATEGORIES[i] || 'Overview & Reference';
+    const filePath = path.join(docsDir, filename);
+    try {
+      const parsed = await parseFile(filePath, mimeFor(filename));
+      const sections = parsed.map((sec, idx) => ({
+        id: `canada-${filename.replace(/\.[^.]+$/, '').replace(/\s+/g, '-').toLowerCase()}-${idx}`,
+        title: sec.title,
+        contentHtml: sec.contentHtml || sec.content,
+        category,
+      }));
+      const payload = { ok: true, file: filename, category, sections };
+      const outName = filename.replace(/\.[^.]+$/, '') + '.json';
+      const outPath = path.join(outDir, outName);
+      fs.writeFileSync(outPath, JSON.stringify(payload, null, 2), 'utf8');
+      console.log(`[canada/${filename}] Wrote ${sections.length} section(s) → ${path.relative(process.cwd(), outPath)}`);
+    } catch (err) {
+      console.warn(`[canada/individual] Could not parse ${filename}: ${err.message}`);
+    }
+  }
+}
+
 async function main() {
   fs.mkdirSync(FIXTURES_DIR, { recursive: true });
   for (const config of REGIONS) {
     await generateFixture(config);
   }
+  await generateCanadaIndividualFixtures();
   console.log('Done.');
 }
 

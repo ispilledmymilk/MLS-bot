@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "file": "CANADIAN MLS (10).txt",
+  "category": "Prairie Provinces",
+  "sections": [
+    {
+      "id": "canada-canadian-mls-(10)-0",
+      "title": "Prairie Provinces (Manitoba & Saskatchewan)",
+      "contentHtml": "<p class=\"doc-bullet\">WinnipegREALTORS / Manitoba</p>\n<p>Official WinnipegREALTORS website: <a href=\"https://winnipegrealtors.ca\" target=\"_blank\" rel=\"noopener noreferrer\">winnipegrealtors.ca</a></p>\n<p>Winnipeg Regional Real Estate Board: <a href=\"https://winnipegregionalrealestateboard.ca\" target=\"_blank\" rel=\"noopener noreferrer\">winnipegregionalrealestateboard.ca</a></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-bullet\">* DDF Participation: Manitoba boards participate in CREA DDF, feeding data into the national pool.</p>\n<p class=\"doc-bullet\">* Local IDX: WinnipegREALTORS provides IDX feeds to members; a signed IDX agreement is required.</p>\n<p class=\"doc-bullet\">* Regulatory Reform: Manitoba replaced the Real Estate Brokers Act (REBA, from 1947) with the new Real Estate Services Act and Regulation in 2022.</p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-bullet\">Saskatchewan REALTORS Association (SRA)</p>\n<p>Official SRA website: <a href=\"https://saskatchewanrealtorsassociation.ca\" target=\"_blank\" rel=\"noopener noreferrer\">saskatchewanrealtorsassociation.ca</a></p>\n<p>SRA MLS System page: <a href=\"https://saskatchewanrealtorsassociation.ca/mls-system\" target=\"_blank\" rel=\"noopener noreferrer\">saskatchewanrealtorsassociation.ca/mls-system</a></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p>Saskatchewan does NOT participate in the CREA DDF national feed. This is a critical distinction — agents needing Saskatchewan listings must access the SRA regional MLS directly.</p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-bullet\">* Direct SRA Access Required: No national feed alternative exists for Saskatchewan.</p>\n<p class=\"doc-bullet\">* Sold Listings: Saskatchewan IDX/reciprocity does NOT permit display of sold listings or co-mingling of listings from other boards.</p>\n<p class=\"doc-bullet\">* Minimum Listing Duration: SRA rules require a minimum listing duration of 60 days on the MLS System.</p>\n<p class=\"doc-bullet\">* PST: A 6% Saskatchewan Provincial Sales Tax (PST) applies to IDX set-up and monthly/annual fees.</p>\n<p>________________</p>",
+      "category": "Prairie Provinces"
+    }
+  ]
+}

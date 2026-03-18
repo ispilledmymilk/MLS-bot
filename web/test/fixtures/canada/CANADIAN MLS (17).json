@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "file": "CANADIAN MLS (17).txt",
+  "category": "Territories",
+  "sections": [
+    {
+      "id": "canada-canadian-mls-(17)-0",
+      "title": "Territories",
+      "contentHtml": "<p>The three Canadian territories have limited dedicated real estate regulatory bodies and relatively small MLS ecosystems.</p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-bullet\">Yukon</p>\n<p>Yukon Government — Real Estate Licensing: <a href=\"https://yukon.ca\" target=\"_blank\" rel=\"noopener noreferrer\">yukon.ca</a> (Service Yukon)</p>\n<p>Unlike provinces with dedicated real estate bodies, Yukon&#39;s real estate licensing is handled directly by the Yukon territorial government online. Listings that are made available nationally flow through CREA DDF.</p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-empty\"></p>\n<p class=\"doc-bullet\">Northwest Territories &amp; Nunavut</p>\n<p>NWT Government: <a href=\"https://gov.nt.ca\" target=\"_blank\" rel=\"noopener noreferrer\">gov.nt.ca</a></p>\n<p>Real estate in NWT and Nunavut operates through very small local markets. Listings flow through CREA DDF for national exposure. Contact your territorial government and CREA directly for current feed access requirements.</p>\n<p>________________</p>",
+      "category": "Territories"
+    }
+  ]
+}

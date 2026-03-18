@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "file": "CANADIAN MLS (16).txt",
+  "category": "Atlantic Provinces",
+  "sections": [
+    {
+      "id": "canada-canadian-mls-(16)-0",
+      "title": "PEI + NL COMPLIANCE",
+      "contentHtml": "<p class=\"doc-bullet\">Prince Edward Island (PEI)</p>\n<p>Regulator: Superintendent of Insurance (under the Department of Justice and Public Safety)</p>\n<p>Association: Prince Edward Island Real Estate Association (PEIREA)</p>\n<p>In PEI, real estate is governed by the Real Estate Trading Act. The Superintendent of Insurance acts as the Registrar.</p>\n<p class=\"doc-bullet\">* Brokerage Prominence: All advertisements (including digital marketplace listings) must clearly and prominently display the brokerage name as it appears on the license.</p>\n<p class=\"doc-bullet\">* The &quot;Trading&quot; Definition: PEI law defines &quot;trading&quot; broadly. If your marketplace facilitates the &quot;disposition or acquisition&quot; of real estate, you must ensure you aren&#39;t crossing into unlicensed brokerage activity.</p>\n<p class=\"doc-bullet\">* Sold Data: Like other Atlantic provinces, PEI does not allow the public display of sold prices on open websites. To display this data, you must follow the VOW (Virtual Office Website) model, requiring user registration and a verified &quot;Consumer-Broker&quot; relationship.</p>\n<p class=\"doc-bullet\">* Freshness: Online information must be &quot;current and accurate.&quot; SREC and PEI standards generally require a timestamp indicating the last date of revision.</p>\n<p class=\"doc-bullet\">* Reference: PEI Real Estate Trading Act</p>",
+      "category": "Atlantic Provinces"
+    },
+    {
+      "id": "canada-canadian-mls-(16)-1",
+      "title": "Newfoundland and Labrador (NL)",
+      "contentHtml": "<p>Regulator: Digital Government and Service NL (Financial Services Division)</p>\n<p>Act: Real Estate Trading Act, 2019</p>\n<p>NL updated its legislation recently (2019/2020) to modernize digital standards. Service NL is very focused on the &quot;Employer/Employee&quot; relationship.</p>\n<p class=\"doc-bullet\">* The &quot;Employer&quot; Rule: Section 25 of the NL Act requires that every advertisement by a salesperson must indicate the name of the broker (the brokerage) by whom the salesperson is employed.</p>\n<p class=\"doc-bullet\">* Immediate Removal of Expired Listings: NL regulation is explicit: when a listing expires or is withdrawn, it must be removed from the marketplace immediately. Allowing &quot;stale&quot; listings to remain for lead-generation purposes is considered a violation of the Code of Conduct.</p>\n<p class=\"doc-bullet\">* Team Names: Team names are permitted but must be registered with the Superintendent. On your marketplace, the Brokerage Name must be displayed with equal or greater prominence than the team name.</p>\n<p class=\"doc-bullet\">* Trust Account Disputes: If your marketplace handles deposits (rare for a listing site, but common for full-service platforms), you must comply with the new Real Estate Trust Account Dispute Resolution rules established in 2024.</p>\n<p class=\"doc-bullet\">* Reference: NL Real Estate Trading Act &amp; Regulations</p>",
+      "category": "Atlantic Provinces"
+    },
+    {
+      "id": "canada-canadian-mls-(16)-2",
+      "title": "Atlantic Canada \"Quick-Check\" for Marketplaces",
+      "contentHtml": "<p>Since the Atlantic provinces (NS, NB, PEI, NL) often share similar feed structures via the Atlantic Real Estate Boards, your compliance code should hit these three &quot;Universal&quot; marks:</p>\n<table class=\"doc-table\">\n<thead><tr><th>Rule</th><th>Requirement</th></tr></thead>\n<tbody>\n<tr><td>Brokerage Name</td><td>Full legal name must be visible on the &quot;First View&quot; (no scrolling).</td></tr>\n<tr><td>Sold Prices</td><td>Always Gated. Never show a price to an anonymous user.</td></tr>\n<tr><td>Outdated Data</td><td>Purge logic must run at least every 24 hours.</td></tr>\n</tbody>\n</table>",
+      "category": "Atlantic Provinces"
+    }
+  ]
+}

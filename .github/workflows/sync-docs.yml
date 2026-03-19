@@ -1,0 +1,126 @@
+# Sync compliance docs from Google Drive and regenerate fixture JSON files.
+#
+# Triggers:
+#   - workflow_dispatch  →  run manually from GitHub Actions UI
+#   - repository_dispatch (event_type: drive-docs-changed)  →  called by the
+#     Google Apps Script below when Drive files change
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# GOOGLE APPS SCRIPT — paste into https://script.google.com (new project)
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# /*
+#  * Watches your Google Drive folders for changes and triggers this workflow.
+#  *
+#  * Setup:
+#  *  1. Open https://script.google.com → New project → paste this code.
+#  *  2. In Project Settings → Script Properties, add:
+#  *       GITHUB_OWNER   — your GitHub username  (e.g. ispilledmymilk)
+#  *       GITHUB_REPO    — your repo name         (e.g. MLS-bot)
+#  *       GITHUB_TOKEN   — a GitHub PAT with repo workflow scope
+#  *       FOLDER_IDS     — comma-separated Drive folder IDs to watch
+#  *  3. Run initLastModified() once manually to seed the baseline.
+#  *  4. Add a time-driven trigger: checkForDriveChanges → every 15 minutes.
+#  */
+#
+# function checkForDriveChanges() {
+#   const props   = PropertiesService.getScriptProperties();
+#   const ids     = (props.getProperty('FOLDER_IDS') || '').split(',').map(s => s.trim()).filter(Boolean);
+#   const lastKey = 'LAST_MODIFIED';
+#   const stored  = props.getProperty(lastKey);
+#   const lastTs  = stored ? new Date(stored) : new Date(0);
+#   let   newest  = lastTs;
+#   let   changed = false;
+#
+#   for (const folderId of ids) {
+#     const folder = DriveApp.getFolderById(folderId);
+#     const files  = folder.getFiles();
+#     while (files.hasNext()) {
+#       const file = files.next();
+#       const mod  = file.getLastUpdated();
+#       if (mod > lastTs) { changed = true; }
+#       if (mod > newest)  { newest = mod; }
+#     }
+#   }
+#
+#   if (!changed) { Logger.log('No changes detected.'); return; }
+#
+#   props.setProperty(lastKey, newest.toISOString());
+#   Logger.log('Changes detected — triggering GitHub workflow…');
+#
+#   const owner = props.getProperty('GITHUB_OWNER');
+#   const repo  = props.getProperty('GITHUB_REPO');
+#   const token = props.getProperty('GITHUB_TOKEN');
+#
+#   const url     = `https://api.github.com/repos/${owner}/${repo}/dispatches`;
+#   const payload = JSON.stringify({ event_type: 'drive-docs-changed' });
+#   const options = {
+#     method: 'post',
+#     contentType: 'application/json',
+#     headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json' },
+#     payload,
+#     muteHttpExceptions: true,
+#   };
+#   const res = UrlFetchApp.fetch(url, options);
+#   Logger.log(`GitHub API response: ${res.getResponseCode()}`);
+# }
+#
+# function initLastModified() {
+#   PropertiesService.getScriptProperties()
+#     .setProperty('LAST_MODIFIED', new Date().toISOString());
+#   Logger.log('Baseline timestamp set.');
+# }
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: Sync Docs from Google Drive
+
+on:
+  workflow_dispatch: {}
+  repository_dispatch:
+    types: [drive-docs-changed]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install dependencies
+        run: npm install --prefix web
+
+      - name: Download docs from Google Drive
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          DRIVE_FOLDER_CANADA:   ${{ vars.DRIVE_FOLDER_CANADA }}
+          DRIVE_FOLDER_USA:      ${{ vars.DRIVE_FOLDER_USA }}
+          DRIVE_FOLDER_MEXICO:   ${{ vars.DRIVE_FOLDER_MEXICO }}
+          DRIVE_FOLDER_PORTUGAL: ${{ vars.DRIVE_FOLDER_PORTUGAL }}
+        run: node web/scripts/download-drive-docs.js
+
+      - name: Regenerate fixture JSON files
+        run: npm run fixtures:generate --prefix web
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add documents/ web/test/fixtures/
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            git commit -m "chore: sync docs and fixtures from Google Drive [skip ci]"
+            git push
+          fi

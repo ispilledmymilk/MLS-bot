@@ -28,10 +28,17 @@ const DOCS_ROOT = path.join(REPO_ROOT, 'documents');
 
 function buildAuth() {
   const raw = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
-  if (!raw) {
-    throw new Error('GOOGLE_SERVICE_ACCOUNT_JSON environment variable is not set.');
+  if (!raw || !String(raw).trim()) {
+    throw new Error(
+      'GOOGLE_SERVICE_ACCOUNT_JSON is missing or empty. Add it under Repo → Settings → Secrets and variables → Actions → Secrets.'
+    );
   }
-  const credentials = JSON.parse(raw);
+  let credentials;
+  try {
+    credentials = JSON.parse(raw);
+  } catch (e) {
+    throw new Error(`GOOGLE_SERVICE_ACCOUNT_JSON is not valid JSON: ${e.message}`);
+  }
   return new google.auth.GoogleAuth({
     credentials,
     scopes: ['https://www.googleapis.com/auth/drive.readonly'],
@@ -46,6 +53,37 @@ const REGIONS = [
   { region: 'mexico',      envVar: 'DRIVE_FOLDER_MEXICO',       localDir: 'mexico' },
   { region: 'puerto_rico', envVar: 'DRIVE_FOLDER_PUERTO_RICO',  localDir: 'puerto rico' },
 ];
+
+function logConfigSummary() {
+  console.log('--- Drive sync config (values hidden) ---');
+  const raw = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
+  console.log(
+    'GOOGLE_SERVICE_ACCOUNT_JSON:',
+    raw && String(raw).trim() ? `set (${String(raw).trim().length} chars)` : 'MISSING'
+  );
+  let anyFolder = false;
+  for (const { envVar } of REGIONS) {
+    const v = process.env[envVar];
+    const ok = !!(v && String(v).trim());
+    if (ok) anyFolder = true;
+    console.log(`${envVar}:`, ok ? 'set' : 'not set');
+  }
+  console.log('------------------------------------------');
+  return anyFolder;
+}
+
+function formatDriveError(err) {
+  const msg = err && err.message ? err.message : String(err);
+  const data = err && err.response && err.response.data;
+  if (data) {
+    try {
+      return `${msg} | API: ${JSON.stringify(data)}`;
+    } catch {
+      return `${msg} | API: (unserializable)`;
+    }
+  }
+  return msg;
+}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -152,27 +190,47 @@ async function syncRegion(drive, diskFolderName, folderId, logLabel = diskFolder
 }
 
 async function main() {
+  const anyFolder = logConfigSummary();
+  if (!anyFolder) {
+    console.error(
+      'No DRIVE_FOLDER_* variables are set. In GitHub: Settings → Actions → Variables, set at least one of:\n' +
+        '  DRIVE_FOLDER_CANADA, DRIVE_FOLDER_USA, DRIVE_FOLDER_MEXICO, DRIVE_FOLDER_PUERTO_RICO\n' +
+        '(If you used DRIVE_FOLDER_PORTUGAL before, rename it to DRIVE_FOLDER_PUERTO_RICO.)'
+    );
+    process.exit(1);
+  }
+
   const auth = buildAuth();
   const drive = google.drive({ version: 'v3', auth });
 
   let hadError = false;
+  let syncedCount = 0;
 
   for (const { region, envVar, localDir } of REGIONS) {
     const folderId = process.env[envVar];
-    if (!folderId) {
+    if (!folderId || !String(folderId).trim()) {
       console.warn(`[${region}] Skipping — ${envVar} is not set.`);
       continue;
     }
     try {
-      await syncRegion(drive, localDir || region, folderId, region);
+      await syncRegion(drive, localDir || region, folderId.trim(), region);
+      syncedCount += 1;
     } catch (err) {
-      console.error(`[${region}] Error: ${err.message}`);
+      console.error(`[${region}] Error: ${formatDriveError(err)}`);
       hadError = true;
     }
   }
 
-  if (hadError) process.exit(1);
-  console.log('All regions synced.');
+  if (hadError) {
+    console.error(
+      '\nDrive sync failed for one or more regions. Typical fixes:\n' +
+        '  • Share each Drive folder with the service account email from your JSON key (Viewer is enough).\n' +
+        '  • Use the folder ID from the Drive URL (the segment after /folders/).\n' +
+        '  • Enable the Google Drive API for the GCP project that owns the service account.'
+    );
+    process.exit(1);
+  }
+  console.log(`All regions synced (${syncedCount} folder(s)).`);
 }
 
 main().catch((err) => {

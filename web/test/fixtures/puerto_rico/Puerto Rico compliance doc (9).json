@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "file": "Puerto Rico compliance doc (9).txt",
+  "category": "Data Privacy",
+  "sections": [
+    {
+      "id": "puerto_rico-puerto-rico-compliance-doc-(9)-0",
+      "title": "Data Privacy",
+      "contentHtml": "<p>Puerto Rico does not have its own comprehensive data protection law. Federal frameworks govern platform data obligations.</p>\n<p class=\"doc-bullet\">* FTC Act Section 5: unfair or deceptive data practices prohibited. Applies to all platform data handling in Puerto Rico.</p>\n<p class=\"doc-bullet\">* COPPA: applies for users under 13. Platform must not knowingly collect personal data from minors.</p>\n<p class=\"doc-bullet\">* GLBA: if the platform processes mortgage pre-qualification or lending data, GLBA financial privacy rules apply.</p>\n<p class=\"doc-bullet\">* Out-of-Puerto-Rico users: if the platform has users in California, Colorado, Virginia, Texas, Florida, Connecticut, or Washington, the applicable state privacy laws (CCPA, CPA, VCDPA, TDPSA, FDBR, CTDPA, My Health MY Data Act) apply to those users regardless of the platform&#39;s Puerto Rico domicile.</p>\n<p class=\"doc-bullet\">* CCPA/GPC signal: if any California users are served, the Global Privacy Control (GPC) signal must be honored as a valid opt-out as of January 1, 2026.</p>\n<p class=\"doc-bullet\">* Privacy notice: publish a clear privacy policy disclosing what data is collected, how it is used, and how users can request access, correction, or deletion.</p>\n<p class=\"doc-bullet\">* Marketing emails: obtain consent or ensure the processing meets a valid legal basis before using registration data for marketing purposes.</p>",
+      "category": "Data Privacy"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿2. Agent License Verification — JECVEBR
+Before granting any agent or agency access to publish listings on the platform, verify that they hold a valid, active JECVEBR license and a current $10,000 surety bond. This is the platform's onboarding gate — the license is the minimum legal credential to mediate property transactions in Puerto Rico.
+2.1 How to Verify
+Verification Method
+	URL / Contact
+	What to Check
+	PCS License Verification Portal
+	prbienesyraices@pcshq.com / 1-888-773-9266
+	Active status, license type, expiry date
+	JECVEBR Online Validation Tool
+	puertoricorealtor.org
+	Cross-reference license number against JECVEBR registry
+	KARIBE Property Registry
+	puertoricorealtor.org → KARIBE
+	Use for property-level title and lien checks, not agent verification
+	
+
+2.2 Valid License Types
+License Type
+	Spanish Name
+	Platform Action
+	Real Estate Broker
+	Corredor de Bienes Raíces
+	OK to onboard. Verify active status + $10,000 bond current.
+	Real Estate Salesperson
+	Vendedor de Bienes Raíces
+	OK to onboard under sponsoring broker. Verify active status + $10,000 bond + sponsoring broker license.
+	Real Estate Company
+	Empresa de Bienes Raíces
+	OK to onboard. Verify company license active. Check that individual agents under company also hold personal licenses.
+	No JECVEBR license
+	N/A
+	DO NOT ONBOARD. Reject listing submission. Private individuals selling own property are exempt from licensing but may not use platform in a commercial mediation capacity.
+	BOND REQUIREMENT: Puerto Rico uniquely requires a $10,000 surety bond (fianza) from all licensed brokers and salespersons. A valid license without a current bond is non-compliant. Verify bond status as part of onboarding — confirm the bond is active and covers the current date.
+
+
+________________

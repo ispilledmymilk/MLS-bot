@@ -1,7 +1,7 @@
 {
   "name": "mls-queen-web",
   "version": "1.0.0",
-  "description": "Compliance docs chatbot — upload USA, Portugal, Mexico docs and ask questions",
+  "description": "Compliance docs chatbot — Canada, USA, Puerto Rico, Mexico compliance docs and Q&A",
   "type": "module",
   "main": "server.js",
   "scripts": {

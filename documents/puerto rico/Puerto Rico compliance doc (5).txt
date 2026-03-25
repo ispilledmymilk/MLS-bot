@@ -1,0 +1,32 @@
+﻿5. Short-Term Rental Listing Compliance
+Short-term rental (STR) listings require additional verification and disclosure steps before the platform may publish them. The platform's obligations are limited to: verifying the operator's PRTC registration, displaying the registration ID, and disclosing the 7% room tax to prospective guests.
+5.1 What Qualifies as a Short-Term Rental
+* Any rental of fewer than 90 consecutive days qualifies as an STR (hospedaje temporero) under Puerto Rico law.
+* Long-term rentals (90+ days) are treated as standard residential rental listings — no STR-specific compliance steps apply.
+* Platform obligation: collect rental duration type at listing intake. Apply STR compliance workflow only to listings offering sub-90-day rentals.
+
+
+5.2 PRTC Registration Verification
+Requirement
+	Detail
+	Platform Action
+	PRTC Innkeeper ID
+	All STR operators must register with Puerto Rico Tourism Company (PRTC) under Act 272-2003 before accepting guests
+	Collect PRTC Innkeeper ID at STR listing onboarding. Do not publish listing without confirmed ID.
+	Display on listing
+	Innkeeper ID must be visible on the STR listing page
+	Surface PRTC ID in listing display. Include in listing data schema.
+	Verification method
+	Check against PRTC registry or request operator to provide registration certificate
+	Store ID in platform database. Flag unverified IDs for manual review.
+	Municipal license
+	Each of PR's 78 municipalities requires a separate business license
+	Collect municipality name. Note that municipal license is operator's responsibility — platform verifies PRTC ID only.
+	
+
+5.3 Room Occupancy Tax — 7% Disclosure
+* Rate: 7% of listing price including cleaning fees. Applies to all stays of 89 nights or fewer.
+* Airbnb: automatically collects and remits 7% PR Room Tax on behalf of hosts — no host action required for Airbnb bookings.
+* All other OTAs and direct bookings: host is responsible for collecting from guest and remitting monthly to PRTC.
+* Platform obligation: disclose the 7% room tax on all STR listings. If the platform processes direct bookings (not via Airbnb), surface the host's remittance obligation clearly in the operator dashboard.
+DISCLOSURE LANGUAGE: STR listings must clearly state: 'A 7% Puerto Rico Room Occupancy Tax applies to all reservations of 89 nights or fewer. This tax is collected separately.' Platforms routing bookings through Airbnb may note that Airbnb collects this tax automatically. For all other booking methods, disclose that the host is responsible for collection and remittance.

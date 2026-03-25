@@ -31,7 +31,7 @@
 #   const lastTs  = stored ? new Date(stored) : new Date(0);
 #   let   newest  = lastTs;
 #   let   changed = false;
-#
+
 #   for (const folderId of ids) {
 #     const folder = DriveApp.getFolderById(folderId);
 #     const files  = folder.getFiles();
@@ -42,16 +42,16 @@
 #       if (mod > newest)  { newest = mod; }
 #     }
 #   }
-#
+
 #   if (!changed) { Logger.log('No changes detected.'); return; }
-#
+
 #   props.setProperty(lastKey, newest.toISOString());
 #   Logger.log('Changes detected — triggering GitHub workflow…');
-#
+
 #   const owner = props.getProperty('GITHUB_OWNER');
 #   const repo  = props.getProperty('GITHUB_REPO');
 #   const token = props.getProperty('GITHUB_TOKEN');
-#
+
 #   const url     = `https://api.github.com/repos/${owner}/${repo}/dispatches`;
 #   const payload = JSON.stringify({ event_type: 'drive-docs-changed' });
 #   const options = {
@@ -64,7 +64,7 @@
 #   const res = UrlFetchApp.fetch(url, options);
 #   Logger.log(`GitHub API response: ${res.getResponseCode()}`);
 # }
-#
+
 # function initLastModified() {
 #   PropertiesService.getScriptProperties()
 #     .setProperty('LAST_MODIFIED', new Date().toISOString());
@@ -107,7 +107,7 @@ jobs:
           DRIVE_FOLDER_CANADA:   ${{ vars.DRIVE_FOLDER_CANADA }}
           DRIVE_FOLDER_USA:      ${{ vars.DRIVE_FOLDER_USA }}
           DRIVE_FOLDER_MEXICO:   ${{ vars.DRIVE_FOLDER_MEXICO }}
-          DRIVE_FOLDER_PORTUGAL: ${{ vars.DRIVE_FOLDER_PORTUGAL }}
+          DRIVE_FOLDER_PUERTO_RICO: ${{ vars.DRIVE_FOLDER_PUERTO_RICO }}
         run: node web/scripts/download-drive-docs.js
 
       - name: Regenerate fixture JSON files

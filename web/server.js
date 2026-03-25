@@ -1,5 +1,5 @@
 /**
- * Web server: upload compliance docs (USA, Portugal, Mexico), browse DOCS, chat with bot.
+ * Web server: compliance docs (Canada, USA, Puerto Rico, Mexico), browse DOCS, chat with bot.
  * Requires GEMINI_API_KEY or OPENAI_API_KEY in .env for AI answers.
  */
 
@@ -24,7 +24,7 @@ const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 
 
 const store = {
   usa: { sections: [], fullText: '' },
-  portugal: { sections: [], fullText: '' },
+  puerto_rico: { sections: [], fullText: '' },
   mexico: { sections: [], fullText: '' },
   canada: { sections: [], fullText: '' },
 };
@@ -98,22 +98,18 @@ const MEXICO_CATEGORIES = [
   'Universal Compliance',    // (13)
 ];
 
-/** Category per file index for Portugal compliance docs */
-const PORTUGAL_CATEGORIES = [
-  'Overview & Reference',    // Portugal compliance doc.txt
-  'Market Structure',        // (1)
-  'Regulatory Bodies',       // (2)
-  'Agent Licensing',         // (3)
-  'Portal Landscape',        // (4)
-  'Agency Contracts',        // (5)
-  'Transaction Process',     // (6)
-  'Tax Reference',           // (7)
-  'Short-Term Rental',       // (8)
-  'AL Containment Zones',    // (9)
-  'Privacy & GDPR',          // (10)
-  'Key Documents',           // (11)
-  'Visa & Residency',        // (12)
-  'Universal Compliance',    // (13)
+/** Category per file index for Puerto Rico compliance docs (sorted by numbered files) */
+const PUERTO_RICO_CATEGORIES = [
+  'Regulatory Framework',     // (1)
+  'Agent Licensing',         // (2)
+  'Stellar MLS & Feeds',     // (3)
+  'FinCEN & AML',            // (4)
+  'Short-Term Rental',       // (5)
+  'Fair Housing',            // (6)
+  'ADA Accessibility',       // (7)
+  'Email Marketing',         // (8)
+  'Data Privacy',            // (9)
+  'Universal Compliance',    // (10)
 ];
 
 async function loadUsaDocuments() {
@@ -211,22 +207,23 @@ async function loadMexicoDocuments() {
   console.log(`Loaded ${sections.length} sections from ${files.length} Mexico compliance document(s).`);
 }
 
-async function loadPortugalDocuments() {
+async function loadPuertoRicoDocuments() {
+  const folder = 'puerto rico';
   const candidates = [
-    path.join(process.cwd(), 'documents', 'portugal'),
-    path.join(__dirname, '..', 'documents', 'portugal'),
+    path.join(process.cwd(), 'documents', folder),
+    path.join(__dirname, '..', 'documents', folder),
   ];
   let docsDir = candidates.find((d) => fs.existsSync(d));
   if (!docsDir) {
-    console.warn('Document Library: documents/portugal not found. Tried:', candidates.join(', '));
+    console.warn(`Document Library: documents/${folder} not found. Tried:`, candidates.join(', '));
     return;
   }
   const supportedExt = (f) => /\.(txt|md|markdown|pdf)$/i.test(f);
   const files = fs.readdirSync(docsDir)
     .filter(supportedExt)
     .sort((a, b) => {
-      if (a === 'Portugal compliance doc.txt') return -1;
-      if (b === 'Portugal compliance doc.txt') return 1;
+      if (a === 'Puerto Rico compliance doc.txt') return -1;
+      if (b === 'Puerto Rico compliance doc.txt') return 1;
       const numA = a.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
       const numB = b.match(/\((\d+)\)\.(txt|md|pdf)$/i)?.[1];
       return (Number(numA) || 0) - (Number(numB) || 0);
@@ -234,14 +231,14 @@ async function loadPortugalDocuments() {
   const sections = [];
   let sectionIndex = 0;
   for (let i = 0; i < files.length; i++) {
-    const category = PORTUGAL_CATEGORIES[i] || 'Overview & Reference';
+    const category = PUERTO_RICO_CATEGORIES[i] || 'Overview & Reference';
     const filePath = path.join(docsDir, files[i]);
     const mime = filePath.toLowerCase().endsWith('.pdf') ? 'application/pdf' : (filePath.toLowerCase().endsWith('.md') || filePath.toLowerCase().endsWith('.markdown') ? 'text/markdown' : 'text/plain');
     try {
       const parsed = await parseFile(filePath, mime);
       for (const sec of parsed) {
         sections.push({
-          id: `portugal-${sectionIndex}`,
+          id: `puerto_rico-${sectionIndex}`,
           title: sec.title,
           content: sec.content,
           contentHtml: sec.contentHtml || sec.content,
@@ -250,12 +247,12 @@ async function loadPortugalDocuments() {
         sectionIndex++;
       }
     } catch (err) {
-      console.warn('Could not load Portugal doc:', files[i], err.message);
+      console.warn('Could not load Puerto Rico doc:', files[i], err.message);
     }
   }
-  store.portugal.sections = sections;
-  store.portugal.fullText = sections.map((s) => `${s.title}\n\n${s.content}`).join('\n\n').slice(0, 120000);
-  console.log(`Loaded ${sections.length} sections from ${files.length} Portugal compliance document(s).`);
+  store.puerto_rico.sections = sections;
+  store.puerto_rico.fullText = sections.map((s) => `${s.title}\n\n${s.content}`).join('\n\n').slice(0, 120000);
+  console.log(`Loaded ${sections.length} sections from ${files.length} Puerto Rico compliance document(s).`);
 }
 
 async function loadCanadaDocuments() {
@@ -384,7 +381,7 @@ app.get('/api/regions', (_req, res) => {
 app.post('/api/upload', upload.array('files', 10), async (req, res) => {
   const region = (req.body.region || '').toLowerCase();
   if (!REGIONS.includes(region)) {
-    return res.status(400).json({ ok: false, error: 'Invalid region. Use usa, portugal, or mexico.' });
+    return res.status(400).json({ ok: false, error: `Invalid region. Use one of: ${REGIONS.join(', ')}.` });
   }
   const files = req.files || [];
   if (files.length === 0) {
@@ -433,7 +430,12 @@ app.get('/api/sections', (req, res) => {
   res.json({ ok: true, sections });
 });
 
-const DOC_SYSTEM = `You are a Real Estate Feeds Compliance Expert. You have been given the full text of every compliance document (Canada, USA, Portugal, Mexico). Answer questions using only this documentation. Be clear and concise; cite the relevant region or document when helpful. If the answer is not in the documentation, say "This is not covered in the provided documentation." Do not make up policy details.`;
+const DOC_SYSTEM = `You are a Real Estate Feeds Compliance Expert. You have been given compliance documentation for Canada, USA, Puerto Rico, and Mexico (Puerto Rico includes Stellar MLS / PRAR, JECVEBR licensing, FinCEN RRE, STR/PRTC, fair housing, etc.). Answer using only this documentation. For Puerto Rico–specific questions, use the [Puerto Rico] sections. Be clear and concise; cite the region when helpful. If the answer is not in the documentation, say "This is not covered in the provided documentation." Do not make up policy details.`;
+
+function regionChatLabel(reg) {
+  const labels = { canada: 'Canada', usa: 'USA', mexico: 'Mexico', puerto_rico: 'Puerto Rico' };
+  return labels[reg] || String(reg || '').replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
 
 function sseError(res, msg) {
   res.write(`data: ${JSON.stringify({ error: msg })}\n\n`);
@@ -455,7 +457,7 @@ app.post('/api/chat', async (req, res) => {
   const r = (region || '').toLowerCase();
   const isAll = r === 'all';
   if (!isAll && !REGIONS.includes(r)) {
-    return sseError(res, 'Please select a region (Canada, USA, Portugal, or Mexico).');
+    return sseError(res, 'Please select a region (Canada, USA, Puerto Rico, or Mexico).');
   }
 
   const regionsToSearch = isAll
@@ -463,7 +465,7 @@ app.post('/api/chat', async (req, res) => {
     : [r];
 
   if (!isAll && (!store[r] || !store[r].fullText.trim())) {
-    return sseError(res, `No documentation loaded for ${r.toUpperCase()}.`);
+    return sseError(res, `No documentation loaded for ${regionChatLabel(r)}.`);
   }
 
   const openaiKey = process.env.OPENAI_API_KEY;
@@ -472,12 +474,15 @@ app.post('/api/chat', async (req, res) => {
   }
 
   const totalDocBudget = 450000;
+  const n = regionsToSearch.length;
+  const perRegionBudget = Math.max(16000, Math.floor(totalDocBudget / n));
   const allParts = regionsToSearch.map((reg) => {
     const s = store[reg];
     const fullDoc = (s && s.sections && s.sections.length)
       ? s.sections.map((sec) => `${sec.title}\n\n${sec.content}`).join('\n\n')
       : (s && s.fullText) ? s.fullText : '';
-    return `[${reg.toUpperCase()}]\n${fullDoc}`;
+    const body = fullDoc.slice(0, perRegionBudget);
+    return `[${regionChatLabel(reg)}]\n${body}`;
   });
   const context = allParts.join('\n\n').slice(0, totalDocBudget);
   const prompt = `${DOC_SYSTEM}\n\n--- DOCUMENTATION (ALL DOCUMENTS) ---\n${context}\n\n--- QUESTION ---\n${message.trim()}`;
@@ -511,7 +516,7 @@ async function startServer(port) {
   await loadCanadaDocuments();
   await loadUsaDocuments();
   await loadMexicoDocuments();
-  await loadPortugalDocuments();
+  await loadPuertoRicoDocuments();
   const server = app.listen(port, () => {
     console.log(`Compliance bot web app: http://localhost:${server.address().port}`);
   });
@@ -532,7 +537,7 @@ if (process.env.VERCEL) {
     loadCanadaDocuments(),
     loadUsaDocuments(),
     loadMexicoDocuments(),
-    loadPortugalDocuments(),
+    loadPuertoRicoDocuments(),
   ]);
 } else {
   startServer(PORT);

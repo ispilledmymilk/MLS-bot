@@ -1,0 +1,9 @@
+﻿9. Data Privacy
+Puerto Rico does not have its own comprehensive data protection law. Federal frameworks govern platform data obligations.
+* FTC Act Section 5: unfair or deceptive data practices prohibited. Applies to all platform data handling in Puerto Rico.
+* COPPA: applies for users under 13. Platform must not knowingly collect personal data from minors.
+* GLBA: if the platform processes mortgage pre-qualification or lending data, GLBA financial privacy rules apply.
+* Out-of-Puerto-Rico users: if the platform has users in California, Colorado, Virginia, Texas, Florida, Connecticut, or Washington, the applicable state privacy laws (CCPA, CPA, VCDPA, TDPSA, FDBR, CTDPA, My Health MY Data Act) apply to those users regardless of the platform's Puerto Rico domicile.
+* CCPA/GPC signal: if any California users are served, the Global Privacy Control (GPC) signal must be honored as a valid opt-out as of January 1, 2026.
+* Privacy notice: publish a clear privacy policy disclosing what data is collected, how it is used, and how users can request access, correction, or deletion.
+* Marketing emails: obtain consent or ensure the processing meets a valid legal basis before using registration data for marketing purposes.

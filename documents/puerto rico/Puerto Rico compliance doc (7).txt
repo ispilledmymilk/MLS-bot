@@ -1,0 +1,7 @@
+﻿7. ADA Web Accessibility
+* Standard: WCAG 2.1 Level AA — confirmed by federal courts as the applicable standard.
+* Bilingual requirement: Puerto Rico platforms must be fully accessible in both English and Spanish. Screen-reader compatibility must be verified in both languages.
+* Property photo alt-text: descriptive alt-text required on all listing images. Format: '[Feature] with [detail] and [detail]' — e.g. 'Ocean-view terrace with tile flooring and aluminum railings'.
+* Interactive maps: keyboard-only operability required for all property and neighborhood maps.
+* Skip-navigation links: required for screen reader users.
+* Annual audit: at least one manual screen-reader audit per year in addition to automated testing. Audit must cover Spanish-language interface.

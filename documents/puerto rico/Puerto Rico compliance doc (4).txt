@@ -1,0 +1,26 @@
+﻿4. FinCEN RRE Rule — Platform Screening Obligation
+The FinCEN Residential Real Estate Rule (effective March 1, 2026) applies to Puerto Rico in full — all 78 municipalities are covered with no geographic limitations and no purchase price threshold. The platform's obligation is to screen and flag qualifying transactions. The notario (closing attorney) is the reporting person who files — not the platform.
+4.1 Screening Trigger — Three Conditions
+A FinCEN report is required when ALL three conditions are met simultaneously:
+Condition
+	Definition
+	Platform Screening Action
+	1. Residential real estate transferred
+	Any residential property sale or transfer in Puerto Rico
+	Default: all PR residential listings are in scope.
+	2. Buyer is a legal entity or trust
+	LLC, corporation, partnership, trust — NOT an individual taking title in their own name
+	Collect buyer entity type at listing intake / transaction stage. Flag all non-individual buyers.
+	3. Transaction is non-financed
+	No mortgage from a bank/lender subject to AML obligations. Includes: all-cash, seller-financed, privately financed.
+	Ask buyers for financing type. Flag all non-financed transactions.
+	PR-SPECIFIC NOTE: Puerto Rico uses a civil law notary system — all deeds are executed before a Notario Público who is a licensed attorney. In most Puerto Rico closings, the notario is the designated reporting person under the FinCEN cascade. Inform developer and agency partners: if a buyer is an entity or trust paying cash, the notario must file before closing.
+
+
+4.2 Platform Workflow
+* At listing intake: collect and store whether seller is individual or entity — relevant for downstream transaction screening.
+* At transaction/offer stage: collect buyer entity type (individual vs. entity/trust) and financing method (financed vs. non-financed).
+* Flag qualifying transactions: if buyer = entity/trust AND financing = non-financed → set FinCEN RRE flag = TRUE.
+* Notify the agent and notario: surface the flag clearly in the platform UI so the closing attorney is alerted before the closing date.
+* Do not file the report: that is the notario's obligation. The platform screens and flags only.
+* Record retention: log all transactions screened and the outcome of the screening for 5 years.

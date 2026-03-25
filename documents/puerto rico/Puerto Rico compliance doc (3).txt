@@ -1,0 +1,133 @@
+﻿3. Stellar MLS Feed Rules — IDX, VOW, CCP, DMEL
+Puerto Rico's MLS is operated by Stellar MLS in partnership with PRAR. The platform's IDX and VOW access comes through this relationship. All Stellar MLS rules that apply to Florida listings apply identically to Puerto Rico listings. The MLS platform is Matrix. Feed contact: PRAR@stellarmls.com / 800-686-7451 option 4.
+3.1 IDX Display Rules — Mandatory
+Display Element
+	Rule
+	Implementation
+	Broker attribution
+	Listing firm name + phone OR email on every PDP and thumbnail
+	Must be 'reasonably prominent.' Stellar MLS runs automated attribution audits remotely.
+	Buyer broker compensation
+	PROHIBITED — absolute ban
+	Strip from ALL fields: remarks, notes, agent comments, any free-text field. Post-Sitzer/Burnett mandate.
+	BuyerAgencyCompensation RESO field
+	DEPRECATED — treat as null
+	Removed from RESO Data Dictionary. Do not ingest, store, or display.
+	Seller concessions
+	Permitted — designated concession fields only
+	Source only from MLS concession fields. Never from remark or note fields.
+	Photo watermarks
+	Must be preserved
+	No cropping, overlaying, or removal. Stellar MLS enforces with fines.
+	Expired listings
+	Purge within 24 hours
+	Automate removal. Same rule as Florida.
+	Withdrawn listings
+	Purge within 24 hours
+	Automate removal. Same rule as Florida.
+	Co-mingling
+	MLS data and non-MLS data must be labeled or shown separately
+	Verify current Stellar MLS PR IDX agreement for 2026 co-mingling status.
+	iMapp and Data Co-op
+	BLOCKED for Puerto Rico listings
+	These tools apply to Florida properties only. Must not be surfaced for any PR-address listing.
+	Feed delivery
+	RESO Web API — OData v4, OAuth 2.0, TLS 1.2+, JSON
+	RETS fully deprecated. Reject any feed still on RETS.
+	
+
+3.2 VOW Rules
+* Registration wall: full legal name + valid email address required before accessing VOW data.
+* Email verification: confirmation email sent and verified before access granted — no exceptions.
+* Terms of Use: consumer must affirmatively accept TOU restricting data to personal non-commercial use.
+* Redistribution: VOW data may not be redistributed or retransmitted by the consumer.
+* Audit logs: maintain logs of all VOW registrations and listings viewed per user. Required for Stellar MLS compliance reviews.
+* Sold price data: Puerto Rico is a full disclosure jurisdiction — sold prices available via VOW without restriction. No non-disclosure flag applies to any PR listing.
+
+
+3.3 Clear Cooperation Policy — Puerto Rico Specific Rule
+PR-SPECIFIC WINDOW: Stellar MLS applies NAR's Clear Cooperation Policy 8.0 to Puerto Rico with a five (5) business day entry window — not the standard one business day. An agent has 5 business days from signing a listing agreement to enter the listing into Matrix, OR file a Temporary Exclusion or Office Exclusive form. If any public marketing occurs during this window, CCP is triggered and the listing must be entered into the MLS within one business day of that marketing event.
+
+
+Public marketing triggers — any of the following activates the one business day MLS entry requirement:
+* Yard signs or any physical marketing materials
+* Any digital marketing on a public website, including social media posts
+* Emails sent to more than one outside brokerage
+* One-to-one broker communications do NOT trigger CCP
+
+
+3.4 Zillow Listing Access Standards — Applies to Puerto Rico
+* Zillow's LAS requires any publicly marketed property to appear in Stellar MLS within one business day to be eligible for Zillow display.
+* If a Puerto Rico listing is publicly marketed for more than 24 hours before MLS entry, Zillow may ban that listing for the full duration of the listing agreement.
+* Zillow Preview (announced March 17, 2026 — live April 2026): pre-market listings publicly displayed on Zillow/Trulia before MLS entry. Will include Puerto Rico listings. Platforms must handle the new Preview listing status type in feed ingestion logic.
+* Platform obligation: surface LAS compliance status for all PR listings. Flag any listing that has been publicly marketed without corresponding Stellar MLS entry.
+
+
+3.5 DMEL — Delayed Marketing Exempt Listing
+Stellar MLS implemented the DMEL category on September 16, 2025, applying identically to Florida and Puerto Rico.
+* Sellers must sign the Owners Exclusion Form before DMEL status can be applied.
+* The signed Owners Exclusion Form must be uploaded within 24 hours of any MLS request.
+* During the delay period: listing visible to MLS participants and registered VOW clients only. Does NOT appear on public IDX portals.
+* After delay period: immediately eligible for full IDX and VOW distribution.
+
+
+3.6 Listing Status Reference
+Status
+	IDX Eligible
+	VOW Eligible
+	Platform Action
+	Active
+	YES
+	YES
+	Standard distribution. No special action.
+	Coming Soon
+	NO (local option)
+	YES
+	Check Stellar MLS Puerto Rico rules for current time limits.
+	DMEL
+	NO
+	YES
+	Verify Owners Exclusion Form on file and uploaded within 24hr.
+	Office Exclusive
+	NO
+	NO
+	Internal use only. No public display on platform.
+	Pending
+	Local option
+	YES
+	Verify Stellar MLS per-feed settings before displaying.
+	Expired
+	NO
+	NO
+	Purge within 24 hours. Automate.
+	Withdrawn
+	NO
+	NO
+	Purge within 24 hours. Automate.
+	
+
+3.7 New Member Training Gate
+* All new Stellar MLS participants must complete required training within 60 days of joining.
+* Platform obligation: agents who have not completed training CANNOT add or edit listings in Matrix. Do not accept listing submissions from agents flagged as training-incomplete.
+* Training available in both English and Spanish.
+
+
+3.8 NAR 2026 Policy Changes Affecting Feed Rules
+Policy
+	Change
+	Platform Impact
+	PS 7.87 — Syndication to Aggregators
+	REPEALED — no national framework
+	No national syndication right exists. Every portal/aggregator deal requires a per-MLS agreement with Stellar MLS / PRAR.
+	PS 7.58 — IDX Limited to REALTORS® Only
+	AMENDED — restriction removed
+	IDX display rights no longer limited to REALTOR® members. Broader eligibility is now the default.
+	PS 7.89 — $15,000 Fine Cap
+	REPEALED
+	Stellar MLS now sets its own fine schedule with no national ceiling. Platform violations may carry higher penalties.
+	PS 7.62 — Open Listings Excluded
+	REPEALED
+	Stellar MLS may now accept open listings where PR law permits. Update listing type logic.
+	NAR Self-Cert Deadline
+	March 1, 2026
+	Verify Stellar MLS / PRAR has self-certified 2026 Handbook adoption. Flag if not confirmed.

@@ -10,7 +10,7 @@
  *   web/test/fixtures/canada/<file>.json   — one file per Canada document
  *   web/test/fixtures/usa.json
  *   web/test/fixtures/mexico.json
- *   web/test/fixtures/portugal.json
+ *   web/test/fixtures/puerto_rico.json
  */
 
 import path from 'path';
@@ -90,20 +90,16 @@ const MEXICO_CATEGORIES = [
   'Universal Compliance',
 ];
 
-const PORTUGAL_CATEGORIES = [
-  'Overview & Reference',
-  'Market Structure',
-  'Regulatory Bodies',
+const PUERTO_RICO_CATEGORIES = [
+  'Regulatory Framework',
   'Agent Licensing',
-  'Portal Landscape',
-  'Agency Contracts',
-  'Transaction Process',
-  'Tax Reference',
+  'Stellar MLS & Feeds',
+  'FinCEN & AML',
   'Short-Term Rental',
-  'AL Containment Zones',
-  'Privacy & GDPR',
-  'Key Documents',
-  'Visa & Residency',
+  'Fair Housing',
+  'ADA Accessibility',
+  'Email Marketing',
+  'Data Privacy',
   'Universal Compliance',
 ];
 
@@ -129,10 +125,10 @@ const REGIONS = [
     categories: MEXICO_CATEGORIES,
   },
   {
-    region: 'portugal',
-    folder: 'portugal',
-    baseFile: 'Portugal compliance doc.txt',
-    categories: PORTUGAL_CATEGORIES,
+    region: 'puerto_rico',
+    folder: 'puerto rico',
+    baseFile: 'Puerto Rico compliance doc (1).txt',
+    categories: PUERTO_RICO_CATEGORIES,
   },
 ];
 

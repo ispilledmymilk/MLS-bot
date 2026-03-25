@@ -7,7 +7,7 @@
  *   DRIVE_FOLDER_CANADA          — Google Drive folder ID for Canada docs
  *   DRIVE_FOLDER_USA             — Google Drive folder ID for USA docs
  *   DRIVE_FOLDER_MEXICO          — Google Drive folder ID for Mexico docs
- *   DRIVE_FOLDER_PORTUGAL        — Google Drive folder ID for Portugal docs
+ *   DRIVE_FOLDER_PUERTO_RICO     — Google Drive folder ID for Puerto Rico docs
  *
  * Usage (from repo root or web/):
  *   node web/scripts/download-drive-docs.js
@@ -41,10 +41,10 @@ function buildAuth() {
 // ── Region config ─────────────────────────────────────────────────────────────
 
 const REGIONS = [
-  { region: 'canada',   envVar: 'DRIVE_FOLDER_CANADA' },
-  { region: 'usa',      envVar: 'DRIVE_FOLDER_USA' },
-  { region: 'mexico',   envVar: 'DRIVE_FOLDER_MEXICO' },
-  { region: 'portugal', envVar: 'DRIVE_FOLDER_PORTUGAL' },
+  { region: 'canada',      envVar: 'DRIVE_FOLDER_CANADA',       localDir: 'canada' },
+  { region: 'usa',         envVar: 'DRIVE_FOLDER_USA',          localDir: 'usa' },
+  { region: 'mexico',      envVar: 'DRIVE_FOLDER_MEXICO',       localDir: 'mexico' },
+  { region: 'puerto_rico', envVar: 'DRIVE_FOLDER_PUERTO_RICO',  localDir: 'puerto rico' },
 ];
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -119,13 +119,13 @@ function localFilename(file) {
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 
-async function syncRegion(drive, region, folderId) {
-  const localDir = path.join(DOCS_ROOT, region);
+async function syncRegion(drive, diskFolderName, folderId, logLabel = diskFolderName) {
+  const localDir = path.join(DOCS_ROOT, diskFolderName);
   fs.mkdirSync(localDir, { recursive: true });
 
-  console.log(`[${region}] Listing files in folder ${folderId}…`);
+  console.log(`[${logLabel}] Listing files in folder ${folderId}…`);
   const driveFiles = await listDriveFiles(drive, folderId);
-  console.log(`[${region}] Found ${driveFiles.length} file(s) in Drive.`);
+  console.log(`[${logLabel}] Found ${driveFiles.length} file(s) in Drive.`);
 
   const driveNames = new Set();
 
@@ -133,7 +133,7 @@ async function syncRegion(drive, region, folderId) {
     const filename = localFilename(file);
     driveNames.add(filename);
     const destPath = path.join(localDir, filename);
-    console.log(`[${region}] Downloading "${filename}"…`);
+    console.log(`[${logLabel}] Downloading "${filename}"…`);
     await downloadFile(drive, file, destPath);
   }
 
@@ -144,11 +144,11 @@ async function syncRegion(drive, region, folderId) {
   for (const localFile of localFiles) {
     if (!driveNames.has(localFile)) {
       fs.unlinkSync(path.join(localDir, localFile));
-      console.log(`[${region}] Removed stale file "${localFile}".`);
+      console.log(`[${logLabel}] Removed stale file "${localFile}".`);
     }
   }
 
-  console.log(`[${region}] Sync complete.`);
+  console.log(`[${logLabel}] Sync complete.`);
 }
 
 async function main() {
@@ -157,14 +157,14 @@ async function main() {
 
   let hadError = false;
 
-  for (const { region, envVar } of REGIONS) {
+  for (const { region, envVar, localDir } of REGIONS) {
     const folderId = process.env[envVar];
     if (!folderId) {
       console.warn(`[${region}] Skipping — ${envVar} is not set.`);
       continue;
     }
     try {
-      await syncRegion(drive, region, folderId);
+      await syncRegion(drive, localDir || region, folderId, region);
     } catch (err) {
       console.error(`[${region}] Error: ${err.message}`);
       hadError = true;

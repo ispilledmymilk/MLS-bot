@@ -65,7 +65,7 @@ function stripHtml(html) {
 function formatJurisdiction(region) {
   if (region === 'canada') return 'Canada';
   if (region === 'usa') return 'USA';
-  if (region === 'portugal') return 'Portugal';
+  if (region === 'puerto_rico') return 'Puerto Rico';
   if (region === 'mexico') return 'Mexico';
   return region;
 }
@@ -74,7 +74,7 @@ function formatJurisdiction(region) {
 let filtersSetup = false;
 
 async function loadDocumentLibrary() {
-  const regions = ['canada', 'usa', 'portugal', 'mexico'];
+  const regions = ['canada', 'usa', 'puerto_rico', 'mexico'];
   allDocuments = [];
   let index = 0;
   for (const region of regions) {

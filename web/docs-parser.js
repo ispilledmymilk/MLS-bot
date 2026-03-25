@@ -1,5 +1,5 @@
 /**
- * Generic document parser for uploaded compliance docs (USA, Portugal, Mexico).
+ * Generic document parser for uploaded compliance docs (USA, Puerto Rico, Mexico, Canada).
  * Supports TXT, MD, and PDF. Outputs sections with title + content + HTML for viewer.
  */
 
@@ -8,7 +8,7 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const pdfParse = require('pdf-parse');
 
-const REGIONS = ['usa', 'portugal', 'mexico', 'canada'];
+const REGIONS = ['canada', 'usa', 'puerto_rico', 'mexico'];
 
 function stripTitleNumbering(s) {
   const t = String(s || '').trim();

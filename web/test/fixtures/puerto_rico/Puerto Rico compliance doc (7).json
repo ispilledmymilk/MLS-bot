@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "file": "Puerto Rico compliance doc (7).txt",
+  "category": "ADA Accessibility",
+  "sections": [
+    {
+      "id": "puerto_rico-puerto-rico-compliance-doc-(7)-0",
+      "title": "ADA Web Accessibility",
+      "contentHtml": "<p class=\"doc-bullet\">* Standard: WCAG 2.1 Level AA — confirmed by federal courts as the applicable standard.</p>\n<p class=\"doc-bullet\">* Bilingual requirement: Puerto Rico platforms must be fully accessible in both English and Spanish. Screen-reader compatibility must be verified in both languages.</p>\n<p class=\"doc-bullet\">* Property photo alt-text: descriptive alt-text required on all listing images. Format: &#39;[Feature] with [detail] and [detail]&#39; — e.g. &#39;Ocean-view terrace with tile flooring and aluminum railings&#39;.</p>\n<p class=\"doc-bullet\">* Interactive maps: keyboard-only operability required for all property and neighborhood maps.</p>\n<p class=\"doc-bullet\">* Skip-navigation links: required for screen reader users.</p>\n<p class=\"doc-bullet\">* Annual audit: at least one manual screen-reader audit per year in addition to automated testing. Audit must cover Spanish-language interface.</p>",
+      "category": "ADA Accessibility"
+    }
+  ]
+}

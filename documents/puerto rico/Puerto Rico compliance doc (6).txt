@@ -1,0 +1,29 @@
+﻿6. Fair Housing — Algorithm and Display Obligations
+The Fair Housing Act applies in full in Puerto Rico. Puerto Rico's local civil rights laws extend protection to four additional classes beyond the seven federal protected classes. All four are directly relevant to the platform's algorithm audit obligations.
+6.1 Protected Classes — Full List for Puerto Rico
+Class
+	Source
+	Relevance to Platform Algorithms
+	Race, color, national origin, religion, sex, familial status, disability
+	Federal Fair Housing Act
+	Standard algorithm audit scope. HUD 2023 AI guidance on disparate impact applies.
+	Political ideology (ideología política)
+	Puerto Rico local law
+	Any ranking or recommendation model that correlates with known political geography in PR must be tested.
+	Social condition (condición social)
+	Puerto Rico local law
+	Geographic proxies (neighborhood name, ZIP code, property type) must be tested for social condition disparate impact.
+	Sexual orientation and gender identity
+	Puerto Rico local law
+	No proxy variables in ranking models that could correlate with these classes.
+	Source of income
+	Puerto Rico local law
+	Rental search filters may not exclude Section 8 voucher holders. No listing may state 'no housing vouchers.'
+	
+
+6.2 Platform Obligations
+* Conduct annual disparate impact audit of all search ranking, recommendation, and matching algorithms.
+* Geographic proxy testing: any use of ZIP code, neighborhood name, school district, or property type in ranking must be tested against ALL Puerto Rico protected classes including political ideology and social condition.
+* Listing content screening: automated and manual review of listing text for discriminatory language. Flag any listing stating preferences based on any protected class.
+* Rental filters: do not allow filtering by source of income. Remove any filter that could screen out housing voucher holders.
+* Advertising audiences: do not use protected class attributes or their proxies to define ad targeting audiences for Puerto Rico.

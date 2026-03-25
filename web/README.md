@@ -1,6 +1,6 @@
 # Compliance Bot — Web App
 
-Upload compliance documents for **USA**, **Portugal**, and **Mexico**. The bot answers questions using only the docs you upload for the selected region.
+Compliance docs for **Canada**, **USA**, **Puerto Rico**, and **Mexico**. The bot answers from the loaded documentation for each jurisdiction.
 
 ## Run locally
 
@@ -16,8 +16,8 @@ Open http://localhost:3000
 
 ## Features
 
-- **Upload**: Choose region (USA / Portugal / Mexico), select one or more files (TXT, PDF, MD). Uploaded docs replace existing docs for that region.
-- **Chat**: Select region and ask a question. Answers are based only on that region’s uploaded documentation. Requires `GEMINI_API_KEY` or `OPENAI_API_KEY` in `.env`.
+- **Upload**: Choose region (any of the four jurisdictions), select one or more files (TXT, PDF, MD). Uploaded docs replace existing docs for that region.
+- **Chat**: Ask a question; answers use the compliance documentation. Requires `OPENAI_API_KEY` (or configured provider) in `.env`.
 - **DOCS**: Browse sections by region. Same content as used for Chat.
 
 ## Deploy as a website

@@ -1,0 +1,82 @@
+﻿10. Compliance Checklist
+All items below represent direct platform obligations. Items relating to agent, notario, or individual party obligations have been excluded.
+
+
+Area
+	Verification Step
+	Frequency
+	JECVEBR License
+	Verify active license via PCS portal. Confirm $10,000 bond current. Check sponsoring broker for salespersons.
+	On agent onboarding
+	Stellar MLS Agreement
+	Confirm platform/vendor named in Stellar MLS / PRAR IDX agreement.
+	Annual / on change
+	Agent Training Gate
+	Confirm new agents have completed Stellar MLS required training before allowing listing submission.
+	Per new agent
+	Broker Attribution
+	Listing firm name + phone/email on every PDP and thumbnail.
+	Weekly spot-check
+	Buyer Comp Filter
+	All compensation data stripped from all displays and search results.
+	Daily automated
+	Listing Purge
+	Expired and Withdrawn listings removed within 24 hours.
+	Daily automated
+	iMapp / Data Co-op Block
+	iMapp and Data Co-op tools not surfaced for any PR-address listing.
+	Platform config
+	VOW Gate
+	Registration wall active. Email verified before sold data accessed. TOU accepted. Audit logs maintained.
+	Monthly test
+	CCP Monitoring
+	Flag any listing publicly marketed before Stellar MLS entry. Enforce 5-business-day PR entry window.
+	Per listing
+	DMEL Consent
+	Owners Exclusion Form on file and uploaded within 24hr before DMEL status applied.
+	Per DMEL listing
+	Zillow LAS Flag
+	Flag listings marketed publicly without corresponding Stellar MLS entry within 1 business day.
+	Per listing
+	FinCEN RRE Screening
+	Screen buyer entity type and financing method. Flag entity/trust + non-financed = reportable. Alert notario.
+	Per transaction
+	FinCEN Log Retention
+	Log all transaction screenings and outcomes for 5 years.
+	Ongoing
+	CRIM Lien Check
+	Confirm no unpaid CRIM taxes (Estado de Cuenta) before listing goes active or under contract.
+	Per listing / per transaction
+	STR PRTC Verification
+	Verify PRTC Innkeeper ID before publishing STR listing. Display ID on listing.
+	Per STR listing
+	STR Room Tax Disclosure
+	Disclose 7% room tax on all STR listings under 90 nights. Surface host remittance obligation for non-Airbnb bookings.
+	Per STR listing
+	STR Duration Flag
+	Listings offering 90+ day rentals flagged as long-term rental — STR compliance workflow does not apply.
+	Per listing
+	Fair Housing Algorithm Audit
+	Audit search ranking and recommendation algorithms for all PR protected classes including political ideology, social condition, source of income.
+	Annual
+	Listing Content Screen
+	Screen listing text for discriminatory language. Flag any stated preferences on protected class basis.
+	Per listing
+	Rental Filter Compliance
+	Confirm no source-of-income filter available in rental search. No 'no housing vouchers' language permitted.
+	Quarterly
+	WCAG Audit (English + Spanish)
+	Annual manual screen-reader audit in both English and Spanish.
+	Annual
+	CAN-SPAM Unsubscribe
+	Confirm unsubscribe mechanism present in all commercial emails. Honor opt-outs within 10 business days.
+	Per campaign
+	GPC Signal
+	Honor Global Privacy Control as opt-out for California users.
+	Platform config
+	Privacy Notice
+	Current privacy policy published covering all data collection, use, and user rights.
+	Annual review
+	Non-Disclosure Flag
+	Puerto Rico is a full disclosure jurisdiction. Confirm no non-disclosure restrictions applied to any PR sold price data.
+	Platform config

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "file": "Puerto Rico compliance doc (8).txt",
+  "category": "Email Marketing",
+  "sections": [
+    {
+      "id": "puerto_rico-puerto-rico-compliance-doc-(8)-0",
+      "title": "Email Marketing — CAN-SPAM",
+      "contentHtml": "<p class=\"doc-bullet\">* CAN-SPAM applies fully in Puerto Rico as a U.S. territory.</p>\n<p class=\"doc-bullet\">* Opt-out model: prior opt-in not required for commercial emails — but an unsubscribe mechanism must be present in every commercial message.</p>\n<p class=\"doc-bullet\">* Unsubscribe: must be honored within 10 business days of the opt-out request.</p>\n<p class=\"doc-bullet\">* Listing alerts: apply the primary purpose test. If the subject line implies commercial promotion, all CAN-SPAM rules apply.</p>\n<p class=\"doc-bullet\">* Transactional messages (VOW registration confirmations, booking receipts): largely exempt if no misleading routing information.</p>\n<p class=\"doc-bullet\">* Civil penalty: $53,088 per separate violating email (2026 FTC-adjusted rate).</p>\n<p class=\"doc-bullet\">* Bilingual: listing alert and marketing email templates should be available in both English and Spanish given Puerto Rico&#39;s bilingual market.</p>",
+      "category": "Email Marketing"
+    }
+  ]
+}
